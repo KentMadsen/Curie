@@ -1,18 +1,3 @@
-%not-selecteble
-{
-  /* Chrome all / Safari all */
-  -webkit-user-select: none;  
-  
-  /* Firefox all */
-  -moz-user-select: none;
-  
-  /* IE 10+ */
-  -ms-user-select: none;
-
-  /* Likely future */
-  user-select: none;          
-};
-
 %no-margin
 {
   margin  : 0px;
