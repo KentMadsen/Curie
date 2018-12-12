@@ -1,5 +1,3 @@
-@import './footer/_head.scss';
-
 //
 footer
 {
@@ -193,3 +191,6 @@ footer
         border-bottom : 1px solid black;
     }
 }
+
+// Footer
+@import './footer/_head.scss';

@@ -1,7 +1,4 @@
 //
-@import './body/_head.scss';
-
-//
 body
 {
     @extend %extend-fully;
@@ -21,3 +18,7 @@ main
     grid-area: auto;
     min-height: 800px;
 }
+
+//
+@import './body/_head.scss';
+
