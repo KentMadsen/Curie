@@ -4,8 +4,8 @@
 <header class="page_header_area hide_on_mobile">
     <?php
         include './generics/Header_content.html';
+        include './generics/subheader.html';
     ?>
-    
 </header>
 
 <!-- Navigation, for desktop -->
