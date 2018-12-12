@@ -1,0 +1,18 @@
+// 
+@import './_variable.scss';
+
+@import './templates/generic.scss';
+@import './templates/animation.scss';
+
+@import './templates/containers.scss';
+
+@import './covers.scss';
+
+$header-font: 'Open Sans';
+$footer-font: 'Open Sans';
+
+// include
+@import './page/header.scss';
+@import './page/footer.scss';
+@import './page/body.scss';
+@import './page/rules.scss';

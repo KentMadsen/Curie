@@ -1,0 +1,16 @@
+# Development Files
+#    CSS Files
+
+#    Images
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
+
+#   Compressed Files
+*.tar
+*.gz
+
+#   Data
+*.xml
+*.json
