@@ -1,9 +1,11 @@
-// 
-@import './base/__head.scss';
+// Base Overhead
+@import './base/_head.scss';
 
-@import './covers.scss';
-
-@import './templates/templates.scss';
+// Generic Templates
+@import './templates/_head.scss';
 
 // include
-@import './page/page.scss';
+@import './page/_head.scss';
+
+    // Site Specific
+@import './covers.scss';
