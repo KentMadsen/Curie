@@ -4,8 +4,12 @@
         <?php 
             include './generic_head.php';
         ?>
+
         <title>
-            Space Education: Our Story
+            <?php
+                include './functions/statements.php';
+                printTitle('Updates'); 
+            ?>
         </title>
     </head>
     <body>

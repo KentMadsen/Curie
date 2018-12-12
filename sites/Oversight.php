@@ -8,7 +8,10 @@
         ?>
 
         <title>
-            Space Education: Insight
+            <?php
+                include './functions/statements.php';
+                printTitle('Our Mission'); 
+            ?>
         </title>
     </head>
     

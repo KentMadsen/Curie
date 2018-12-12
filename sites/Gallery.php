@@ -6,8 +6,11 @@
             include './generic_head.php';
         ?>
 
-        <title>
-            Space Education: Our Story
+        title>
+            <?php
+                include './functions/statements.php';
+                printTitle('Gallery'); 
+            ?>
         </title>
     </head>
     <body>

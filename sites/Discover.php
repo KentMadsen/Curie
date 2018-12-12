@@ -7,8 +7,11 @@
             include './generic_head.php';
         ?>
 
-        <title>
-            Space Education: Insight
+        title>
+            <?php
+                include './functions/statements.php';
+                printTitle('Discover'); 
+            ?>
         </title>
     </head>
     

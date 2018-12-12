@@ -8,7 +8,10 @@
         ?>
 
         <title>
-            Curie
+            <?php
+                include './functions/statements.php';
+                printTitle('Homepage'); 
+            ?>
         </title>
     </head>
     

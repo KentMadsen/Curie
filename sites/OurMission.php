@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php
-            include './functions/statements.php';
-        ?>
+    
         
         <?php 
             include './generic_head.php';
         ?>
 
         <title>
-            Space Education: Our Story
+            <?php
+                include './functions/statements.php';
+                printTitle('Our Mission'); 
+            ?>
         </title>
+        
     </head>
     <body>
         <?php

@@ -7,7 +7,10 @@
         ?>
 
         <title>
-            Space Education: Our Story
+            <?php
+                include './functions/statements.php';
+                printTitle('Our Mission'); 
+            ?>
         </title>
     </head>
     <body>
