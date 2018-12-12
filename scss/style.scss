@@ -4,8 +4,10 @@
 // Generic Templates
 @import './templates/_head.scss';
 
-// include
+// include generic page elements
 @import './page/_head.scss';
 
-    // Site Specific
+    // Site Specific.
+        // Index.html,
+        // About.html, etc.
 @import './site/_head.scss';
