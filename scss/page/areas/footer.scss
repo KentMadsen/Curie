@@ -7,13 +7,12 @@ footer
     background-color: $document_footer_color;
 }
 
+// Apply Color, ?
 .footer-misc
 {
     @extend %not-selecteble;
     @extend %no-margin-or-padding;
     @extend %extend-width;
-
-    font-family: $footer-font;
 
     background-color : white;
     color            : black;
@@ -157,6 +156,7 @@ footer
     
 }
 
+// Buttons, Social Media
 .facebook a:hover
 {
     color:#3b5998;
@@ -178,6 +178,7 @@ footer
 }
 
 
+// Rules
 @media only screen and (max-width: 768px) 
 {
     .footer-misc ul a

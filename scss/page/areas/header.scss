@@ -1,18 +1,19 @@
-//
+// Apply
 .page_navigation_area
 {
     display: none;
     
-    z-index: 4;
+     z-index: 4;
 
-    position : fixed;
+     position : fixed;
     
-    width : 100%;
-    background-color : black;
+     width : 100%;
+     background-color : black;
 
-    overflow : hidden
+     overflow : hidden
 }
 
+// Apply Color
 .selected_page
 {
     color : #D63031 !important;
@@ -24,6 +25,7 @@
     
 }
 
+// ?, Animate
 .open
 {
     left: 20px;
@@ -76,15 +78,16 @@ header ul
     justify-content : center;
 }
 
+// Apply Font and Color
 header ul a
 {
     color:white;
+    font-family : $menu-text-font;
 
     font-size : 0.875rem;
     
     text-decoration : none;
     
-    font-family : $header-font;
     
     border-bottom : 2px solid rgba( 255, 255, 
                                       255, 
@@ -97,11 +100,13 @@ header ul a
     margin-left  : 56px;
 }
 
+// Apply Color
 header ul a:hover
 {
     color: #D63031 !important;
 }
 
+// Apply Padding
 header ul a li
 {
     display : block;
@@ -110,6 +115,7 @@ header ul a li
     padding-right : 8px;
 }
 
+// Change name, Animate
 .show
 {
     display: block;
@@ -120,9 +126,11 @@ header ul a li
     display: none;
 }
 
+// Coloor, Background, Circle, Size, Position, Feature
+// Shadow, layer position
 .menu_button
 {
-    cursor : pointer;
+    Cursor : pointer;
 
     z-index : 4;
     
@@ -135,7 +143,6 @@ header ul a li
     height : 50px;
 
     border : 2px solid #D63031;
-    
     background-color : white;
 
     box-shadow : 0px 0px 
@@ -144,16 +151,17 @@ header ul a li
                          0, 
                          0.4);
     
+
     border-radius : 100%;
 }
 
+// Apply Color
 .menu_button:hover div i
 {
     color: white;
 }
 
-/* */
-
+/* Apply extend size */
 .menu_button_icon
 {
     position: relative;
@@ -162,6 +170,8 @@ header ul a li
     height : 100%;
 }
 
+// Apply color, font size, margin.
+// Change position, Center
 .menu_button_icon i
 {
     color: #D63031;
