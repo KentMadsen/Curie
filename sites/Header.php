@@ -1,6 +1,3 @@
-<?php 
-        Generic Area
-?>
 <!-- -- Header.html -- -->
 
 <!-- Default dashboard -->
