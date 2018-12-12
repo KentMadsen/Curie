@@ -1,1 +1,0 @@
-wget -nd -r -P /var/www/php/Curie/sites/images/pexel/ -A jpeg,jpg,bmp,gif,png https://erhvervsakademisydvest-my.sharepoint.com/:f:/g/personal/kent3166_easv365_dk/Ehs2S4SLoQVAuWmS87XnKFwBXfxTnuImkchkkLsMX7QZcA?e=sMVzdU
