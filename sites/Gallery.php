@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         
-        <?php 
+        <?php
             include './generic_head.php';
         ?>
 
-        title>
+        <title>
             <?php
                 include './functions/statements.php';
                 printTitle('Gallery'); 
