@@ -1,16 +1,9 @@
-$selected_bottom_border:2px;
+@import './header_variable.scss';
+@import './footer_variable.scss';
+@import './body_variable.scss';
 
 //
-$document_header_color: #000000;
-$document_footer_color: #000000;
-
-// color opacity
-$site_header_opacity: 0.5;
-$site_footer_opacity: 0.5;
-
-// To be replaced
-$header-font: 'Open Sans';
-$footer-font: 'Open Sans';
+$selected_bottom_border:2px;
 
 // 
 
