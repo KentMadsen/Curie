@@ -17,10 +17,13 @@ $footer-font: 'Open Sans';
 //Fonts used
 $menu-text-font : 'Montserrat';
 
+    // Title Areas
 $body-document-title-font   : 'Raleway',
-                              sans-serif;
+                               sans-serif;
 
 $body-document-title-font-optional : 'Raleway Dots',
-                                     cursive;
+                                      cursive;
 
-$body-document-content-font : 'Fira Sans';
+    // Content Area Fonts
+$body-document-content-font : 'Fira Sans',
+                              sans-serif;
