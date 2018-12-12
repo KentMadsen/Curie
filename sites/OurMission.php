@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <?php
+            include './functions/statements.php';
+        ?>
         
         <?php 
             include './generic_head.php';
