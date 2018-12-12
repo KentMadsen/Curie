@@ -1,16 +1,9 @@
 // 
-@import './_variable.scss';
-
-@import './templates/generic.scss';
-@import './templates/animation.scss';
-
-@import './templates/containers.scss';
+@import './base/__head.scss';
 
 @import './covers.scss';
 
+@import './templates/templates.scss';
 
 // include
-@import './page/header.scss';
-@import './page/footer.scss';
-@import './page/body.scss';
-@import './page/rules.scss';
+@import './page/page.scss';
