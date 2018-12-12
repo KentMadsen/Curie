@@ -18,7 +18,7 @@
         ?>
 
         <title>
-            Space Education: Home
+            Curie
         </title>
     </head>
     
