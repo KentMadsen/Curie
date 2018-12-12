@@ -17,3 +17,6 @@ main
     grid-area: auto;
     min-height: 800px;
 }
+
+@import './base/document.scss';
+@import './base/menu.scss';
