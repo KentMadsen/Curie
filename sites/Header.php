@@ -5,6 +5,7 @@
     <?php
         include './generics/Header_content.html';
     ?>
+    
 </header>
 
 <!-- Navigation, for desktop -->
