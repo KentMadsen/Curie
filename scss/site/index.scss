@@ -25,30 +25,39 @@
 
 @keyframes animated_space_size
 {
+    $degrees_position: 3.6deg;
     0% {
-        transform :
-            scale( 1.0, 1.0 ) 
-            rotate(0deg);
+        transform : rotate( calc($degrees_position * 0deg) )
+                    scale( 1.0, 1.0 );
     }
 
     25% {
-        transform : rotate(90deg)
-    scale( 3.0, 3.0 );
+        transform : rotate( calc($degrees_position * 25deg) )
+                    scale( 3.0, 3.0 );
     }
 
     50% {
-        transform :rotate(180deg)
-    scale( 1.0, 1.0  ) ;
+        transform : rotate( calc($degrees_position * 50deg) )
+                    scale( 1.0, 1.0  ) ;
     }
 
     75% {
-        transform :rotate(270deg)
-    scale( 3.0, 3.0 );
+        transform : rotate( calc( $degrees_position * 75deg ) )
+                    scale( 3.0, 3.0 );
+    }
+
+    // 80% - 95%
+    80% {
+        
+    }
+
+    95% {
+
     }
     
     100% {
-        transform :rotate(359deg)
-    scale( 1.0, 1.0 );
+        transform : rotate( 359deg )
+                    scale( 1.0, 1.0 );
     }
 
 }
