@@ -7,8 +7,18 @@
 
 .header-container
 {
-    border-top: 1px solid black;
     grid-area: auto;
+}
+
+.header-container:first-child
+{
+    border-top: 1px solid black;
+}
+
+.header-container:last-child
+{
+    
+    border-bottom: 1px solid black;
 }
 
 .selected_page:hover
