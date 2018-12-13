@@ -82,7 +82,7 @@
         //
         $range_frame_position: $range_area / $subdiv;
 
-        $current_frame: $range_area * $current_level;
+        $current_frame: ($range_area * $current_level) +deg;
 
         #{ $current_frame }
         {
@@ -104,7 +104,7 @@
         // End, Begin
         $range_frame_position: $range_area / $subdiv;
         
-        $current_frame: $range_area * $current_level;
+        $current_frame: ($range_area * $current_level) +deg;
 
         #{ $current_frame }
         {
