@@ -62,8 +62,10 @@
     0% {
         -ms-transform :
             rotate( $first_rotation );
+            
         -webkit-transform :
             rotate( $first_rotation );
+
         transform :
             rotate( $first_rotation );
     }
@@ -71,11 +73,13 @@
     // <-
     12.5% {
         -ms-transform :
-            scale( $scale_up, 
+            scale( $scale_up,
                    $scale_up );
+
         -webkit-transform :
             scale( $scale_up,
                    $scale_up );
+
         transform :
             scale( $scale_up,
                    $scale_up );
@@ -84,25 +88,80 @@
     25% {
         -ms-transform :
             rotate( $second_rotation );
+
         -webkit-transform :
             rotate( $second_rotation );
+
         transform :
             rotate( $second_rotation );
     }
+
+    // <-
+    37.5% {
+        -ms-transform :
+            scale( $scale_up,
+                   $scale_up );
+
+        -webkit-transform :
+            scale( $scale_up,
+                   $scale_up );
+
+        transform :
+            scale( $scale_up,
+                   $scale_up );
+    }
+
     50% {
         -ms-transform :
             rotate( $third_rotation );
+
         -webkit-transform :
             rotate( $third_rotation );
+
         transform :
-            rotate( $third_rotation );}
+            rotate( $third_rotation );
+    }
+
+    62.5% {
+        -ms-transform :
+            scale( $scale_up, 
+                   $scale_up );
+
+        -webkit-transform :
+            scale( $scale_up,
+                   $scale_up );
+
+        transform :
+            scale( $scale_up,
+                   $scale_up );
+    }
+    
     75% {
         -ms-transform :
             rotate( $fourth_rotation );
+        
         -webkit-transform :
             rotate( $fourth_rotation );
+
         transform :
-            rotate( $fourth_rotation );}
+            rotate( $fourth_rotation );
+    }
+
+    87.5% {
+        
+        -ms-transform :
+            scale( $scale_up,
+                   $scale_up );
+
+        -webkit-transform :
+            scale( $scale_up,
+                   $scale_up );
+
+        transform :
+            scale( $scale_up,
+                   $scale_up );
+    }
+    
     100% {
         -ms-transform :
             rotate( $fourth_rotation );
