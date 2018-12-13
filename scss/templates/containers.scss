@@ -1,3 +1,12 @@
+.cover-container
+{
+    @extend %extend-width;
+    
+    height: 450px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
 .container-area-3
 {
     display: grid;
@@ -13,15 +22,6 @@
     @extend %no-margin-or-padding;
 
     grid-area: auto;
-}
-
-.cover-container
-{
-    @extend %extend-width;
-    
-    height: 450px;
-    position: relative;
-
 }
 
 .container-short-description
