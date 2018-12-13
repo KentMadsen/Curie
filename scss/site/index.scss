@@ -54,6 +54,18 @@
                     scale( $expanded_size_1, $expanded_size_1 );
     }
 
+    4% {
+        
+        transform : rotate( 4deg * $base )
+                    scale( $expanded_size_1, $expanded_size_1 );
+
+    }
+
+    21% {
+        transform : rotate( 21deg * $base )
+                    scale( $expanded_size_1, $expanded_size_1 );
+    }
+
     23% {
         transform : rotate( 23deg * $base )
                     scale( $expanded_size_1, $expanded_size_1 );
