@@ -61,7 +61,9 @@
     }
 
     85% {
-
+        -ms-transform: scale(1.25,1.25); /* IE 9 */
+        -webkit-transform: scale(1.25,1.25); /* Safari */
+        transform: scale(1.25,1.25);
     }
 
     
