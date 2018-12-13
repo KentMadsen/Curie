@@ -6,5 +6,12 @@ $document_header_overlay_text_color: #000000;
 $document_header_background_color: #000000;
 $document_header_overlay_background_color: #000000;
 
+// Default
+$document_header_highlight_color: #D63031;
+
+// Default, #FFFFFF, #000000
+$document_header_not_active_color: #000000;
+$document_header_not_active_color_alternative: #FFFFFF;
+
 
 $site_header_opacity: 0.5;
