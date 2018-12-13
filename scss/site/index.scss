@@ -67,33 +67,4 @@
     $start : 1.0;
     $end : 2.0;
 
-    0% {
-        -ms-transform :
-                        scale( $start,
-                            $start );
-
-    -webkit-transform :
-                        scale( $start,
-                            $start );
-
-    transform :
-                scale( $start,
-                    $start );
-
-    }
-    
-    100% {
-        -ms-transform :
-            scale( $start,
-                   $start );
-
-    -webkit-transform :
-        scale( $start,
-               $start );
-
-    transform :
-        scale( $start,
-               $start );
-    }
-    
 }
