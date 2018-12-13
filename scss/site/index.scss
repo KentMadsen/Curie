@@ -47,7 +47,7 @@
 
         // Generates Frame
         #{ $current_frame } {
-            transform: rotate( 20, 20 );
+            transform: rotate( 20.0deg, 20.0deg );
         }
     }
 }
