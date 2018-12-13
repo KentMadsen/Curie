@@ -28,7 +28,7 @@
 
     animation-play-state: paused;
 
-    transform: scale(1.45,1.45);
+    transform: scale(1.25,1.25);
 
     z-index: -1;
 }
@@ -44,9 +44,9 @@
 @keyframes animated_space
 {
     0% {
-        -ms-transform: scale(1.0,1.0); /* IE 9 */
-        -webkit-transform: scale(1.0,1.0); /* Safari */
-        transform: scale(1.0,1.0);
+        -ms-transform: scale(1.25,1.25); /* IE 9 */
+        -webkit-transform: scale(1.25,1.25); /* Safari */
+        transform: scale(1.25,1.25);
     }
     
     50% {
@@ -56,9 +56,9 @@
     }
 
     100% {
-        -ms-transform: scale(1.0,1.0); /* IE 9 */
-        -webkit-transform: scale(1.0,1.0); /* Safari */
-        transform: scale(1.0,1.0);
+        -ms-transform: scale(1.25,1.25); /* IE 9 */
+        -webkit-transform: scale(1.25,1.25); /* Safari */
+        transform: scale(1.25,1.25);
     }
 
 }
