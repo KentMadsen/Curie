@@ -1,25 +1,13 @@
-// Change name, Animate
-    // Show / Hide nav bar
-    // Header
+// to be renamed
 .show
 {
-    transform: translateX(0px);
-}
+    transform: translateX( 0% );
+};
 
-.hide 
+.hide
 {
-    transform: translateX(100%);
-}
-
-    // Standardnised
-.overlay
-{
-    background-color: rgba( $color: $document_header_overlay_background_color,
-                            $alpha: $site_header_opacity );
-
-    border-bottom: 1px solid black;
-}
-
+    transform: translateX( 100% );
+};
 
 // Apply
 .page_navigation_area
@@ -36,4 +24,14 @@
 
      background-color: rgba( $color: $document_header_overlay_background_color,
                              $alpha: $site_header_opacity );
-}
+};
+
+// Elements
+// Standardnised
+.overlay
+{
+        background-color: rgba( $color: $document_header_overlay_background_color,
+                                $alpha: $site_header_opacity );
+    
+        border-bottom: 1px solid black;
+};

@@ -5,11 +5,11 @@
 }
 
 //
-%menu-element-header
+%menu-element-header-main
 {
     @extend %menu-element;
 
-    text-transform: uppercase;
-    
+    text-transform : uppercase;
+
     font-size : 0.875rem;
 }
