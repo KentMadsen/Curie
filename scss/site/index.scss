@@ -33,14 +33,13 @@
 
 @keyframes animated_space
 {
-    $start_rotation : 0deg;
+    $first_rotation : 0deg;
     
     // in between, 45deg
 
-    $middle_rotation : 90deg;
+    $second_rotation : 90deg;
 
     // in between, 135 deg
-
 
     $third_rotation  : 180deg;
     
@@ -59,6 +58,44 @@
     //
     $blur_from:2px;
     $blur_to: 0.5px;
+
+    0% {
+        -ms-transform :
+            rotate( $first_rotation );
+        -webkit-transform :
+            rotate( $first_rotation );
+        transform :
+            rotate( $first_rotation );
+    }
+    25% {
+        -ms-transform :
+            rotate( $second_rotation );
+        -webkit-transform :
+            rotate( $second_rotation );
+        transform :
+            rotate( $second_rotation );
+    }
+    50% {
+        -ms-transform :
+            rotate( $third_rotation );
+        -webkit-transform :
+            rotate( $third_rotation );
+        transform :
+            rotate( $third_rotation );}
+    75% {
+        -ms-transform :
+            rotate( $fourth_rotation );
+        -webkit-transform :
+            rotate( $fourth_rotation );
+        transform :
+            rotate( $fourth_rotation );}
+    100% {
+        -ms-transform :
+            rotate( $fourth_rotation );
+        -webkit-transform :
+            rotate( $fourth_rotation );
+        transform :
+            rotate( $fourth_rotation );}
 
     /*
     0% {
