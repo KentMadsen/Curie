@@ -38,7 +38,11 @@
     @for $i from 0 to $t
     {
         // Calculates
-        $current_frame: ( ( $i + 1 ) * $range_frame );
+        // i
+        $current_level: $i;
+        
+        // current position, procentage
+        $current_frame: ( ( $i ) * $range_frame );
 
         // Generates Frame
         #{ $current_frame } {
