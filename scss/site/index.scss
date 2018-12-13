@@ -26,7 +26,7 @@
 @keyframes animated_space_size
 {
     // 
-    $base_radius : 3.6;
+    $base_increment_of_degrees : 3.6deg;
     $base_size : 1.0;
     
     //
@@ -42,7 +42,7 @@
 
         // Generates Frame
         #{ $current_frame } {
-            transform : rotate( ($current_frame - 1) )
+            transform : rotate( ($current_frame - 1) * $base_increment_of_degrees )
                                 scale( $base_size, $base_size );
         }
     }
