@@ -13,7 +13,8 @@
     background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
 
     
-    animation: animated_space 190s ease-in-out infinite;
+    animation: animated_space_rotation 190s ease-in-out infinite 
+               animated_space_size 190s ease-in-out infinite ;
 
     animation-play-state: initial
                           paused;
@@ -56,19 +57,11 @@
             rotate( $first_rotation );
 */
 
-@keyframes animated_space
+@keyframes animated_space_rotation
 {
     //
     $first_rotation : 0deg;
     $fifth_rotation  : 359deg;
-
-    //
-    $scale_up : 2.0;
-    $scale_down : 1.25;
-
-    //
-    $blur_from:2px;
-    $blur_to: 0.5px;
 
     // Rotate it 360 degrees, starts from 0deg to 359deg
     from {
@@ -82,20 +75,6 @@
             rotate( $first_rotation ) scale($scale_down, $scale_down);
     }
 
-    50% {
-        -ms-transform :
-        scale( $scale_up,
-               $scale_up );
-
-        -webkit-transform :
-        scale( $scale_up,
-               $scale_up );
-
-    transform :
-        scale( $scale_up,
-               $scale_up );
-    }
-
     to {
         -ms-transform :
             rotate( $fifth_rotation ) scale($scale_down,$scale_down);
@@ -105,4 +84,9 @@
             rotate( $fifth_rotation ) scale($scale_down, $scale_down);
 
     }
+}
+
+@keyframes animated_space_size
+{
+    
 }
