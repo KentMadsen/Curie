@@ -61,6 +61,8 @@
 
         // Generates Frame
         #{ $current_frame } {
+            transform : rotate( $rotation_tier_1 * $base )
+            scale( $base_size, $base_size );
 
         }
 
