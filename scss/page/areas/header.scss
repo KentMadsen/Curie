@@ -125,12 +125,12 @@ header ul a li
     // Show / Hide nav bar
 .show
 {
-    transform: translateX(0px);
+    transform: translateX(-200px);
 }
 
 .hide 
 {
-    transform: translateX(calc(100%-95px));
+    transform: translateX(0);
 }
 
 // Coloor, Background, Circle, Size, Position, Feature
