@@ -33,12 +33,12 @@ transition-duration: $action-nav-transition;
 //transform: translateX( 100% );
 .hide
 {
+
 };
 
 // Apply
 .page_navigation_area
 {
-    @extend %extend-width;
-    @extend %no-overflow;
+    
 
 };

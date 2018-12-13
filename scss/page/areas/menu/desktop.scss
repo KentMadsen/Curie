@@ -15,6 +15,11 @@
 %menu-element-header-main
 {
     @extend %menu-element-header-default;
-    
-    font-size : 0.875rem;
+    font-size : $site_header_main_text_size;
+}
+
+%menu-element-header-sub
+{
+    @extend %menu-element-header-default;
+    font-size : $site_header_sub_text_size;
 }
