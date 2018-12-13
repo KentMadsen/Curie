@@ -8,6 +8,7 @@ header
 header ul
 {
     @extend %generic_unordered_menu;
+    @extend %generic_horizontal_ul_centered_menu;
 
 };
 
