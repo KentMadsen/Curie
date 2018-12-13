@@ -26,7 +26,8 @@
 
 .cover-container:hover #cover-container-homepage
 {
-    animation-duration: 160s;
+    transition: 2s ease-in-out;
+    animation-duration: 380s;
 }
 
 @keyframes rotating_space
