@@ -29,7 +29,7 @@
 // ?, Animate
 .open
 {
-    transform: translateX( -95%) !important;
+    transform: translateX( - calc(100% - 95px) ) !important;
     transition-duration: 2s;
 }
 
