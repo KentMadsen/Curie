@@ -28,13 +28,12 @@
 @keyframes rotating_space
 {
     0% {
-        transform: rotate(45deg);
+        transform: scale(100%);
+    
     }
-    50% {
-        transform: rotate(180deg);
-    }
+    
     100% {
-        transform: rotate(45deg);
+        transform: scale(200%);
     }
 
 }
