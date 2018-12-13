@@ -23,6 +23,11 @@
     animation: rotating_space 360s linear infinite;
 }
 
+.cover-container:hover #cover-container-homepage
+{
+    animation-duration: 160s;
+}
+
 @keyframes rotating_space
 {
     0% {
