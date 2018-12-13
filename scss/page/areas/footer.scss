@@ -1,216 +1,90 @@
-//
-// Aplly default color ?
-    /*
-    //
-    @extend %base-fill-area-width;
-
-    background-color: rgba( $color: $document_footer_color,
-                            $alpha: $site_footer_opacity ); */
 footer
 {
 
 }
 
-// Apply Color, ?
-// Aplly default color ?
-/*
-@extend %not-selecteble;
-
-//
-@extend %base-fill-area-width;
-
-background-color : white;
-color            : black; */
 .footer-misc
 {
 }
 
-// Apply default padding, Justify, Text Transform, Font size, alignment
-/*
-@extend %base-fill-area-width;
-
-padding-top: 0px;
-padding-bottom: 6px;
-
-font-size : 12px;
-
-//
-@extend %text-center;
-@extend %text-to-uppercase; */
 .footer-misc p
 {
 }
 
-// Apply default padding, Justify, Texttransform, Position, Font size 
 .footer-misc ul
 {
-    /*
-    @extend %no-margin-or-padding;
-
-    padding-top: 6px;
-    padding-bottom: 6px;
-
-    display : flex;
-
-    flex-wrap : wrap;
-    list-style : none;
-
-    justify-content: center;
-    
-    @extend %text-to-uppercase;
-
-    font-size: 0.875rem;*/
 }
 
-// Apply color, default ui list type
-// Apply margin, Weight
 .footer-misc ul a
 {
-     /*color: black;
-     text-decoration: none;
-
-     margin-left  : 20px;
-     margin-right : 20px;
-     */
-     //font-weight: bold;
 }
 
-// Apply Color
-
-     //color : #D63031;
 .footer-misc ul a:hover
 {
 }
 
-// display: block;
 .footer-misc ul a li
 { 
 }
 
-// Normal content
-    // Apply Color, Font
-/*
-    margin-top: 16px;
-    margin-bottom: 16px;
-
-    color: white;
-font-family: $menu-text-font; 
-*/
 .footer-contact
 {
     
 }
 
-// Apply color, interface link
-/*
-text-decoration: none;
-color:white; */
 .mail
 {
 
 }
 
-// Apply Color
-/* 
-    color: #D63031; */
 .mail:hover
 {
     
 }
 
-/*
-@extend %no-margin-or-padding;
-@extend %extend-width;
-
-@extend %text-center;
-
-font-size: 0.875rem; */
 .footer-contact p
 {
 }
 
-// Apply default margin
-/*
-margin-top: 16px;
-margin-bottom: 16px;*/
 .footer-social
 {
 }
 
-
-// Apply default flex ui
-/*
-@extend %no-margin-or-padding;
-
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around; */
 .footer-social ul
 {
 }
 
-// Apply default margin center, text align center, color? width ? Default list.
-/*
-@extend %no-margin-or-padding;
-@extend %margin-center;
-
-@extend %text-center;
-
-color: white;
-
-width: 50px;
-
-display: block;
-
-text-decoration: none;
-list-style-type: none;
-*/
 .footer-social ul div li a
 {
 
 }
 
-// apply default size
-/*
-@extend %text-center;
-font-size: 32px;*/
 .footer-social ul div li a i
 {
 }
 
-// Default size ?
 .footer-social-container
 {
-    /*
-    width: 50%;*/
 }
 
-// Default Container
 .footer-social-container li
 {
-    /*
-    @extend %margin-center; */
 }
 
-// Buttons, Social Media
 .facebook a:hover
 {
-    //color:#3b5998;
 }
 
 .instagram a:hover
 {
-    //color:#D63031;
 }
 
 .twitter a:hover
 {
-    //color: #00aced;
 }
 
 .youtube a:hover
 {
-   // color:#cc181e;
 }
 
 // Footer
