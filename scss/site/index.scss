@@ -33,83 +33,89 @@
 
 @keyframes animated_space
 {
-    $start_rotation : 170deg;
-    $middle_rotation : 180deg;
-    $end_rotation : 190deg;
+    $start_rotation : 0deg;
+    
+    // in between, 45deg
 
-    $scale_start : 2.0;
-    $scale_to : 1.25;
+    $middle_rotation : 90deg;
 
-    $start_blur:2px;
-    $none_blur: 0.5px;
+    // in between, 135 deg
+
+
+    $third_rotation  : 180deg;
+    
+    // in between, 225deg
+
+    $fourth_rotation : 270deg;
+
+    // in between, 315deg
+
+    $fifth_rotation  : 360deg;
 
     //
-    0% {
-        filter: blur($start_blur);
+    $scale_up : 2.0;
+    $scale_down : 1.25;
 
-        /* IE 9 */
+    //
+    $blur_from:2px;
+    $blur_to: 0.5px;
+
+    /*
+    0% {
+        filter: blur( $start_blur );
         -ms-transform :
             rotate( $start_rotation )
-            scale($scale_start, $scale_start);
 
-        /* Safari */
+            scale( $scale_start, 
+                   $scale_start );
         -webkit-transform :
-            rotate( $start_rotation ) 
-            scale($scale_start, $scale_start);
-        
-        /* Normal Browser */
+            rotate( $start_rotation )
+
+            scale( $scale_start,
+                   $scale_start );
         transform :
-            rotate( $start_rotation ) 
-            scale($scale_start, $scale_start);
+            rotate( $start_rotation )
+
+            scale( $scale_start,
+                   $scale_start );
          
-    }
+    }*/
 
+    /*
     5% {
-        filter: blur($none_blur);
-    }
+        filter: blur( $none_blur );
+    } */
 
-    // Middle
+    /*
     50% {
-        
-        /* IE 9 */
         -ms-transform :
             rotate( $middle_rotation ) 
             scale($scale_to, $scale_to);
-
-        /* Safari */
         -webkit-transform :
             rotate( $middle_rotation ) 
             scale($scale_to, $scale_to);
-        
-        /* Normal Browser */
         transform :
             rotate( $middle_rotation ) 
             scale($scale_to, $scale_to);
-    }
+    } */
 
+    /*
     95% {
-        filter: blur($none_blur);
+        filter: blur( $none_blur );
     }
-    
-    100% {
-        filter: blur($start_blur);
-
-        /* IE 9 */
+    */
+/*
+    100% //{
+        filter: blur( $start_blur );
         -ms-transform :
             rotate( $end_rotation ) 
             scale($scale_start, $scale_start);
-
-        /* Safari */
         -webkit-transform :
             rotate( $end_rotation ) 
             scale($scale_start, $scale_start);
-
-        /* Normal Browser */
         transform :
             rotate( $end_rotation ) 
-            scale($scale_start, $scale_start);
- 
-        
-    }
+            scale($scale_start, $scale_start); 
+    } */
 
 }
