@@ -20,17 +20,17 @@
 
 #cover-container-homepage
 {
-    animation: animated_space_size linear 260s infinite;
+    //animation: animated_space_size linear 260s infinite;
 }
 
 //@keyframes animated_space_size
-/*{
+/* {
     // Step size
     $t : 60;
 
     //
         // Full Range size
-    $base_full_degrees : ( 360 );
+    $base_full_degrees : /*( 360 );
     
         // Steps
     $base_increment_of_degrees : $base_full_degrees / $t;
