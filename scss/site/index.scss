@@ -45,6 +45,7 @@
 {
     $first: 1.0;
     $second:1.35;
+    $third:4.5;
 
     0% {
         -ms-transform: scale($first,$first); /* IE 9 */
@@ -59,9 +60,9 @@
     }
     
     50% {
-        -ms-transform: scale(1.95,1.95); /* IE 9 */
-        -webkit-transform: scale(1.95,1.95); /* Safari */
-        transform: scale(1.95,1.95);
+        -ms-transform: scale($third,$third); /* IE 9 */
+        -webkit-transform: scale($third,$third); /* Safari */
+        transform: scale($third,$third);
     }
 
     98% {
