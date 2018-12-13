@@ -82,6 +82,20 @@
             rotate( $first_rotation ) scale($scale_down, $scale_down);
     }
 
+    50% {
+        -ms-transform :
+        scale( $scale_up,
+               $scale_up );
+
+        -webkit-transform :
+        scale( $scale_up,
+               $scale_up );
+
+    transform :
+        scale( $scale_up,
+               $scale_up );
+    }
+
     to {
         -ms-transform :
             rotate( $fifth_rotation ) scale($scale_down,$scale_down);
