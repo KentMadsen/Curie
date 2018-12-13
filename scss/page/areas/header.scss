@@ -29,8 +29,7 @@
 // ?, Animate
 .open
 {
-    transform: translateX(calc(-100% + 95px)) !important;
-    transition-duration: 2s;
+    left: 20px;
 }
 
 .open
@@ -124,7 +123,7 @@ header ul a li
 
 // Change name, Animate
     // Show / Hide nav bar
-    // Header rules.
+    // Header
 .show
 {
     
@@ -151,11 +150,12 @@ header ul a li
     //
     position : fixed;
 
+    top   : 20px;
+    right : 20px;
+
     //
     width  : 50px;
     height : 50px;
-    
-    transform: translateX( calc( 100% ) );
 
     //
     border : 2px solid #D63031;
