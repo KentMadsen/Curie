@@ -11,6 +11,10 @@
 */
 .sub_header_menu_area
 {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
 
 };
 
