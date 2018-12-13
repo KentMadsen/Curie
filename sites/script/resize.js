@@ -11,10 +11,10 @@ function resize_cover_index()
 
 function setWidth(element, size)
 {
-    element.style.width = size;
+    element.style.width = size + 'px';
 }
 
 function setHeight(element, size)
 {
-    element.style.height = size;
+    element.style.height = size + 'px';
 }
