@@ -35,7 +35,7 @@
     $range : 100%;
     $range_frame : $range / $t;
 
-    @for $i from 0 to $t
+    @for $i from 0 to $t + 1
     {
         // Calculates
         // i
