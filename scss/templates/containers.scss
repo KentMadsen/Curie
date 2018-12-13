@@ -1,11 +1,17 @@
-@media only screen and (max-width: 768px)
+// Mobile
+@media only screen and ( max-width : 768px )
 {
   
-}
-@media only screen and ( min-width: 769px )
+};
+
+// Normal Screen, low end screen
+@media only screen and ( max-width: 800px )
 {
 
 };
+
+// Modern Screen
 @media only screen and ( min-width: 1024px )
 {
+
 };
