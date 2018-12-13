@@ -58,17 +58,13 @@
         $current_scale: $base_size;
 
         //
-        $frame_position: ( ($i * $range_frame) %25 );
+        $frame_position: ( ( $i * $range_frame ) % 25 );
         
         // current position in procentage
         $current_frame: ( ( $current_level ) * $range_frame );
         $current_degrees: ( $current_level * $base_increment_of_degrees ) + deg;
 
-        @if ($frame_position == 0)
-        {
-            // make size bigger
-            $current_scale : $base_max_size;
-        }
+        
 
         // Generates Frame
         #{ $current_frame } {
