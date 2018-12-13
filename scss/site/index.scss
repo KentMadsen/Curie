@@ -55,18 +55,19 @@
         /* IE 9 */
         -ms-transform :
             scale( $first,
-                   $first );
+                   $first )
+                   rotate( $start_rotation );
 
         /* Safari */
         -webkit-transform :
             scale( $first,
-                   $first );
+                   $first )
+                   rotate( $start_rotation );
         
         /* Normal Browser */
         transform :
             scale( $first,
                    $first )
-
             rotate( $start_rotation );
          
     }
@@ -93,17 +94,19 @@
         /* IE 9 */
         -ms-transform :
             scale( $third,
-                   $third );
+                   $third )
+                   rotate( $middle_rotation );;
 
         /* Safari */
         -webkit-transform :
             scale( $third,
-                   $third );
+                   $third )
+            rotate( $middle_rotation );
         
         /* Normal Browser */
         transform :
             scale( $third,
-                   $third ) 
+                   $third )
             rotate($middle_rotation);
     }
 
