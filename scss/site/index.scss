@@ -62,15 +62,3 @@
     }
 
 }
-
-// Mobile Only
-@media only screen and (max-width: 768px)
-{
-    #cover-container-homepage
-    {
-        animation: animated_space linear infinite;
-        animation-play-state:running !important;
-
-    }
-
-}
