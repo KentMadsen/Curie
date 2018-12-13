@@ -13,7 +13,8 @@
     background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
 
     
-    animation: animated_space_rotation 190s ease-in-out infinite;
+    animation: animated_space_rotation 190s ease-in-out infinite
+               animated_space_size 190s ease-in-out infinite;
 
     animation-play-state: initial
                           paused;
