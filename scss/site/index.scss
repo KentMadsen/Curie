@@ -43,6 +43,12 @@
 @keyframes animated_space
 {
     0% {
+        -ms-transform: scale(1.0,1.0); /* IE 9 */
+        -webkit-transform: scale(1.0,1.0); /* Safari */
+        transform: scale(1.0,1.0);
+    }
+
+    15% {
         -ms-transform: scale(1.25,1.25); /* IE 9 */
         -webkit-transform: scale(1.25,1.25); /* Safari */
         transform: scale(1.25,1.25);
@@ -54,10 +60,15 @@
         transform: scale(1.95,1.95);
     }
 
+    85% {
+
+    }
+
+    
     100% {
-        -ms-transform: scale(1.25,1.25); /* IE 9 */
-        -webkit-transform: scale(1.25,1.25); /* Safari */
-        transform: scale(1.25,1.25);
+        -ms-transform: scale(1.0,1.0); /* IE 9 */
+        -webkit-transform: scale(1.0,1.0); /* Safari */
+        transform: scale(1.0,1.0);
     }
 
 }
