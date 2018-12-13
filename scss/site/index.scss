@@ -42,7 +42,7 @@
     //
     $expanded_size_1 : 2.0;
     $expanded_size_2 : 3.0;
-
+    $expanded_size_3 : 4.0;
 
     $expand_propertional_too: 1.5;
 
@@ -64,6 +64,22 @@
                     scale( $expanded_size_2, $expanded_size_2 );
 
     }
+
+    6% {
+        
+        transform : rotate( 4deg * $base )
+                    scale( $expanded_size_3, $expanded_size_2 );
+
+    }
+
+    19% {
+        
+        transform : rotate( 4deg * $base )
+                    scale( $expanded_size_3, $expanded_size_2 );
+
+    }
+
+
 
     21% {
         transform : rotate( 21deg * $base )
