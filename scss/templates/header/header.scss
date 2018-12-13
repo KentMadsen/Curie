@@ -6,6 +6,7 @@
 %link_generic_menu_tab
 {
     @extend %link_base_tab;
+
     font-family: $body-document-title-font;
 }
 
@@ -13,6 +14,7 @@
 %main_header_tab_link
 {
     @extend %link_generic_menu_tab;
+
     font-size: $site_header_main_text_size;
 };
 
@@ -20,6 +22,7 @@
 %main_subheader_tab_link
 {
     @extend %link_generic_menu_tab;
+
     font-size: $site_header_subheader_text_size;
 };
 
@@ -31,6 +34,7 @@
     @extend %main_header_tab_link;
 
     color:$document_header_not_active_color;
+
     font-weight: bold;
 
 };
@@ -40,6 +44,7 @@
     @extend %main_header_tab_link;
 
     font-weight : bold;
+    
     color:$document_header_active_color;
 
 };
@@ -49,6 +54,7 @@
     @extend %main_header_tab_link;
 
     font-weight: bold;
+
     color: $document_header_highlight_color;
 };
 
@@ -56,18 +62,21 @@
 %main-alt-header-resting
 {
     @extend %main_subheader_tab_link;
+
     color:$document_header_not_active_color;
 };
 
 %main-alt-header-active
 {
     @extend %main_subheader_tab_link;
+
     color:$document_header_active_color;
 };
 
 %main-alt-header-hightlighted
 {
     @extend %main_subheader_tab_link;
+
     color: $document_header_highlight_color;
 };
 
@@ -76,17 +85,20 @@
 %sub-header-resting
 {
     @extend %main_subheader_tab_link;
+
     color:$document_header_not_active_color;
 };
 
 %sub-header-active
 {
     @extend %main_subheader_tab_link;
+
     color:$document_header_active_color;
 };
 
 %sub-header-hightlighted
 {
     @extend %main_subheader_tab_link;
+
     color: $document_header_highlight_color;
 };

@@ -26,19 +26,14 @@
     @extend %main-header-active;
 };
 
-/*
- * 
-*/
 .sub_header_menu_area
 {
-    //
     display : grid;
     
-    //
     grid-template-rows    : auto;
     grid-template-columns : auto auto;
     
-    //
+    
     grid-gap : 32px;
 };
 
