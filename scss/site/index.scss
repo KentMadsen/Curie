@@ -29,8 +29,7 @@
     $t : 4;
 
     // subdivision size, calculates interpolation points
-    $subdiv : 10;
-    $subdiv_mid : $subdiv / 2;
+    $subdiv     : 5;
 
     //
         // Full Range size
@@ -60,8 +59,8 @@
         $current_level: $i;
         
         // current position in procentage
-        $current_frame: ( ( $i ) * $range_frame );
-        $current_degrees: ( $i * $base_increment_of_degrees ) + deg;
+        $current_frame: ( ( $current_level ) * $range_frame );
+        $current_degrees: ( $current_level * $base_increment_of_degrees ) + deg;
 
         // Generates Frame
         #{ $current_frame } {
@@ -71,9 +70,32 @@
         }
     }
 
-    // Interpolate points between, 0% -> 50% -> 100%
-    @for $interpolation_point from 0 to ( $subdiv * $t )
+    // Interpolate points between, 0% -> 50%
+    @for $interpolation_point from 0 to ( ($subdiv + 1) )
     {
+        // current position
+        $current_level: $interpolation_point;
+
+        // End, Begin
+        $range_area: (50 - 0) / $subdiv;
+
+        //
+        $range_frame_position: $range_area / $subdiv;
+
+
+    }
+
+    // Interpolate points between, 50% -> 100%
+    @for $interpolation_point from 0 to ( ($subdiv + 1) )
+    {
+        // current position
+        $current_point : $interpolation_point;
+
+        $range_area:(100 - 50);
+
+        // End, Begin
+        $range_frame_position: $range_area / $subdiv;
+        
 
     }
 
