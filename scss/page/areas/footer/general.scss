@@ -14,21 +14,21 @@ footer
 
 };
 
-//
+// Unordered list
 .footer-misc ul
 {
     @extend %generic_unordered_menu;
     @extend %generic_horizontal_ul_centered_menu;
 };
 
-// Element
+// Element in a unordered list
 .footer-misc ul li
 {
     @extend %generic_horizontal_ul_element;
 
 };
 
-//
+// Links in footer misc.
 .footer-misc ul li a
 {
     @extend %generic_link;
