@@ -25,25 +25,25 @@
 
 @keyframes animated_space_size
 {
-    $degrees_position: 3.6;
+    
     
     0% {
-        transform : rotate( calc($degrees_position * 0) )
+        transform : rotate( 0deg * 3.6 )
                     scale( 1.0, 1.0 );
     }
 
     25% {
-        transform : rotate( calc($degrees_position * 25) )
+        transform : rotate( 25deg * 3.6 )
                     scale( 3.0, 3.0 );
     }
 
     50% {
-        transform : rotate( calc($degrees_position * 50) )
+        transform : rotate( 50deg * 3.6 )
                     scale( 1.0, 1.0  ) ;
     }
 
     75% {
-        transform : rotate( calc( $degrees_position * 75 ) )
+        transform : rotate( 75deg * 3.6 )
                     scale( 3.0, 3.0 );
     }
 
@@ -57,7 +57,7 @@
     }
     
     100% {
-        transform : rotate( calc( $degrees_position * 100 - 1 ) )
+        transform : rotate( (360deg - 1deg) * 3.6 )
                     scale( 1.0, 1.0 );
     }
 
