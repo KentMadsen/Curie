@@ -6,6 +6,26 @@
 
 };
 
+.page_header_area ul
+{
+
+};
+
+.page_header_area ul li a
+{
+    @extend %main-header-resting;
+};
+
+.page_header_area ul li a:hover
+{
+    @extend %main-header-hightlighted;
+};
+
+.page_header_area ul li a:active 
+{
+    @extend %main-header-active;
+};
+
 /*
  * 
 */
@@ -40,7 +60,7 @@
 
 .sub_header_container ul li a
 {
-    @extend %main_subheader_tab_link;
+    
     @extend %sub-header-resting;
 };
 
