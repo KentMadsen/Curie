@@ -29,6 +29,7 @@
 // ?, Animate
 .open
 {
+    transition-duration: 2s;
     transform: translateY(200px);
 }
 
@@ -149,6 +150,8 @@ header ul a li
     
     //
     position : fixed;
+    
+    transition-duration: 2s;
 
     top   : 20px;
     right : 20px;
