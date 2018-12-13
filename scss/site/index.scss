@@ -59,10 +59,11 @@
     $blur_from:2px;
     $blur_to: 0.5px;
 
+    // Rotation Point ONLY
     0% {
         -ms-transform :
             rotate( $first_rotation );
-            
+
         -webkit-transform :
             rotate( $first_rotation );
 
@@ -85,6 +86,7 @@
                    $scale_up );
     }
 
+    // Rotation Point ONLY
     25% {
         -ms-transform :
             rotate( $second_rotation );
@@ -111,6 +113,7 @@
                    $scale_up );
     }
 
+    // Rotation Point ONLY
     50% {
         -ms-transform :
             rotate( $third_rotation );
@@ -136,6 +139,8 @@
                    $scale_up );
     }
     
+    
+    // Rotation Point ONLY
     75% {
         -ms-transform :
             rotate( $fourth_rotation );
@@ -162,70 +167,13 @@
                    $scale_up );
     }
     
+    // Rotation Point ONLY
     100% {
         -ms-transform :
             rotate( $fourth_rotation );
         -webkit-transform :
             rotate( $fourth_rotation );
         transform :
-            rotate( $fourth_rotation );}
-
-    /*
-    0% {
-        filter: blur( $start_blur );
-        -ms-transform :
-            rotate( $start_rotation )
-
-            scale( $scale_start, 
-                   $scale_start );
-        -webkit-transform :
-            rotate( $start_rotation )
-
-            scale( $scale_start,
-                   $scale_start );
-        transform :
-            rotate( $start_rotation )
-
-            scale( $scale_start,
-                   $scale_start );
-         
-    }*/
-
-    /*
-    5% {
-        filter: blur( $none_blur );
-    } */
-
-    /*
-    50% {
-        -ms-transform :
-            rotate( $middle_rotation ) 
-            scale($scale_to, $scale_to);
-        -webkit-transform :
-            rotate( $middle_rotation ) 
-            scale($scale_to, $scale_to);
-        transform :
-            rotate( $middle_rotation ) 
-            scale($scale_to, $scale_to);
-    } */
-
-    /*
-    95% {
-        filter: blur( $none_blur );
+            rotate( $fourth_rotation );
     }
-    */
-/*
-    100% //{
-        filter: blur( $start_blur );
-        -ms-transform :
-            rotate( $end_rotation ) 
-            scale($scale_start, $scale_start);
-        -webkit-transform :
-            rotate( $end_rotation ) 
-            scale($scale_start, $scale_start);
-        transform :
-            rotate( $end_rotation ) 
-            scale($scale_start, $scale_start); 
-    } */
-
 }
