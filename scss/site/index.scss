@@ -40,19 +40,13 @@
     $base_size : 1.0;
     
     //
-    $expanded_size_1 : 2.0;
-    $expanded_size_2 : 3.0;
-    $expanded_size_3 : 4.0;
+    $expanded_size : 1.0;
 
     $expand_propertional_too: 1.5;
 
     //
-    $frame_increment: 25% / 3;
-
-    // Calculation table
-    $frame_interpolation_from_0_to_25_1: ( (0 % + $frame_increment ) );
-    $frame_interpolation_from_0_to_25_2: ( (0 % + (2 * $frame_increment)) );
-    $frame_interpolation_from_0_to_25_3: ( (0 % + (3 * $frame_increment)) );
+    $n : 3;
+    $frame_increment: 25% / $n;
 
     // _ Horizontal: 0
     0% {
@@ -60,25 +54,17 @@
                     scale( $base_size, $base_size );
     };
 
-    // Range between 0 + 8.3
-    percentage ( $frame_interpolation_from_0_to_25_1 + 0% ) {
-        transform : rotate( 2deg * $base )
-                    scale( $expanded_size_1, $expanded_size_1 );
-    };
+    @for $i from 0 to $n
+    {
+        // Calculates
+        $current_frame: ($i*$frame_increment);
 
-    // Range between 8.3 * 2 = 16.6
-    percentage ( $frame_interpolation_from_0_to_25_2 + 0% ) {
-        transform : rotate( 4deg * $base )
-                    scale( $expanded_size_2, $expanded_size_2 );
+        // Generates Frame
+        #{ $current_frame } {
+
+        }
 
     }
-
-    // Range between 8.3 * 3 = 16.6
-    percentage ( $frame_interpolation_from_0_to_25_3 + 0% ) {
-        transform : rotate( 4deg * $base )
-                    scale( $expanded_size_3, $expanded_size_2 );
-
-    };
 
     // End of Ranges between 2% <-> 23%
 
