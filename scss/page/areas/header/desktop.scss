@@ -41,7 +41,6 @@
     grid-template-rows    : auto;
     grid-template-columns : auto auto;
     
-    
     grid-gap : $site_header_subheader_gap;
 };
 
@@ -79,6 +78,5 @@
     @extend %sub-header-active;
 
 };
-
 
 @import './desktop_floating.scss';
