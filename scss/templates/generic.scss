@@ -1,4 +1,3 @@
-
 //
 %no-margin
 {
@@ -24,6 +23,13 @@
   height: 100%;
 }
 
+%base-fill-area-width
+{
+  @extend %no-margin-or-padding;
+  @extend %extend-width;
+}
+
+//
 %no-overflow
 {
   overflow : hidden
@@ -47,14 +53,13 @@
   margin-right : auto;
 }
 
-// Generic Bodies
-
-
-// dic form
+// Generic Forms
+  // dic form
 %make-circle
 {
   border-radius : 100%;
 }
 
+//
 @import './header/_head.scss';
 @import './footer/_head.scss';
