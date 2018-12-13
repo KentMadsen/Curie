@@ -46,6 +46,9 @@
     $second:1.5;
     $third:2.2;
 
+    $start_rotation: 0deg;
+    $end_rotation:360deg;
+
     //
     0% {
         /* IE 9 */
@@ -62,6 +65,9 @@
         transform :
             scale( $first,
                    $first );
+
+        transform: rotate( $start_rotation );
+         
     }
 
     2% {
@@ -130,7 +136,10 @@
         /* Normal Browser */
         transform :
             scale( $first,
-                   $first );
+                   $first ); 
+
+        transform : rotate( $end_rotation );
+        
     }
 
 }
