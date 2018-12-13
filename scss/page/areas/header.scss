@@ -2,7 +2,8 @@
 .page_navigation_area
 {
     @extend %extend-width;
-    
+    @extend %no-overflow;
+
      display: none;
     
      z-index: 4;
@@ -10,8 +11,6 @@
      position : fixed;
     
      background-color : black;
-
-     overflow : hidden
 }
 
 // Apply Color
