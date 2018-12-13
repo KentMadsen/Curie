@@ -69,15 +69,15 @@
     }
 
     50% {
-        -ms-transform: scale( - $third, - $third); /* IE 9 */
-        -webkit-transform: scale( - $third, - $third); /* Safari */
-        transform: scale( - $third, - $third);
+        -ms-transform: scale( $third, $third); /* IE 9 */
+        -webkit-transform: scale( $third, $third); /* Safari */
+        transform: scale( $third, $third);
     }
 
     98% {
-        -ms-transform: scale( - $second, - $second ); /* IE 9 */
-        -webkit-transform: scale( - $second, - $second); /* Safari */
-        transform: scale( - $second, -$second);
+        -ms-transform: scale( $second, $second ); /* IE 9 */
+        -webkit-transform: scale( $second, $second); /* Safari */
+        transform: scale( $second, $second);
     }
     
     100% {
