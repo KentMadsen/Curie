@@ -28,7 +28,7 @@
             include './generics/Footer.html';
         ?>
         <script src="./script/scripts.js"
-                onload="select_page('header_insight_link');">
+                onload="select_page('header_discover_link');">
         </script>
         
         <script src="./script/scripts.js"
