@@ -13,13 +13,14 @@
     
     background-size     : cover;
     background-position : center;
+
     background-image    : url('https://curie.designermadsen.com/sites/images/10.jpg');
 
     
-    width  :100%;
+    width  : 100%;
     height : 100%;
     
-    animation: animated_space 60s linear infinite;
+    animation: animated_space 360s linear infinite;
     animation-play-state: initial paused;
 
     overflow:hidden;
