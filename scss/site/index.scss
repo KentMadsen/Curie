@@ -13,7 +13,8 @@
     background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
 
     
-    animation: animated_space_size linear 190s infinite, animated_space_rotation linear 190s infinite;
+    animation: animated_space_size linear 190s infinite, 
+               animated_space_rotation linear 190s infinite;
 
     position : absolute;
 
@@ -64,7 +65,29 @@
 
 @keyframes animated_space_size
 {
-    $start : 1.0;
-    $end : 2.0;
+    0% {
+        transform :
+    scale( 1.0 );
+    }
+
+    25% {
+        transform :
+    scale( 2.0 );
+    }
+
+    50% {
+        transform :
+    scale( 1.0 );
+    }
+
+    75% {
+        transform :
+    scale( 2.0 );
+    }
+    
+    100% {
+        transform :
+    scale( 1.0 );
+    }
 
 }
