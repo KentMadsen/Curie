@@ -45,7 +45,7 @@
 
         // Generates Frame
         #{ $current_frame } {
-            transform : rotate( i , i)
+            transform : rotate( i * $base_increment_of_degrees , i * $base_increment_of_degrees)
                         scale( $base_size, $base_size );
         }
     }
