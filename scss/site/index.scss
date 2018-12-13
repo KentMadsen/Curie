@@ -113,7 +113,7 @@
 
     // Point 
     50% {
-
+        
     }
 
     62.5% {
@@ -133,10 +133,18 @@
     // Rotation Point ONLY
     100% {
         -ms-transform :
-            rotate(  $third_rotation );
+            rotate( $fifth_rotation )
+
+            scale( $scale_down,
+                   $scale_down );
         -webkit-transform :
-            rotate(  $third_rotation );
+            rotate( $fifth_rotation )
+
+            scale( $scale_down,
+                   $scale_down );
         transform :
-            rotate(  $third_rotation );
+            scale( $scale_down,
+                   $scale_down )
+            rotate( $fifth_rotation );
     }
 }
