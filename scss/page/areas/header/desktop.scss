@@ -11,11 +11,14 @@
 */
 .sub_header_menu_area
 {
+    //
     display: grid;
     
+    //
     grid-template-rows    : auto;
     grid-template-columns : auto auto;
     
+    //
     grid-gap: 32px;
 };
 
@@ -24,14 +27,28 @@
 */
 .sub_header_container
 {
+    //
     grid-area: auto;
 
 };
 
-.sub_header_container ul 
+.sub_header_container ul
 {
+    @extend %sub_header;
     @extend %generic_horizontal_ul_centered_menu;
     
-}
+};
+
+.sub_header_container ul li a
+{
+    @extend main_subheader_tab_link;
+
+
+};
+
+.sub_header_container ul li a:hover 
+{
+
+};
 
 @import './desktop_floating.scss';
