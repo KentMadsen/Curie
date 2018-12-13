@@ -6,7 +6,7 @@ function resize_cover_index()
 
     setWidth(element, parent.clientWidth);
     
-    setHeight(element, parent.clientHeight);
+    setHeight(element, parent.clientWidth);
 }
 
 function setWidth(element, size)
