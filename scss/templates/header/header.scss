@@ -1,20 +1,19 @@
 %link_base_tab
 {
-    text-transform: uppercase;
-    font-family: $menu-text-font;
+    text-transform : uppercase;
 }
 
-// Link Object for the subheader tab
+// Link Object 
 %main_header_tab_link
 {
     @extend %link_base_tab;
-    font-weight: bold;
-
+    
+    font-family    : $menu-text-font;
 };
 
 %main_subheader_tab_link
 {
-    @extend %link_base_tab;
+    @extend %main_header_tab_link;
 
 };
 

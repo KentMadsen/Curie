@@ -12,14 +12,14 @@
 .sub_header_menu_area
 {
     //
-    display: grid;
+    display : grid;
     
     //
     grid-template-rows    : auto;
     grid-template-columns : auto auto;
     
     //
-    grid-gap: 32px;
+    grid-gap : 32px;
 };
 
 /* 
@@ -28,7 +28,7 @@
 .sub_header_container
 {
     //
-    grid-area: auto;
+    grid-area : auto;
 
 };
 
