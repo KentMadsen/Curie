@@ -1,13 +1,14 @@
 // Apply
 .page_navigation_area
 {
-    display: none;
+    @extend %extend-width;
+    
+     display: none;
     
      z-index: 4;
 
      position : fixed;
     
-     width : 100%;
      background-color : black;
 
      overflow : hidden
@@ -169,9 +170,9 @@ header ul a li
 /* Apply extend size */
 .menu_button_icon
 {
+    @extend %extend-fully;
     position: relative;
 
-    @extend %extend-fully;
 }
 
 // Apply color, font size, margin.
