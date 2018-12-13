@@ -47,6 +47,7 @@
     $second:3.35;
     $third:3.5;
 
+    //
     0% {
         -ms-transform: scale($first,$first); /* IE 9 */
         -webkit-transform: scale($first,$first); /* Safari */
@@ -59,6 +60,7 @@
         transform: scale($second,$second);
     }
     
+    // Middle
     50% {
         -ms-transform: scale($third,$third); /* IE 9 */
         -webkit-transform: scale($third,$third); /* Safari */
@@ -66,16 +68,16 @@
     }
 
     98% {
-        -ms-transform: scale($second,$second); /* IE 9 */
-        -webkit-transform: scale($second,$second); /* Safari */
-        transform: scale($second,$second);
+        -ms-transform: scale( - $second, - $second ); /* IE 9 */
+        -webkit-transform: scale( - $second, - $second); /* Safari */
+        transform: scale( - $second, -$second);
     }
 
     
     100% {
-        -ms-transform: scale($first,$first); /* IE 9 */
-        -webkit-transform: scale($first,$first); /* Safari */
-        transform: scale($first,$first);
+        -ms-transform: scale( - $first, - $first); /* IE 9 */
+        -webkit-transform: scale(- $first, - $first); /* Safari */
+        transform: scale( -$first, -$first);
     }
 
 }
