@@ -1,4 +1,14 @@
-%menu-element-clickable
+//
+%menu-element
 {
     font-family : $menu-text-font;
+}
+
+//
+%menu-element-header
+{
+    @extend %menu-element;
+    
+    font-size : 0.875rem;
+
 }

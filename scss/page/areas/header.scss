@@ -95,9 +95,8 @@ header ul
 // Apply Font and Color
 header ul a
 {
-    @extend %menu-element-clickable;
+    @extend %menu-element-header;
 
-    font-size : 0.875rem;
     
     text-decoration : none;
     
