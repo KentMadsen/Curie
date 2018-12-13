@@ -6,7 +6,7 @@
 #cover-container-homepage
 {
     @extend %no-margin-or-padding;
-    
+    @extend %no-overflow;
     //
 
     background-repeat: no-repeat;
