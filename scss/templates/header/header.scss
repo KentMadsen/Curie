@@ -30,6 +30,7 @@
 %main-header-resting
 {
     @extend %main_header_tab_link;
+
     color:$document_header_not_active_color;
     font-weight: bold;
 
@@ -38,7 +39,8 @@
 %main-header-active
 {
     @extend %main_header_tab_link;
-    font-weight: bold;
+
+    font-weight : bold;
     color:$document_header_active_color;
 
 };
@@ -46,6 +48,7 @@
 %main-header-hightlighted
 {
     @extend %main_header_tab_link;
+    
     font-weight: bold;
     color: $document_header_highlight_color;
 };
