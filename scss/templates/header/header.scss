@@ -3,6 +3,27 @@
     text-transform : uppercase;
 }
 
+// States
+%resting-state
+{
+    color : $document_header_not_active_color;
+};
+
+%resting-alternative-state
+{
+
+};
+
+%hightlight-state
+{
+    color : $document_header_highlight_color;
+};
+
+%active-state
+{
+    color : $document_header_active_color;
+};
+
 %link_generic_menu_tab
 {
     @extend %link_base_tab;
@@ -15,30 +36,9 @@
 {
     @extend %link_generic_menu_tab;
 
-    font-weight: bold;
-    font-size: $site_header_main_text_size;
+    font-weight : bold;
+    font-size   : $site_header_main_text_size;
 };
-
-// States
-%resting-state
-{
-    color:$document_header_not_active_color;
-};
-
-%resting-alternative-state
-{
-
-}
-
-%hightlight-state
-{
-    color : $document_header_highlight_color;
-}
-
-%active-state
-{
-    color:$document_header_active_color;
-}
 
 //
 %main_subheader_tab_link
