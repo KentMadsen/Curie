@@ -42,15 +42,21 @@
 @keyframes animated_space
 {
     0% {
+        -ms-transform: scale(1.0,1.0); /* IE 9 */
+        -webkit-transform: scale(1.0,1.0); /* Safari */
         transform: scale(1.0,1.0);
     
     }
     
     50% {
+        -ms-transform: scale(1.95,1.95); /* IE 9 */
+        -webkit-transform: scale(1.95,1.95); /* Safari */
         transform: scale(1.95,1.95);
     }
 
     100% {
+        -ms-transform: scale(1.0,1.0); /* IE 9 */
+        -webkit-transform: scale(1.0,1.0); /* Safari */
         transform: scale(1.0,1.0);
     }
 
