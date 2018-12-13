@@ -1,13 +1,5 @@
 // Base Overhead
 @import './base/_head.scss';
-
-// Generic Templates
 @import './templates/_head.scss';
-
-// include generic page elements
 @import './page/_head.scss';
-
-    // Site Specific.
-        // Index.html,
-        // About.html, etc.
 @import './site/_head.scss';
