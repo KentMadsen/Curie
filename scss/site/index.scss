@@ -55,7 +55,7 @@
         
         /* Normal Browser */
         transform :
-            rotate( $start_rotation );
+            rotate( $start_rotation ) scale(2, 2);
          
     }
 
@@ -86,7 +86,7 @@
 
         /* Normal Browser */
         transform :
-            rotate( $end_rotation );
+            rotate( $end_rotation ) scale(2, 2);
  
         
     }
