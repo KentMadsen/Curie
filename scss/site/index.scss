@@ -39,10 +39,6 @@
 
 @keyframes animated_space
 {
-    $first: 1.0;
-    $second:1.5;
-    $third:2.2;
-
     $start_rotation : 0deg;
     $middle_rotation : 180deg;
     $end_rotation : 360deg;
@@ -51,96 +47,45 @@
     0% {
         /* IE 9 */
         -ms-transform :
-            scale( $first,
-                   $first )
             rotate( $start_rotation );
 
         /* Safari */
         -webkit-transform :
-            scale( $first,
-                   $first )
             rotate( $start_rotation );
         
         /* Normal Browser */
         transform :
-            scale( $first,
-                   $first )
             rotate( $start_rotation );
          
     }
 
-    2% {
-        /* IE 9 */
-        -ms-transform :
-            scale( $second,
-                   $second );
-
-        /* Safari */
-        -webkit-transform:
-            scale( $second,
-                   $second );
-
-        /* Normal Browser */
-        transform :
-            scale( $second,
-                   $second );
-    }
-    
     // Middle
     50% {
         /* IE 9 */
         -ms-transform :
-            scale( $third,
-                   $third )
             rotate( $middle_rotation );
 
         /* Safari */
         -webkit-transform :
-            scale( $third,
-                   $third )
             rotate( $middle_rotation );
         
         /* Normal Browser */
         transform :
-            scale( $third,
-                   $third )
             rotate( $middle_rotation );
     }
 
-    98% {
-        /* IE 9 */
-        -ms-transform :
-            scale( $second,
-                   $second );
-
-        /* Safari */
-        -webkit-transform :
-            scale( $second,
-                   $second ); 
-
-        /* Normal Browser */
-        transform :
-            scale( $second,
-                   $second );
-    }
     
     100% {
         /* IE 9 */
         -ms-transform :
-            scale( $first,
-                   $first ) 
             rotate( $end_rotation );
 
         /* Safari */
         -webkit-transform :
-            scale( $first,
-                   $first ) 
             rotate( $end_rotation );
 
         /* Normal Browser */
         transform :
-            scale( $first,
-                   $first )
             rotate( $end_rotation );
  
         
