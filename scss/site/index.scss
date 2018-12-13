@@ -14,6 +14,9 @@
     width  : 100%;
 
     
+    background-blend-mode: screen;
+    background-color: yellow;
+    
     animation: animated_space 120s linear infinite;
 
     animation-play-state: initial paused;
