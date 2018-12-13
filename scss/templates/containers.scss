@@ -2,6 +2,7 @@
 {
     @extend %no-margin-or-padding;
     @extend %extend-width;
+    @extend %no-overflow;
     
     height: 450px;
     position: relative;

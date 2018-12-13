@@ -1,14 +1,8 @@
 //
-#cover-container-homepage::before
-{
-}
 
 #cover-container-homepage
 {
     @extend %no-margin-or-padding;
-    @extend %no-overflow;
-    //
-    overflow: hidden;
 
     background-repeat: no-repeat;
     
