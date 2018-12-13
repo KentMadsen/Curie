@@ -1,9 +1,11 @@
 .cover-container
 {
+    @extend %no-margin-or-padding;
     @extend %extend-width;
     
     height: 450px;
     position: relative;
+
     margin-bottom: 0px;
 }
 
