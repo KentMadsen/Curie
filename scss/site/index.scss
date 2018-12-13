@@ -33,18 +33,6 @@
 
 /* 
 
-        -ms-transform :
-            scale( $scale_up,
-                   $scale_up );
-
-        -webkit-transform :
-            scale( $scale_up,
-                   $scale_up );
-
-        transform :
-            scale( $scale_up,
-                   $scale_up );
-
         
         -ms-transform :
             rotate( $first_rotation );
@@ -87,5 +75,36 @@
 
 @keyframes animated_space_size
 {
+    $start : 1.0;
+    $end : 2.0;
+
+    0% {
+        -ms-transform :
+        scale( $start,
+               $start );
+
+    -webkit-transform :
+        scale( $start,
+               $start );
+
+    transform :
+        scale( $start,
+               $start );
+
+    }
+
+    100% {
+        -ms-transform :
+        scale( $start,
+               $start );
+
+    -webkit-transform :
+        scale( $start,
+               $start );
+
+    transform :
+        scale( $start,
+               $start );
+    }
     
 }
