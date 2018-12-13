@@ -16,9 +16,7 @@
 
     z-index: -1;
 
-    animation-duration: 180s;
-    animation-name: rotating_space;
-    animation: infinite;
+    animation: rotating_space 180s infinite;
 }
 
 @keyframes rotating_space
