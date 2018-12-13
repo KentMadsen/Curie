@@ -13,9 +13,6 @@
     height : 100%;
     width  : 100%;
 
-    top: -50%;  /* position the top  edge of the element at the middle of the parent */
-    left: -50%; /* position the left edge of the element at the middle of the parent */
-
     
     animation: animated_space 30s linear infinite;
     animation-play-state: initial paused;
