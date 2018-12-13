@@ -1,7 +1,7 @@
 //
 .selected_page
 {
-    color: $document_header_active_color;
+    color: $document_header_active_color !important;
     border-bottom: 2px solid $document_header_active_color;
 };
 
