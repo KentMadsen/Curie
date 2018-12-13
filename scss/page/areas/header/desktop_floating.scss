@@ -19,3 +19,21 @@
 
     border-bottom: 1px solid black;
 }
+
+
+// Apply
+.page_navigation_area
+{
+    @extend %extend-width;
+    @extend %no-overflow;
+
+    transition-duration: $action-nav-transition;
+    transform: translateY(-200px);
+
+     z-index: 4;
+
+     position : fixed;
+
+     background-color: rgba( $color: $document_header_overlay_background_color,
+                             $alpha: $site_header_opacity );
+}
