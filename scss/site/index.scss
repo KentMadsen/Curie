@@ -131,18 +131,17 @@
         /* IE 9 */
         -ms-transform :
             scale( $first,
-                   $first );
+                   $first ) rotate( $end_rotation );
 
         /* Safari */
         -webkit-transform :
             scale( $first,
-                   $first );
+                   $first ) rotate( $end_rotation );
 
         /* Normal Browser */
         transform :
             scale( $first,
                    $first )
-
             rotate( $end_rotation );
  
         
