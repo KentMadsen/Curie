@@ -12,18 +12,24 @@ header ul
 
 };
 
-header ul a
+header ul li 
+{
+    @extend %generic_horizontal_ul_element;
+    
+};
+
+header ul li a
 {
     @extend %generic_link;
 
 };
 
-header ul a:hover
+header ul li a:hover
 {
     
 };
 
-header ul a li
+header ul li a
 {
     
 };
