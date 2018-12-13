@@ -1,5 +1,6 @@
 @import './header/_head.scss';
 
+//
 %no-margin
 {
   margin  : 0px;
@@ -11,6 +12,7 @@
   padding : 0px;
 }
 
+// page area sizes
 %extend-width
 {
   width: 100%;
@@ -23,6 +25,10 @@
   height: 100%;
 }
 
+// Generic Bodies
+
+
+// dic form
 %make-circle
 {
   border-radius : 100%;
