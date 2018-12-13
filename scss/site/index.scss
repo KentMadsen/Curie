@@ -67,6 +67,20 @@
         transform :
             rotate( $first_rotation );
     }
+
+    // <-
+    0.125% {
+        -ms-transform :
+            scale( $scale_up, 
+                   $scale_up );
+        -webkit-transform :
+            scale( $scale_up,
+                   $scale_up );
+        transform :
+            scale( $scale_up,
+                   $scale_up );
+    }
+
     25% {
         -ms-transform :
             rotate( $second_rotation );
