@@ -1,5 +1,6 @@
 header
 {
+    //
     @extend %no-margin-and-padding;
     
 };
@@ -7,7 +8,7 @@ header
 // generic 
 header ul
 {
-    
+    //
     @extend %generic_unordered_menu;
     @extend %generic_horizontal_ul_centered_menu;
 
@@ -16,8 +17,10 @@ header ul
 //
 header ul li
 {
+    //
     @extend %generic_horizontal_ul_element;
     
+    //
     margin-left: 56px;
     margin-right: 56px;
 
