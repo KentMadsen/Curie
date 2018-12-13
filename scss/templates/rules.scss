@@ -4,7 +4,7 @@
 {
     .hide_on_mobile
     {
-        
+        display: none;
     };
 };
 
@@ -12,6 +12,6 @@
 {
     .hide_on_desktop
     {
-        
+        display: none !important;
     };
 };
