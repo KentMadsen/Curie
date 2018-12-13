@@ -35,13 +35,12 @@
     $range : 100%;
     $range_frame : $range / $t;
 
-    @for $i from 0 to $t + 1
+    @for $i from 0 to ($t + 1)
     {
-        // Calculates
-        // i
+        // current position
         $current_level: $i;
         
-        // current position, procentage
+        // current position in procentage
         $current_frame: ( ( $i ) * $range_frame );
 
         // Generates Frame
