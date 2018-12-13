@@ -3,6 +3,7 @@ header
     //
     @extend %no-margin-and-padding;
     background-color: white;
+    
 
 };
 
@@ -25,8 +26,8 @@ header ul li
     margin-left   : 56px;
     margin-right  : 56px;
 
-    margin-top    : 8px;
-    margin-bottom : 8px;
+    margin-top    : 0px;
+    margin-bottom : 0px;
 };
 
 // Generic header link
