@@ -58,22 +58,8 @@
 
 @keyframes animated_space
 {
+    //
     $first_rotation : 0deg;
-    
-    // in between, 45deg
-
-    $second_rotation : 90deg;
-
-    // in between, 135 deg
-
-    $third_rotation  : 180deg;
-    
-    // in between, 225deg
-
-    $fourth_rotation : 270deg;
-
-    // in between, 315deg
-
     $fifth_rotation  : 359deg;
 
     //
@@ -108,7 +94,17 @@
 
     // Rotation Point ONLY
     0% {
-        
+    -ms-transform :
+        scale( $scale_down,
+               $scale_down );
+
+    -webkit-transform :
+        scale( $scale_down,
+               $scale_down );
+
+    transform :
+        scale( $scale_down,
+               $scale_down );
     }
 
     // <-
