@@ -179,12 +179,11 @@ header ul a li
 // Change position, Center
 .menu_button_icon i
 {
+    @extend %no-margin-or-padding;
+    
     color: #D63031;
 
     font-size: 30px;
-
-    margin  : 0px;
-    padding : 0px;
 
     position : absolute;
 
