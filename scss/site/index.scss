@@ -56,13 +56,13 @@
         -ms-transform :
             scale( $first,
                    $first )
-                   rotate( $start_rotation );
+            rotate( $start_rotation );
 
         /* Safari */
         -webkit-transform :
             scale( $first,
                    $first )
-                   rotate( $start_rotation );
+            rotate( $start_rotation );
         
         /* Normal Browser */
         transform :
@@ -95,7 +95,7 @@
         -ms-transform :
             scale( $third,
                    $third )
-                   rotate( $middle_rotation );;
+            rotate( $middle_rotation );
 
         /* Safari */
         -webkit-transform :
@@ -107,7 +107,7 @@
         transform :
             scale( $third,
                    $third )
-            rotate($middle_rotation);
+            rotate( $middle_rotation );
     }
 
     98% {
@@ -131,12 +131,14 @@
         /* IE 9 */
         -ms-transform :
             scale( $first,
-                   $first ) rotate( $end_rotation );
+                   $first ) 
+            rotate( $end_rotation );
 
         /* Safari */
         -webkit-transform :
             scale( $first,
-                   $first ) rotate( $end_rotation );
+                   $first ) 
+            rotate( $end_rotation );
 
         /* Normal Browser */
         transform :
