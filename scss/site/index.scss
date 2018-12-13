@@ -28,9 +28,6 @@
     // Step size
     $t : 4;
 
-    // subdivision size, calculates interpolation points
-    $subdiv     : 5;
-
     //
         // Full Range size
     $base_full_degrees : ( 360 );
@@ -42,6 +39,8 @@
     $base_size : 1.1;
     $base_max_size : 4.0;
     
+    
+
     // entire range
     $range : 100%;
     
@@ -51,22 +50,35 @@
     // Calc steps
     $range_frame : $range / $t;
     
-
     // Keypoints
     @for $i from 0 to ( $t + 1 )
     {
         // current position
         $current_level: $i;
+        $current_scale: $base_size;
+
+        //
+        $frame_position: ( ($i * $range_frame) %25 );
         
         // current position in procentage
         $current_frame: ( ( $current_level ) * $range_frame );
         $current_degrees: ( $current_level * $base_increment_of_degrees ) + deg;
 
+        @if $frame_position == 0
+        {
+            // make size bigger
+            $current_scale : $base_max_size;
+        }
+        @else
+        {
+            $current_scale : $base_size;
+        }
+
         // Generates Frame
         #{ $current_frame } {
             transform: rotate( $current_degrees )
-                       scale( $base_size,
-                              $base_size );
+                       scale( $current_scale,
+                              $current_scale );
         }
     }
 
