@@ -40,19 +40,22 @@
     $middle_rotation : 0deg;
     $end_rotation : 270deg;
 
+    $scale_start : 1.0;
+    $scale_to : 2.0;
+
     //
     0% {
         /* IE 9 */
         -ms-transform :
-            rotate( $start_rotation );
+            rotate( $start_rotation ) scale($scale_start, $scale_start);
 
         /* Safari */
         -webkit-transform :
-            rotate( $start_rotation );
+            rotate( $start_rotation ) scale($scale_start, $scale_start);
         
         /* Normal Browser */
         transform :
-            rotate( $start_rotation ) scale(1, 1);
+            rotate( $start_rotation ) scale($scale_start, $scale_start);
          
     }
 
@@ -60,31 +63,31 @@
     50% {
         /* IE 9 */
         -ms-transform :
-            rotate( $middle_rotation );
+            rotate( $middle_rotation ) scale($scale_to, $scale_to);
 
         /* Safari */
         -webkit-transform :
-            rotate( $middle_rotation );
+            rotate( $middle_rotation ) scale($scale_to, $scale_to);
         
         /* Normal Browser */
         transform :
             rotate( $middle_rotation ) 
-            scale(4.5, 4.5);
+            scale($scale_to, $scale_to);
     }
 
     
     100% {
         /* IE 9 */
         -ms-transform :
-            rotate( $end_rotation );
+            rotate( $end_rotation ) scale($scale_start, $scale_start);
 
         /* Safari */
         -webkit-transform :
-            rotate( $end_rotation );
+            rotate( $end_rotation ) scale($scale_start, $scale_start);
 
         /* Normal Browser */
         transform :
-            rotate( $end_rotation ) scale(1, 1);
+            rotate( $end_rotation ) scale($scale_start, $scale_start);
  
         
     }
