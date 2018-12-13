@@ -25,7 +25,7 @@
 
 @keyframes animated_space_size
 {
-    $t : 5;
+    $t : 4;
 
     //
     $base_full_degrees : ( 360 - 1 );
@@ -37,18 +37,20 @@
     $range_frame : $range / $t;
 
     // 
-    @for $i from 0 to ($t + 1)
+    @for $i from 0 to ( $t + 1 )
     {
         // current position
         $current_level: $i;
         
         // current position in procentage
         $current_frame: ( ( $i ) * $range_frame );
-        $current_degrees: ($i * $base_increment_of_degrees) + deg;
+        $current_degrees: ( $i * $base_increment_of_degrees ) + deg;
 
         // Generates Frame
         #{ $current_frame } {
             transform: rotate( $current_degrees );
         }
     }
+
+
 }
