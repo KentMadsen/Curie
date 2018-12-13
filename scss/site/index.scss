@@ -57,7 +57,7 @@
     @for $i from 0 to $n
     {
         // Calculates
-        $current_frame: ($i*$frame_increment);
+        $current_frame: ( ( $i + 1 ) * $frame_increment );
 
         // Generates Frame
         #{ $current_frame } {
