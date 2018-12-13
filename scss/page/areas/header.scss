@@ -15,16 +15,6 @@
                              $alpha: $site_header_opacity );
 }
 
-.page_header_area
-{
-    @extend %extend-width;
-
-    position: absolute;
-
-    z-index: 4;
-    top: 0px;
-};
-
 /* 
     Default Settings
 */
