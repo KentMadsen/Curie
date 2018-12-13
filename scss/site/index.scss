@@ -23,76 +23,32 @@
     animation: animated_space_size linear 190s infinite;
 }
 
-/* 
-
-    animation: animated_space_size linear 190s infinite, 
-               animated_space_rotation linear 190s infinite;
-
-        
-        -ms-transform :
-            rotate( $first_rotation );
-
-        -webkit-transform :
-            rotate( $first_rotation );
-
-        transform :
-            rotate( $first_rotation );
-*/
-
-@keyframes animated_space_rotation
-{
-    //
-    $first_rotation : 0deg;
-    $fifth_rotation  : 359deg;
-
-    // Rotate it 360 degrees, starts from 0deg to 359deg
-    from {
-        -ms-transform :
-            rotate( $first_rotation );
-
-        -webkit-transform :
-            rotate( $first_rotation );
-
-        transform :
-            rotate( $first_rotation );
-    }
-
-    to {
-        -ms-transform :
-            rotate( $fifth_rotation );
-        -webkit-transform :
-            rotate( $fifth_rotation );
-        transform :
-            rotate( $fifth_rotation );
-
-    }
-}
-
 @keyframes animated_space_size
 {
     0% {
         transform :
-            scale( 1.0, 1.0 );
+            scale( 1.0, 1.0 ) 
+            rotate(0deg);
     }
 
     25% {
         transform :
-    scale( 2.0, 2.0 );
+    scale( 2.0, 2.0 ) rotate(90deg);
     }
 
     50% {
         transform :
-    scale( 1.0, 1.0  );
+    scale( 1.0, 1.0  ) rotate(180deg);
     }
 
     75% {
         transform :
-    scale( 2.0, 2.0 );
+    scale( 2.0, 2.0 ) rotate(270deg);
     }
     
     100% {
         transform :
-    scale( 1.0, 1.0 );
+    scale( 1.0, 1.0 ) rotate(359deg);
     }
 
 }
