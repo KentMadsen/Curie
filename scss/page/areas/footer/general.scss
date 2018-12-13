@@ -46,18 +46,21 @@ footer
 // Footer containers
 .footer-social
 {
-    
+
 };
 
+// list
 .footer-social ul
 {
     @extend %generic_unordered_menu;
 };
 
+//
 .footer-social ul div li a
 {
 };
 
+// logos
 .footer-social ul div li a i
 {
 };
@@ -70,15 +73,33 @@ footer
 {
 };
 
-// 
+// Social Media links --------------------------------------------------->
+    // Tag: Facebook
+.facebook a
+{
+
+}
+
 .facebook a:hover
 {
 
 };
 
+    // Tag: Instagram
+.instagram a
+{
+
+}
+
 .instagram a:hover
 {
 
+};
+
+    // Tag: Twitter
+.twitter a
+{
+    
 };
 
 .twitter a:hover
@@ -86,11 +107,18 @@ footer
 
 };
 
+// Tag: Youtube
+.youtube a
+{
+
+}
+
 .youtube a:hover
 {
 
 };
 
+// Tag: Mail
 .mail
 {
 
