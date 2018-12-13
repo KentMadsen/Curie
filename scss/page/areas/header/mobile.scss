@@ -64,7 +64,17 @@
     transform: translate(-50%, -50%);
 }
 
-// Animate, combination of js ?
+.open
+{
+    transition-duration: $action-nav-transition;
+    transform: translateY( 200px );
+}
+
+.open
+{
+
+}
+
 .open .open-icon
 {
     display: none;
