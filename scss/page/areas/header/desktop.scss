@@ -12,6 +12,9 @@
 
     overflow: hidden;
     position: fixed;
+    
+    backdrop-filter: blur(13px);
+  background-color: none;
 
     width: 100%;
     
