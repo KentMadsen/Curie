@@ -71,18 +71,18 @@
 %sub-header-resting
 {
     @extend %main_subheader_tab_link;
-    
-
+    color:$document_header_not_active_color;
 };
 
 %sub-header-active
 {
     @extend %main_subheader_tab_link;
-
+    color:$document_header_active_color;
 };
 
 %sub-header-hightlighted
 {
     @extend %main_subheader_tab_link;
 
+    color: $document_header_highlight_color;
 };
