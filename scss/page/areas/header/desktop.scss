@@ -11,20 +11,23 @@
 
 };
 
+/*
+display: grid;
+
+grid-template-columns: auto auto;
+grid-template-rows: auto;
+
+grid-gap: 16px; */
 .subheadermenu
 {
-    display: grid;
-
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-
-    grid-gap: 16px;
-}
+};
 
 .subheader_container
 {
-    grid-area: auto;
+    /*
+    grid-area: auto; */
 
-}
+};
 
+// Floating Header
 @import './desktop_floating.scss';
