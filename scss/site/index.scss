@@ -43,6 +43,7 @@
     //
     0% {
         filter: blur(2px);
+
         /* IE 9 */
         -ms-transform :
             rotate( $start_rotation )
@@ -58,6 +59,10 @@
             rotate( $start_rotation ) 
             scale($scale_start, $scale_start);
          
+    }
+
+    5% {
+        filter: blur(0px);
     }
 
     // Middle
@@ -79,6 +84,9 @@
             scale($scale_to, $scale_to);
     }
 
+    95% {
+        filter: blur(0px);
+    }
     
     100% {
         filter: blur(2px);
