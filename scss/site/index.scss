@@ -56,29 +56,29 @@
                    $first );
 
         /* Safari */
-        -webkit-transform:
+        -webkit-transform :
             scale( $first,
                    $first );
         
         /* Normal Browser */
-        transform:
+        transform :
             scale( $first,
                    $first );
     }
 
     2% {
         /* IE 9 */
-        -ms-transform:
+        -ms-transform :
             scale( $second,
                    $second );
 
         /* Safari */
-        -webkit-transform:
+        -webkit-transform :
             scale( $second,
                    $second );
 
         /* Normal Browser */
-        transform:
+        transform :
             scale( $second,
                    $second );
     }
@@ -86,51 +86,51 @@
     // Middle
     50% {
         /* IE 9 */
-        -ms-transform: 
+        -ms-transform :
             scale( $third,
                    $third );
 
         /* Safari */
-        -webkit-transform:
+        -webkit-transform :
             scale( $third,
                    $third );
         
         /* Normal Browser */
-        transform: 
+        transform :
             scale( $third,
                    $third );
     }
 
     98% {
         /* IE 9 */
-        -ms-transform:
+        -ms-transform :
             scale( $second,
                    $second );
 
         /* Safari */
-        -webkit-transform:
+        -webkit-transform :
             scale( $second,
                    $second ); 
 
         /* Normal Browser */
-        transform: 
+        transform :
             scale( $second,
                    $second );
     }
     
     100% {
         /* IE 9 */
-        -ms-transform:
+        -ms-transform :
             scale( $first,
                    $first );
 
         /* Safari */
-        -webkit-transform:
+        -webkit-transform :
             scale( $first,
                    $first );
 
         /* Normal Browser */
-        transform: 
+        transform :
             scale( $first,
                    $first );
     }
