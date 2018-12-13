@@ -9,7 +9,7 @@
         <title>
             <?php
                 include './functions/statements.php';
-                printTitle('Insight'); 
+                printTitle('Insight');
             ?>
         </title>
     </head>

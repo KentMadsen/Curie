@@ -1,6 +1,5 @@
 <!-- -- Header.html -- -->
-
-<!-- Default dashboard -->
+    <!-- Default dashboard -->
 <header class="page_header_area hide_on_mobile">
     <?php
         include './generics/Header_content.html';
@@ -8,20 +7,21 @@
     ?>
 </header>
 
-<!-- Navigation, for desktop -->
+    <!-- Navigation, for desktop -->
 <header class="page_navigation_area hide_on_mobile">
     <?php
         include './generics/Header_content.html';
     ?>
 </header>
 
-<!--  -->
+    <!--  -->
 <header class="mobile_page_navigation_area hide_on_desktop hide">
-    <?php 
+    <?php
         include './generics/Header_content.html';
     ?>
 </header>
 
+<!-- Nav  -->
 <div class="hide_on_desktop">
     <div class="menu_button" onclick="overlay_click()">
         <div class="menu_button_icon open-icon">

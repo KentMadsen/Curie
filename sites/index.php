@@ -10,7 +10,7 @@
         <title>
             <?php
                 include './functions/statements.php';
-                printTitle('Home'); 
+                printTitle('Home');
             ?>
         </title>
     </head>
