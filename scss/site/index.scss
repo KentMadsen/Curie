@@ -56,7 +56,7 @@
     }
     
     100% {
-        transform : rotate( 359deg )
+        transform : rotate( calc( $degrees_position * 100deg ) )
                     scale( 1.0, 1.0 );
     }
 
