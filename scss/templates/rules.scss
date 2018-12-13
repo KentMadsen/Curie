@@ -1,13 +1,12 @@
 // 
-@media only screen and (max-width: 768px)
+@media only screen and ( max-width: 768px )
 {
-    
     .hide_on_mobile
     {
-        display: none !important;
+        
     };
 };
-@media only screen and (min-width: 769px)
+@media only screen and ( min-width: 769px )
 {
     .hide_on_desktop
     {
