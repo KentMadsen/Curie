@@ -12,16 +12,22 @@
 
     background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
 
-    
-    animation: animated_space_size linear 190s infinite, 
-               animated_space_rotation linear 190s infinite;
-
     position : absolute;
 
     z-index: -1;
 }
 
+
+#cover-container-homepage.animated
+{
+    
+    animation: animated_space_size linear 190s infinite;
+}
+
 /* 
+
+    animation: animated_space_size linear 190s infinite, 
+               animated_space_rotation linear 190s infinite;
 
         
         -ms-transform :
