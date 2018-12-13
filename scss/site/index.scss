@@ -25,14 +25,15 @@
 
 @keyframes animated_space_size
 {
+    // 
     $base_radius : 3.6;
     $base_size : 1.0;
     
     //
-    $expanded_size : 1.0;
+    $t : 10;
 
-    //
-    $n : 3;
+    $range : 100%;
+    $range_frame : $range / $t;
 
     @for $i from 0 to $n
     {
