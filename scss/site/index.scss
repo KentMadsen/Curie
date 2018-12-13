@@ -38,7 +38,8 @@
 .cover-container:hover #cover-container-homepage
 {
     animation-play-state:running;
-    
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes animated_space
