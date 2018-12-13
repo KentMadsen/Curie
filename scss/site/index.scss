@@ -30,6 +30,7 @@
     //
     $base_full_degrees : 360;
     $base_increment_of_degrees : $base_full_degrees / $t;
+
     $base_size : 1.0;
     
     $range : 100%;
@@ -45,9 +46,9 @@
 
         // Generates Frame
         #{ $current_frame } {
-            transform : rotate( ( ( $i * $base_increment_of_degrees ) + deg ), 
+            transform: rotate( ( ( $i * $base_increment_of_degrees ) + deg ),
                                 ( ( $i * $base_increment_of_degrees ) + deg ) )
-                        scale( $base_size, $base_size );
+                       scale( $base_size, $base_size );
         }
     }
 }
