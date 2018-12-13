@@ -15,8 +15,7 @@
 
     
     background-blend-mode: multiply;
-    background-color: darkorange;
-
+    
     animation: animated_space 120s linear infinite;
 
     animation-play-state: initial paused;
@@ -45,6 +44,8 @@
 
     //
     0% {
+        background-color: lightblue;
+
         /* IE 9 */
         -ms-transform :
             rotate( $start_rotation )
@@ -82,6 +83,8 @@
 
     
     100% {
+    background-color: darkorange;
+
         /* IE 9 */
         -ms-transform :
             rotate( $end_rotation ) 
