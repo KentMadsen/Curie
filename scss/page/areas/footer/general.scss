@@ -8,18 +8,26 @@ footer
 .footer-misc p
 {
 };
+
 .footer-misc ul
 {
+    @extend %generic_unordered_menu;
 };
+
 .footer-misc ul a
 {
 };
+
 .footer-misc ul a:hover
 {
+
 };
+
 .footer-misc ul a li
-{ 
+{
+
 };
+
 .footer-contact
 {
     
@@ -27,6 +35,9 @@ footer
 .footer-contact p
 {
 };
+
+
+// Footer containers
 .footer-social
 {
 };
