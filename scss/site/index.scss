@@ -13,9 +13,8 @@
     background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
 
     
-    animation: animated_space_rotation linear 190s,
-               animated_space_size linear 190s;
-    animation-iteration-count : infinite, infinite;
+    animation: animated_space_rotation linear 190s infinite,
+               animated_space_size linear 190s infinite;
 
     position : absolute;
 
