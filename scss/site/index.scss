@@ -1,4 +1,12 @@
 //
+#cover-container-homepage::before
+{
+    transform: scale(1.45,1.45);
+    
+    animation: animated_space linear infinite;
+    animation-play-state: paused;
+}
+
 #cover-container-homepage
 {
     @extend %no-margin-or-padding;
@@ -19,18 +27,13 @@
     position : absolute;
 
     z-index: -1;
-
-    transform: scale(1.45,1.45);
-    
-    animation: animated_space linear infinite;
-    animation-play-state: paused;
-
 }
+
 
 .cover-container:hover #cover-container-homepage
 {
     animation-duration: 180s;
-    animation-play-state:running;
+    animation-play-state:resume;
     
 }
 
