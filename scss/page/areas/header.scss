@@ -45,22 +45,6 @@
 
 }
 
-// Animate, combination of js ?
-.open .open-icon
-{
-    display: none;
-}
-
-.open .close-icon
-{
-    display: block;
-}
-
-.close-icon
-{
-    display: none;
-}
-
 // Standardnised
 .overlay
 {
@@ -84,8 +68,6 @@ header ul
     //
     @extend %no-margin-or-padding;
 
-    text-transform : uppercase;
-
     display   : flex;
     flex-wrap : wrap;
     
@@ -96,10 +78,6 @@ header ul
 header ul a
 {
     @extend %menu-element-header;
-
-    
-    text-decoration : none;
-    
     
     border-bottom : 2px solid rgba( 255, 255,
                                       255, 
@@ -112,7 +90,7 @@ header ul a
     margin-left  : 56px;
 }
 
-// Apply Color
+// Default setup
 header ul a:hover
 {
     

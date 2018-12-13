@@ -63,3 +63,19 @@
     
     transform: translate(-50%, -50%);
 }
+
+// Animate, combination of js ?
+.open .open-icon
+{
+    display: none;
+}
+
+.open .close-icon
+{
+    display: block;
+}
+
+.close-icon
+{
+    display: none;
+}
