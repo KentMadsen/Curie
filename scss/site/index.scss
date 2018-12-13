@@ -46,8 +46,9 @@
     $second:1.5;
     $third:2.2;
 
-    $start_rotation: 0deg;
-    $end_rotation:360deg;
+    $start_rotation : 0deg;
+    $middle_rotation : 180deg;
+    $end_rotation : 360deg;
 
     //
     0% {
@@ -65,7 +66,7 @@
         transform :
             scale( $first,
                    $first )
-                   
+
             rotate( $start_rotation );
          
     }
@@ -102,7 +103,8 @@
         /* Normal Browser */
         transform :
             scale( $third,
-                   $third );
+                   $third ) 
+            rotate($middle_rotation);
     }
 
     98% {
