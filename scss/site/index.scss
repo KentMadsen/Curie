@@ -23,8 +23,8 @@
     animation: animated_space_size linear 260s infinite;
 }
 
-@keyframes animated_space_size
-{
+//@keyframes animated_space_size
+/*{
     // Step size
     $t : 60;
 
@@ -42,7 +42,7 @@
     
 
     // entire range
-    $range : 35%;
+    $range : 100%;
     
     // Calc mid point
     $range_mid: $range / 2;
@@ -51,14 +51,14 @@
     $range_frame : $range / $t;
     
     // Keypoints
-    @for $i from 0 to ( $t + 1 )
-    {
+/*    @for $i from 0 to /*( $t + 1 )
+/*    /*{
         // current position
         $current_level: $i;
         $current_scale: $base_size;
 
         //
-        $frame_position: ( ( $i * $range_frame ) % 25 );
+     /*   $frame_position: ( ( $i * $range_frame ) % 25 );
         
         // current position in procentage
         $current_frame: ( ( $current_level ) * $range_frame );
@@ -67,12 +67,12 @@
         
 
         // Generates Frame
-        #{ $current_frame } {
+       /* #{ $current_frame } {
             transform: rotate( $current_degrees )
                        scale( $current_scale,
                               $current_scale );
         }
-    }
+    } */
 
     // Interpolate points between, 0% -> 50%
    
