@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    
         
-        <?php
+        <?php 
             include './generic_head.php';
         ?>
 
         <title>
             <?php
                 include './functions/statements.php';
-                printTitle('Gallery'); 
+                printTitle('Our Mission'); 
             ?>
         </title>
+        
     </head>
     <body>
         <?php
@@ -23,5 +25,15 @@
         <?php
             include './generics/Footer.html';
         ?>
+        <script src="./script/scripts.js"
+                onload="select_page('header_gallery_link');">
+        </script>
+        
+        <script src="./script/scripts.js"
+                onload="use_overlay();">
+        </script>
+        <script src="./script/scripts.js"
+                onload="init();">
+        </script>
     </body>
 </html>
