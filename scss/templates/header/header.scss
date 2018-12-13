@@ -14,13 +14,14 @@
 %main_header_tab_link
 {
     @extend %link_generic_menu_tab;
-    
+    font-size: $site_header_main_text_size;
 };
 
 //
 %main_subheader_tab_link
 {
     @extend %link_generic_menu_tab;
+    font-size: $site_header_subheader_text_size;
 };
 
 
