@@ -10,7 +10,7 @@
     background-size     : cover;
     background-position : center;
 
-    background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
+    background-image    : url('https://curie.designermadsen.com/sites/images/8.jpg');
 
     position : absolute;
 
@@ -25,18 +25,35 @@
 
 @keyframes animated_space_size
 {
+    // Step size
     $t : 4;
 
+    // subdivision size, calculates interpolation points
+    $subdiv : 10;
+    $subdiv_mid : $subdiv / 2;
+
     //
+        // Full Range size
     $base_full_degrees : ( 360 );
+    
+        // Steps
     $base_increment_of_degrees : $base_full_degrees / $t;
 
+    //
     $base_size : 1.1;
+    $base_max_size : 4.0;
     
+    // entire range
     $range : 100%;
-    $range_frame : $range / $t;
+    
+    // Calc mid point
+    $range_mid: $range / 2;
 
-    // 
+    // Calc steps
+    $range_frame : $range / $t;
+    
+
+    // Keypoints
     @for $i from 0 to ( $t + 1 )
     {
         // current position
@@ -48,8 +65,16 @@
 
         // Generates Frame
         #{ $current_frame } {
-            transform: rotate( $current_degrees ) scale($base_size,$base_size);
+            transform: rotate( $current_degrees )
+                       scale( $base_size,
+                              $base_size );
         }
+    }
+
+    // Interpolate points between, 0% -> 50% -> 100%
+    @for $interpolation_point from 0 to ( $subdiv * $t )
+    {
+
     }
 
 
