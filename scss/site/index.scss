@@ -69,10 +69,6 @@
             // make size bigger
             $current_scale : $base_max_size;
         }
-        @else
-        {
-            $current_scale : $base_size;
-        }
 
         // Generates Frame
         #{ $current_frame } {
