@@ -14,6 +14,7 @@ footer
 
 };
 
+//
 .footer-misc ul
 {
     @extend %generic_unordered_menu;
@@ -21,20 +22,20 @@ footer
 };
 
 // Element
-.footer-misc ul a li
+.footer-misc ul li a
 {
     @extend %generic_horizontal_ul_element;
 
 };
 
 //
-.footer-misc ul a
+.footer-misc ul li a
 {
     @extend %generic_link;
 
 };
 
-.footer-misc ul a:hover
+.footer-misc ul li a:hover
 {
 
 };
