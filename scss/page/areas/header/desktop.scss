@@ -11,6 +11,8 @@
 
 };
 
+//---------------------------------------------------------------------------------- //
+
 .page_header_area ul li a
 {
     @extend %main-header-resting;
@@ -25,6 +27,8 @@
 {
     @extend %main-header-active;
 };
+
+//---------------------------------------------------------------------------------- //
 
 .sub_header_menu_area
 {
@@ -53,15 +57,17 @@
     
 };
 
+// frameworks
 .sub_header_container ul li a
 {
-    
     @extend %sub-header-resting;
+
 };
 
 .sub_header_container ul li a:hover
 {
     @extend %sub-header-hightlighted;
+    
 };
 
 .sub_header_container ul li a:active

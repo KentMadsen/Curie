@@ -11,35 +11,15 @@
         
     };
     
-    .mobile_page_navigation_area ul
-    {
-        
-    };
-    
-    .mobile_page_navigation_area ul a
-    {
-        
-    };
-    
-    .mobile_page_navigation_area ul a:hover
-    {
-        
-        
-    };
-    
-    .mobile_page_navigation_area ul a li
-    {
-        
-    };
-
     .sub_header_menu_area
     {
         grid-template-rows    : auto auto;
         grid-template-columns : auto;
     
-        grid-gap: 32px;
-    }
+        grid-gap: $site_header_subheader_gap;
+    };
     
+    //
     .selected_page
     {
         
@@ -47,6 +27,12 @@
     };
 
     .selected_page:hover
+    {
+        
+        
+    };
+    
+    .selected_page:active
     {
         
         
