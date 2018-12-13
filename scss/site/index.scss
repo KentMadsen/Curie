@@ -35,7 +35,7 @@
     $range : 100%;
     $range_frame : $range / $t;
 
-    @for $i from 0 to $n
+    @for $i from 0 to $t
     {
         // Calculates
         $current_frame: ( ( $i + 1 ) * $frame_increment );
