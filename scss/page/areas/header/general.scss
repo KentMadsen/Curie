@@ -34,7 +34,22 @@ header div ul li
     padding-top: 6px;
     padding-bottom: 6px;
 
+    border-left: 1px black;
+
 };
+
+header div ul li:first-child
+{
+    border: 0px;
+};
+
+header div ul li:last-child
+{
+    border: 0px;
+
+};
+
+
 
 // Generic header link
 header ul li a
