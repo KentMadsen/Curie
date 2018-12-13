@@ -6,55 +6,22 @@ header
 
 };
 
-// Generic Ul
-//
-    /*
-    @extend %no-margin-or-padding;
-
-    display   : flex;
-    flex-wrap : wrap;
-    
-    justify-content : center; 
-*/
 header ul
 {
 
 };
 
-/*
-    @extend %menu-element-header;
-    
-    // header overlay settings
-    margin-top    : 8px;
-    margin-bottom : 8px;
-
-    margin-right : 56px;
-    margin-left  : 56px; 
-*/
-// Apply Font and Color
 header ul a
 {
     
 };
 
-// Default setup
 header ul a:hover
 {
     
 };
 
-
-/*
-    display : block;
-
-    padding-left  : 8px;
-    padding-right : 8px; 
-*/
-// Apply flex
 header ul a li
 {
 
 };
-
-//
-@import './header/_head.scss';
