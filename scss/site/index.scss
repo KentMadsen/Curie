@@ -22,6 +22,8 @@
     
     animation: animated_space 60s linear infinite;
     animation-play-state: initial paused;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
 
     overflow:hidden;
 
@@ -38,8 +40,6 @@
 .cover-container:hover #cover-container-homepage
 {
     animation-play-state:running;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes animated_space
@@ -56,17 +56,17 @@
     }
 
     2% {
-        -ms-transform: scale($second,$second); /* IE 9 */
-        -webkit-transform: scale($second,$second); /* Safari */
-        transform: scale($second,$second);
+        -ms-transform: scale( $second, $second ); /* IE 9 */
+        -webkit-transform: scale( $second, $second ); /* Safari */
+        transform: scale( $second, $second );
     }
     
     // Middle
 
     50% {
-        -ms-transform: scale( $third, $third); /* IE 9 */
-        -webkit-transform: scale( $third, $third); /* Safari */
-        transform: scale( $third, $third);
+        -ms-transform: scale( $third, $third ); /* IE 9 */
+        -webkit-transform: scale( $third, $third ); /* Safari */
+        transform: scale( $third, $third );
     }
 
     98% {
