@@ -1,18 +1,13 @@
-// 
-@import './_variable.scss';
+// Base Overhead
+@import './base/_head.scss';
 
-@import './templates/generic.scss';
-@import './templates/animation.scss';
+// Generic Templates
+@import './templates/_head.scss';
 
-@import './templates/containers.scss';
+// include generic page elements
+@import './page/_head.scss';
 
-@import './covers.scss';
-
-$header-font: 'Open Sans';
-$footer-font: 'Open Sans';
-
-// include
-@import './page/header.scss';
-@import './page/footer.scss';
-@import './page/body.scss';
-@import './page/rules.scss';
+    // Site Specific.
+        // Index.html,
+        // About.html, etc.
+@import './site/_head.scss';
