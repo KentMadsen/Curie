@@ -71,7 +71,7 @@
     }
 
     // Interpolate points between, 0% -> 50%
-    @for $interpolation_point from 0 to ( ($subdiv + 1) )
+    @for $interpolation_point from 0 to ( ( $subdiv + 1 ) )
     {
         // current position
         $current_level: $interpolation_point;
@@ -82,11 +82,19 @@
         //
         $range_frame_position: $range_area / $subdiv;
 
+        $current_frame: $range_area * $current_level;
+
+        #{ $current_frame }
+        {
+            transform: rotate( $current_degrees )
+                       scale( $base_size,
+                              $base_size );
+        }
 
     }
 
     // Interpolate points between, 50% -> 100%
-    @for $interpolation_point from 0 to ( ($subdiv + 1) )
+    @for $interpolation_point from 0 to ( ( $subdiv + 1 ) )
     {
         // current position
         $current_point : $interpolation_point;
@@ -96,6 +104,14 @@
         // End, Begin
         $range_frame_position: $range_area / $subdiv;
         
+        $current_frame: $range_area * $current_level;
+
+        #{ $current_frame }
+        {
+            transform: rotate( $current_degrees )
+                       scale( $base_size,
+                              $base_size );
+        }
 
     }
 
