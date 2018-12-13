@@ -4,8 +4,8 @@ function resize_cover_index()
     var parent = element.parentElement;
     console.log(parent);
 
-    setWidth(element, parent.clientWidth*2);
-    setHeight(element, parent.clientWidth*2);
+    setWidth(element, parent.clientWidth);
+    setHeight(element, parent.clientWidth);
 }
 
 function setWidth(element, size)
