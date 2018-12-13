@@ -130,95 +130,87 @@ font-size: 0.875rem; */
 }
 
 // Apply default margin
+/*
+margin-top: 16px;
+margin-bottom: 16px;*/
 .footer-social
 {
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 
 
 // Apply default flex ui
+/*
+@extend %no-margin-or-padding;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around; */
 .footer-social ul
 {
-    @extend %no-margin-or-padding;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 // Apply default margin center, text align center, color? width ? Default list.
+/*
+@extend %no-margin-or-padding;
+@extend %margin-center;
+
+@extend %text-center;
+
+color: white;
+
+width: 50px;
+
+display: block;
+
+text-decoration: none;
+list-style-type: none;
+*/
 .footer-social ul div li a
 {
-    @extend %no-margin-or-padding;
-    @extend %margin-center;
-    
-    @extend %text-center;
 
-    color: white;
-
-    width: 50px;
-    
-    display: block;
-
-    text-decoration: none;
-    list-style-type: none;
 }
 
 // apply default size
+/*
+@extend %text-center;
+font-size: 32px;*/
 .footer-social ul div li a i
 {
-    @extend %text-center;
-    font-size: 32px;
 }
 
 // Default size ?
 .footer-social-container
 {
-    width: 50%;
+    /*
+    width: 50%;*/
 }
 
 // Default Container
 .footer-social-container li
 {
-    @extend %margin-center;
+    /*
+    @extend %margin-center; */
 }
 
 // Buttons, Social Media
 .facebook a:hover
 {
-    color:#3b5998;
+    //color:#3b5998;
 }
 
 .instagram a:hover
 {
-    color:#D63031;
+    //color:#D63031;
 }
 
 .twitter a:hover
 {
-    color: #00aced;
+    //color: #00aced;
 }
 
 .youtube a:hover
 {
-    color:#cc181e;
-}
-
-
-// Rules
-@media only screen and (max-width: 768px) 
-{
-    .footer-misc ul a
-    {
-        width: 100%;
-
-        margin  : 0px !important;
-        padding : 0px !important;
-
-        text-align    : center;
-        border-bottom : 1px solid black;
-    }
+   // color:#cc181e;
 }
 
 // Footer
