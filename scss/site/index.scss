@@ -31,6 +31,7 @@
     $expanded_size:2.0;
 
     $expand_propertional_too: 1.5;
+
     // _ Horizontal
     0% {
         transform : rotate( 0deg * $base )
@@ -45,7 +46,7 @@
 
     20% {
         transform : rotate( 0deg * $base )
-                    scale( $base_size, $base_size );
+                    scale( $base_size * $expand_propertional_too, $base_size * $expand_propertional_too );
     }
     // End of Range Area
 
