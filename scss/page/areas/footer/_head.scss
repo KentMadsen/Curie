@@ -1,5 +1,9 @@
 /* Footer SASS Content */
 @import './general.scss';
+
+/* Rules for specific versions */
 @import './desktop.scss';
 @import './mobile.scss';
+
+/* Arbitary Rules */
 @import './rules.scss';
