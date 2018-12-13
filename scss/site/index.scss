@@ -21,6 +21,7 @@
     z-index: -1;
 
     animation: rotating_space linear infinite;
+    transform: scale(1.25,1.25);
 }
 
 .cover-container:hover #cover-container-homepage
