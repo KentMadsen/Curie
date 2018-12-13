@@ -123,10 +123,9 @@
             rotate( $third_rotation )
             scale( $scale_down,
                    $scale_down );
-        transform :
-            rotate( $third_rotation )
-            scale( $scale_down,
-                   $scale_down );
+        transform : scale( $scale_down,
+                           $scale_down )
+            rotate( $third_rotation );
     }
 
     62.5% {
@@ -184,9 +183,8 @@
             scale( $scale_down,
                    $scale_down );
         transform :
-            rotate( $fifth_rotation )
-
             scale( $scale_down,
-                   $scale_down );
+                   $scale_down )
+            rotate( $fifth_rotation );
     }
 }
