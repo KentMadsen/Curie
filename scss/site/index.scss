@@ -50,35 +50,89 @@
 
     //
     0% {
-        -ms-transform: scale($first,$first); /* IE 9 */
-        -webkit-transform: scale($first,$first); /* Safari */
-        transform: scale($first,$first);
+        /* IE 9 */
+        -ms-transform :
+            scale( $first,
+                   $first );
+
+        /* Safari */
+        -webkit-transform:
+            scale( $first,
+                   $first );
+        
+        /* Normal Browser */
+        transform:
+            scale( $first,
+                   $first );
     }
 
     2% {
-        -ms-transform: scale( $second, $second ); /* IE 9 */
-        -webkit-transform: scale( $second, $second ); /* Safari */
-        transform: scale( $second, $second );
+        /* IE 9 */
+        -ms-transform:
+            scale( $second,
+                   $second );
+
+        /* Safari */
+        -webkit-transform:
+            scale( $second,
+                   $second );
+
+        /* Normal Browser */
+        transform:
+            scale( $second,
+                   $second );
     }
     
     // Middle
-
     50% {
-        -ms-transform: scale( $third, $third ); /* IE 9 */
-        -webkit-transform: scale( $third, $third ); /* Safari */
-        transform: scale( $third, $third );
+        /* IE 9 */
+        -ms-transform: 
+            scale( $third,
+                   $third );
+
+        /* Safari */
+        -webkit-transform:
+            scale( $third,
+                   $third );
+        
+        /* Normal Browser */
+        transform: 
+            scale( $third,
+                   $third );
     }
 
     98% {
-        -ms-transform: scale( $second, $second ); /* IE 9 */
-        -webkit-transform: scale( $second, $second ); /* Safari */
-        transform: scale( $second, $second );
+        /* IE 9 */
+        -ms-transform:
+            scale( $second,
+                   $second );
+
+        /* Safari */
+        -webkit-transform:
+            scale( $second,
+                   $second ); 
+
+        /* Normal Browser */
+        transform: 
+            scale( $second,
+                   $second );
     }
     
     100% {
-        -ms-transform: scale( -$first, - $first); /* IE 9 */
-        -webkit-transform: scale(- $first, - $first); /* Safari */
-        transform: scale( -$first, -$first );
+        /* IE 9 */
+        -ms-transform:
+            scale( $first,
+                   $first );
+
+        /* Safari */
+        -webkit-transform:
+            scale( $first,
+                   $first );
+
+        /* Normal Browser */
+        transform: 
+            scale( $first,
+                   $first );
     }
 
 }
