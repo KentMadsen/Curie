@@ -30,19 +30,21 @@
 %main-header-resting
 {
     @extend %main_header_tab_link;
+    font-weight: bold;
 
 };
 
 %main-header-active
 {
     @extend %main_header_tab_link;
+    font-weight: bold;
 
 };
 
 %main-header-hightlighted
 {
     @extend %main_header_tab_link;
-
+    font-weight: bold;
 };
 
 // Main header Alternatives
