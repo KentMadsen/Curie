@@ -3,45 +3,22 @@
 {
     .page_header_area
     {
-        display: none;
+        
     }
 
     .mobile_page_navigation_area
     {
         
-        transition-duration: $action-nav-transition;
-
-        z-index: 4;
-
-        overflow : hidden;
-        position : fixed;
-
-        width  : calc( 100% - 95px );
-        height : 100%;
-
-        right: 0px;
-
-        box-shadow: -6px 0px 
-                    16px 
-                    rgba( 0, 0, 0, 
-                            0.2 );
     }
 
     .mobile_page_navigation_area ul
     {
-        padding : 0px;
-        margin  : 0px;
+        
     }
 
     .mobile_page_navigation_area ul a
     {
-        padding : 0px;
-        margin  : 0px;
-
-        padding-top    : 8px;
-        padding-bottom : 8px;
-
-        width : 100%;
+        
     }
 
     .mobile_page_navigation_area ul a:hover
@@ -52,22 +29,19 @@
 
     .mobile_page_navigation_area ul a li
     {
-        width : 100%;
-
-        text-align : center;
+        
     }
 
     .selected_page
     {
-        border : 0px;
-
+        
         
         
     }
 
     .selected_page:hover 
     {
-        border: 0px;
+        
 
         
     }
