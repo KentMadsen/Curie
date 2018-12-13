@@ -20,13 +20,13 @@
 
 #cover-container-homepage
 {
-    animation: animated_space_size linear 190s infinite;
+    animation: animated_space_size linear 260s infinite;
 }
 
 @keyframes animated_space_size
 {
     // Step size
-    $t : 4;
+    $t : 60;
 
     //
         // Full Range size
