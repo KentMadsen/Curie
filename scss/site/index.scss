@@ -56,7 +56,7 @@
     };
 
     // Range between 2% <-> 23%
-    ( 0 +$frame_increment )% {
+    percentage( 0 +$frame_increment ) {
         transform : rotate( 2deg * $base )
                     scale( $expanded_size_1, $expanded_size_1 );
     };
