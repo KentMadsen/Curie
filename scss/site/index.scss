@@ -13,15 +13,10 @@
     background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
 
     
-    animation: animated_space_rotation linear,
-               animated_space_size linear;
-
-    animation-duration: 190s, 190s;
-
-    
-
+    animation: animated_space_rotation linear 190s,
+               animated_space_size linear 190s;
     animation-iteration-count : infinite, infinite;
-    animation-timing-function : linear, linear;
+
     position : absolute;
 
     z-index: -1;
