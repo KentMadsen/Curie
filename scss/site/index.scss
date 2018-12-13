@@ -65,13 +65,11 @@
     }
 
     5% {
-        filter: blur(1px);
+        filter: blur($none_blur);
     }
 
     // Middle
     50% {
-        
-        filter: blur(1px);
         
         /* IE 9 */
         -ms-transform :
@@ -90,7 +88,7 @@
     }
 
     95% {
-        filter: blur(1px);
+        filter: blur($none_blur);
     }
     
     100% {
