@@ -7,22 +7,21 @@ header
 };
 
 // Generic Ul
-header ul
-{
-    //
+//
     /*
     @extend %no-margin-or-padding;
 
     display   : flex;
     flex-wrap : wrap;
     
-    justify-content : center; */
+    justify-content : center; 
+*/
+header ul
+{
+
 };
 
-// Apply Font and Color
-header ul a
-{
-    /*
+/*
     @extend %menu-element-header;
     
     // header overlay settings
@@ -30,7 +29,12 @@ header ul a
     margin-bottom : 8px;
 
     margin-right : 56px;
-    margin-left  : 56px; */
+    margin-left  : 56px; 
+*/
+// Apply Font and Color
+header ul a
+{
+    
 };
 
 // Default setup
@@ -39,14 +43,17 @@ header ul a:hover
     
 };
 
-// Apply flex
-header ul a li
-{
-    /*
+
+/*
     display : block;
 
     padding-left  : 8px;
-    padding-right : 8px; */
+    padding-right : 8px; 
+*/
+// Apply flex
+header ul a li
+{
+
 };
 
 //
