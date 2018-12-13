@@ -26,7 +26,7 @@
 @keyframes animated_space_size
 {
     $base : 3.6;
-    
+
     // _ Horizontal
     0% {
         transform : rotate( 0deg * $base )
@@ -36,7 +36,7 @@
     // | Vertical
     25% {
         transform : rotate( 25deg * $base )
-                    scale( 4.0, 4.0 );
+                    scale( 1.0, 1.0 );
     }
 
     // _ Horizontal
