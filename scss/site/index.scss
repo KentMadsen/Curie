@@ -36,9 +36,9 @@
 
 @keyframes animated_space
 {
-    $start_rotation : 90eg;
-    $middle_rotation : 0deg;
-    $end_rotation : 270deg;
+    $start_rotation : 45eg;
+    $middle_rotation : 90deg;
+    $end_rotation : 135deg;
 
     $scale_start : 1.0;
     $scale_to : 2.0;
@@ -47,7 +47,7 @@
     0% {
         /* IE 9 */
         -ms-transform :
-            rotate( $start_rotation ) scale($scale_start, $scale_start);
+            rotate( $start_rotation );
 
         /* Safari */
         -webkit-transform :
