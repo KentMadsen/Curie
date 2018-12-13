@@ -73,22 +73,22 @@
     // Rotate it 360 degrees, starts from 0deg to 359deg
     from {
         -ms-transform :
-            rotate( $first_rotation );
+            rotate( $first_rotation ) scale($scale_down, $scale_down);
 
         -webkit-transform :
-            rotate( $first_rotation );
+            rotate( $first_rotation ) scale($scale_down, $scale_down);
 
         transform :
-            rotate( $first_rotation );
+            rotate( $first_rotation ) scale($scale_down, $scale_down);
     }
 
     to {
         -ms-transform :
-            rotate( $fifth_rotation );
+            rotate( $fifth_rotation ) scale($scale_down,$scale_down);
         -webkit-transform :
-            rotate( $fifth_rotation );
+            rotate( $fifth_rotation ) scale($scale_down, $scale_down);
         transform :
-            rotate( $fifth_rotation );
+            rotate( $fifth_rotation ) scale($scale_down, $scale_down);
 
     }
 }
