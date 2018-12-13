@@ -1,21 +1,5 @@
-//
-body
-{
-    @extend %extend-fully;
-    @extend %no-margin-or-padding;
+// Natural First, as it encapsulate the page content
+@import './body.scss';
 
-    display : grid;
-
-    grid-template-rows   : auto auto auto;
-    grid-template-columns: auto;
-
-    grid-gap: 0px;
-}
-
-.page
-{
-    @extend %extend-fully;
-    @extend %no-margin-or-padding;
-
-    z-index: 1;
-}
+// Main area on the page
+@import './main.scss';
