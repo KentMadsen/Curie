@@ -1,9 +1,8 @@
 /* Body SASS Content */
-// includes, main and 
+
+// Generalised Rules
 @import './general.scss';
 
-
-
+//Platform specific rules
 @import './desktop.scss';
 @import './mobile.scss';
-
