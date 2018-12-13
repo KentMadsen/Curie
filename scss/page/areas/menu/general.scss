@@ -5,6 +5,11 @@
     border-bottom: 2px solid $document_header_active_color;
 };
 
+.header-container
+{
+    grid-area: auto;
+}
+
 .selected_page:hover
 {
 
