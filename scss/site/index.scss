@@ -36,9 +36,9 @@
 
 @keyframes animated_space
 {
-    $start_rotation : 0deg;
-    $middle_rotation : 180deg;
-    $end_rotation : 360deg;
+    $start_rotation : 90eg;
+    $middle_rotation : 0deg;
+    $end_rotation : 270deg;
 
     //
     0% {
@@ -68,7 +68,8 @@
         
         /* Normal Browser */
         transform :
-            rotate( $middle_rotation ) scale(4.5, 4.5);
+            rotate( $middle_rotation ) 
+            scale(4.5, 4.5);
     }
 
     
