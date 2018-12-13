@@ -16,11 +16,15 @@
   width: 100%;
 }
 
+%extend-height
+{
+  height: 100%;
+}
+
 %extend-fully
 {
   @extend %extend-width;
-  
-  height: 100%;
+  @extend %extend-height;
 }
 
 %base-fill-area-width
