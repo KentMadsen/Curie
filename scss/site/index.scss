@@ -47,15 +47,18 @@
     0% {
         /* IE 9 */
         -ms-transform :
-            rotate( $start_rotation );
+            rotate( $start_rotation )
+            scale($scale_start, $scale_start);
 
         /* Safari */
         -webkit-transform :
-            rotate( $start_rotation ) scale($scale_start, $scale_start);
+            rotate( $start_rotation ) 
+            scale($scale_start, $scale_start);
         
         /* Normal Browser */
         transform :
-            rotate( $start_rotation ) scale($scale_start, $scale_start);
+            rotate( $start_rotation ) 
+            scale($scale_start, $scale_start);
          
     }
 
@@ -63,11 +66,13 @@
     50% {
         /* IE 9 */
         -ms-transform :
-            rotate( $middle_rotation ) scale($scale_to, $scale_to);
+            rotate( $middle_rotation ) 
+            scale($scale_to, $scale_to);
 
         /* Safari */
         -webkit-transform :
-            rotate( $middle_rotation ) scale($scale_to, $scale_to);
+            rotate( $middle_rotation ) 
+            scale($scale_to, $scale_to);
         
         /* Normal Browser */
         transform :
@@ -79,15 +84,18 @@
     100% {
         /* IE 9 */
         -ms-transform :
-            rotate( $end_rotation ) scale($scale_start, $scale_start);
+            rotate( $end_rotation ) 
+            scale($scale_start, $scale_start);
 
         /* Safari */
         -webkit-transform :
-            rotate( $end_rotation ) scale($scale_start, $scale_start);
+            rotate( $end_rotation ) 
+            scale($scale_start, $scale_start);
 
         /* Normal Browser */
         transform :
-            rotate( $end_rotation ) scale($scale_start, $scale_start);
+            rotate( $end_rotation ) 
+            scale($scale_start, $scale_start);
  
         
     }
