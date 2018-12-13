@@ -34,5 +34,8 @@
         <script src="./script/scripts.js"
                 onload="init();">
         </script>
+        <script src="./script/resize.js" 
+                 onload="resize_cover_index();">
+        </script>
     </body>
 </html>
