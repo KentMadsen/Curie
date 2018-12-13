@@ -1,8 +1,7 @@
 // Generic ul menu, used for 
 %generic_unordered_menu
 {
-    margin  : 0px;
-    padding : 0px;
+    @extend %no-margin-and-padding;
 
     list-style-type : none;
 };
