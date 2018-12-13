@@ -74,7 +74,7 @@
 
     // in between, 315deg
 
-    $fifth_rotation  : 360deg;
+    $fifth_rotation  : 359.99deg;
 
     //
     $scale_up : 2.0;
@@ -140,18 +140,18 @@
     // Rotation Point ONLY
     100% {
         -ms-transform :
-            rotate( $first_rotation )
+            rotate( $fifth_rotation )
 
             scale( $scale_down,
                    $scale_down );
         -webkit-transform :
-            rotate( $first_rotation )
+            rotate( $fifth_rotation )
 
             scale( $scale_down,
                    $scale_down );
         transform :
             scale( $scale_down,
                    $scale_down )
-            rotate( $first_rotation );
+            rotate( $fifth_rotation );
     }
 }
