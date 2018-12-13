@@ -30,37 +30,54 @@ footer
 .footer-social
 {
 };
+
 .footer-social ul
 {
+    @extend %generic_unordered_menu;
 };
+
 .footer-social ul div li a
 {
 };
+
 .footer-social ul div li a i
 {
 };
+
 .footer-social-container
 {
 };
+
 .footer-social-container li
 {
 };
+
+// 
 .facebook a:hover
 {
+
 };
+
 .instagram a:hover
 {
+
 };
+
 .twitter a:hover
 {
+
 };
+
 .youtube a:hover
 {
+
 };
+
 .mail
 {
 
 };
+
 .mail:hover
 {
 
