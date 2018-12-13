@@ -134,7 +134,7 @@ header ul a li
 .hide 
 {
     transform: translateX(100%);
-    transition-duration: 2s;
+    transition-duration: $action-nav-transition;
 }
 
 // Coloor, Background, Circle, Size, Position, Feature
@@ -151,7 +151,7 @@ header ul a li
     //
     position : fixed;
     
-    transition-duration: 2s;
+    transition-duration: $action-nav-transition;
 
     top   : 20px;
     right : 20px;
