@@ -17,8 +17,17 @@ footer
 .footer-misc ul
 {
     @extend %generic_unordered_menu;
+    @extend %generic_horizontal_ul_centered_menu;
 };
 
+// Element
+.footer-misc ul a li
+{
+    @extend %generic_horizontal_ul_element;
+
+};
+
+//
 .footer-misc ul a
 {
     @extend %generic_link;
@@ -26,11 +35,6 @@ footer
 };
 
 .footer-misc ul a:hover
-{
-
-};
-
-.footer-misc ul a li
 {
 
 };
@@ -71,10 +75,12 @@ footer
 
 .footer-social-container
 {
+
 };
 
 .footer-social-container li
 {
+
 };
 
 // Social Media links --------------------------------------------------->

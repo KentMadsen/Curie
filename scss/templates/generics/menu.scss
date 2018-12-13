@@ -10,3 +10,21 @@
 {
     text-decoration: none;
 };
+
+// Used on ul
+    //
+%generic_horizontal_ul_centered_menu
+{
+    display: flex;
+
+    
+
+    justify-content: center;
+}
+
+    //
+%generic_horizontal_ul_element
+{
+    display : block;
+
+}
