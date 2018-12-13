@@ -20,7 +20,7 @@
     width  : 100%;
     height : 100%;
     
-    animation: animated_space 10s linear infinite;
+    animation: animated_space 60s linear infinite;
     animation-play-state: initial paused;
 
     overflow:hidden;
@@ -76,8 +76,8 @@
 
     98% {
         -ms-transform: scale( $second, $second ); /* IE 9 */
-        -webkit-transform: scale( $second, $second); /* Safari */
-        transform: scale( $second, $second);
+        -webkit-transform: scale( $second, $second ); /* Safari */
+        transform: scale( $second, $second );
     }
     
     100% {
