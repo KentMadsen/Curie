@@ -28,13 +28,16 @@ header div ul li
     margin-left   : 56px;
     margin-right  : 56px;
 
-    margin-top    : 0px;
-    margin-bottom : 0px;
+    margin-top    : 4px;
+    margin-bottom : 4px;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+
 };
 
 // Generic header link
 header ul li a
 {
     @extend %generic_link;
-    
 };
