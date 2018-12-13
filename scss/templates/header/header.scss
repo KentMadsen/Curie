@@ -3,7 +3,7 @@
     text-transform : uppercase;
 }
 
-// Link Object 
+// Link Object UL 
 %main_header_tab_link
 {
     @extend %link_base_tab;
@@ -19,13 +19,25 @@
 
 
 // Link Object for the header tab
+    //
 %main_header
 {
 
 };
 
+%main_header_alternative
+{
+
+};
+
+    //
 %sub_header
 {
     
+
+};
+
+%sub_header_alternative 
+{
 
 };
