@@ -42,7 +42,7 @@
 
     $expand_propertional_too: 1.5;
 
-    // _ Horizontal
+    // _ Horizontal: 0
     0% {
         transform : rotate( $rotation_tier_1 * $base )
                     scale( $base_size, $base_size );
@@ -54,7 +54,7 @@
                     scale( $base_size, $base_size );
     }
 
-    // _ Horizontal
+    // _ Horizontal: 180
     50% {
         transform : rotate( $rotation_tier_2 * $base )
                     scale( $base_size, $base_size );
@@ -66,7 +66,7 @@
                     scale( $base_size, $base_size );
     }
     
-    // _ Horizontal
+    // _ Horizontal: 360
     100% {
         // - 1deg, makes sure that it won't become 0
         transform : rotate( ( $rotation_tier_3 - 1deg ) * $base )
