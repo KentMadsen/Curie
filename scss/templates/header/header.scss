@@ -3,18 +3,28 @@
     text-transform : uppercase;
 }
 
-// Link Object UL 
-%main_header_tab_link
+%link_generic_menu_tab
 {
     @extend %link_base_tab;
+    font-family  : $menu-text-font;
+}
+
+// Link Object UL 
+//
+%main_header_tab_link
+{
+    @extend %link_generic_menu_tab;
     
-    font-family    : $menu-text-font;
+    font-size: $site_header_main_text_size;
+    
 };
 
+//
 %main_subheader_tab_link
 {
-    @extend %main_header_tab_link;
+    @extend %link_generic_menu_tab;
 
+    font-size : $site_header_subheader_text_size;
 };
 
 
