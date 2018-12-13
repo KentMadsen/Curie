@@ -40,9 +40,12 @@
     $scale_start : 2.0;
     $scale_to : 1.25;
 
+    $start_blur:2px;
+    $none_blur: 0px;
+
     //
     0% {
-        filter: blur(2px);
+        filter: blur($start_blur);
 
         /* IE 9 */
         -ms-transform :
@@ -62,7 +65,7 @@
     }
 
     5% {
-        filter: blur(0px);
+        filter: blur(1px);
     }
 
     // Middle
@@ -87,11 +90,12 @@
     }
 
     95% {
-        filter: blur(0px);
+        filter: blur(1px);
     }
     
     100% {
-        filter: blur(2px);
+        filter: blur($start_blur);
+
         /* IE 9 */
         -ms-transform :
             rotate( $end_rotation ) 
