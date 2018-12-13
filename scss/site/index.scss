@@ -38,7 +38,7 @@
     @for $i from 0 to $t
     {
         // Calculates
-        $current_frame: ( ( $i + 1 ) * $frame_increment );
+        $current_frame: ( ( $i + 1 ) * $range_frame );
 
         // Generates Frame
         #{ $current_frame } {
