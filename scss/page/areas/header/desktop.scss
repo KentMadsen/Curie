@@ -10,3 +10,21 @@
 {
 
 };
+
+.subheadermenu
+{
+    display: grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+
+    grid-gap: 16px;
+}
+
+.subheader_container
+{
+    grid-area: auto;
+
+}
+
+@import './desktop_floating.scss';
