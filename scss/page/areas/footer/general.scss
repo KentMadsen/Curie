@@ -1,13 +1,17 @@
 footer
 {
+    @extend %no-margin-and-padding;
 
 };
+
 .footer-misc
 {
 };
+
 .footer-misc p
 {
 };
+
 
 .footer-misc ul
 {
@@ -16,6 +20,7 @@ footer
 
 .footer-misc ul a
 {
+
 };
 
 .footer-misc ul a:hover
@@ -32,6 +37,7 @@ footer
 {
     
 };
+
 .footer-contact p
 {
 };
@@ -40,6 +46,7 @@ footer
 // Footer containers
 .footer-social
 {
+    
 };
 
 .footer-social ul
