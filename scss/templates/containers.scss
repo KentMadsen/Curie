@@ -5,13 +5,18 @@
 };
 
 // Normal Screen, low end screen
-@media only screen and ( max-width: 800px )
+@media only screen and ( max-width : 800px )
+{
+
+};
+
+@media only screen and ( max-width : 900px )
 {
 
 };
 
 // Modern Screen
-@media only screen and ( min-width: 1024px )
+@media only screen and ( min-width : 1024px )
 {
 
 };
