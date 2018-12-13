@@ -46,17 +46,20 @@
 
     $expand_propertional_too: 1.5;
 
+    $frame_increment: 25% / 3;
+
+
     // _ Horizontal: 0
     0% {
         transform : rotate( $rotation_tier_1 * $base )
                     scale( $base_size, $base_size );
-    }
+    };
 
     // Range between 2% <-> 23%
-    2% {
+    ( 0% +$frame_increment ) {
         transform : rotate( 2deg * $base )
                     scale( $expanded_size_1, $expanded_size_1 );
-    }
+    };
 
     4% {
         
