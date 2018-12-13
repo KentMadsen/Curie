@@ -43,10 +43,11 @@
         
         // current position in procentage
         $current_frame: ( ( $i ) * $range_frame );
+        $current_degrees: ($i * $base_increment_of_degrees) + deg;
 
         // Generates Frame
         #{ $current_frame } {
-            transform: rotate( ( ( $i * $base_increment_of_degrees ) + deg ), ( ( $i * $base_increment_of_degrees ) + deg ) );
+            transform: rotate( $current_degrees, $current_degrees );
         }
     }
 }
