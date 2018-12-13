@@ -64,9 +64,9 @@
         /* Normal Browser */
         transform :
             scale( $first,
-                   $first );
-
-        transform: rotate( $start_rotation );
+                   $first )
+                   
+            rotate( $start_rotation );
          
     }
 
@@ -136,9 +136,10 @@
         /* Normal Browser */
         transform :
             scale( $first,
-                   $first ); 
+                   $first )
 
-        transform : rotate( $end_rotation );
+            rotate( $end_rotation );
+ 
         
     }
 
