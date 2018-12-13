@@ -1,16 +1,15 @@
 %link_base_tab
 {
-    text-transform: uppercase;
+    text-transform : uppercase;
 }
 
 %link_generic_menu_tab
 {
     @extend %link_base_tab;
-    font-family: $menu-text-font;
+    font-family: $body-document-title-font;
 }
 
 // Link Object UL 
-//
 %main_header_tab_link
 {
     @extend %link_generic_menu_tab;
@@ -48,7 +47,7 @@
 %main-header-hightlighted
 {
     @extend %main_header_tab_link;
-    
+
     font-weight: bold;
     color: $document_header_highlight_color;
 };
