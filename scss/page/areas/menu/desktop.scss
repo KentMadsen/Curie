@@ -8,7 +8,8 @@
 %menu-element-header
 {
     @extend %menu-element;
+
+    text-transform: uppercase;
     
     font-size : 0.875rem;
-
 }
