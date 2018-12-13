@@ -1,5 +1,8 @@
 main
 {
     @extend %no-margin-and-padding;
+    grid-area: auto;
+
+    
     
 };
