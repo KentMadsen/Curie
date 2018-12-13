@@ -14,5 +14,8 @@ body
 
 .page
 {
+    @extend %extend-fully;
+    @extend %no-margin-or-padding;
+
     background-color: white;
 }
