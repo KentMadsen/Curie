@@ -1,10 +1,7 @@
 //
 #cover-container-homepage::before
 {
-    transform: scale(1.45,1.45);
     
-    animation: animated_space linear infinite;
-    animation-play-state: paused;
 }
 
 #cover-container-homepage
@@ -25,6 +22,11 @@
     background-image    : url('https://curie.designermadsen.com/sites/images/6.jpg');
 
     position : absolute;
+
+    transform: scale(1.45,1.45);
+    
+    animation: animated_space linear infinite;
+    animation-play-state: initial paused;
 
     z-index: -1;
 }
