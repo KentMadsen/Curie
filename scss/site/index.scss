@@ -25,39 +25,35 @@
 
 @keyframes animated_space_size
 {
+    $base : 3.6;
     
-    
+    // _ Horizontal
     0% {
-        transform : rotate( 0deg * 3.6 )
+        transform : rotate( 0deg * $base )
                     scale( 1.0, 1.0 );
     }
 
+    // | Vertical
     25% {
-        transform : rotate( 25deg * 3.6 )
-                    scale( 3.0, 3.0 );
+        transform : rotate( 25deg * $base )
+                    scale( 4.0, 4.0 );
     }
 
+    // _ Horizontal
     50% {
-        transform : rotate( 50deg * 3.6 )
-                    scale( 1.0, 1.0  ) ;
+        transform : rotate( 50deg * $base )
+                    scale( 1.0, 1.0 );
     }
+
 
     75% {
-        transform : rotate( 75deg * 3.6 )
-                    scale( 3.0, 3.0 );
-    }
-
-    // 80% - 95%
-    80% {
-        
-    }
-
-    95% {
-
+        transform : rotate( 75deg * $base )
+                    scale( 4.0, 4.0 );
     }
     
+    // _ Horizontal
     100% {
-        transform : rotate( (360deg - 1deg) * 3.6 )
+        transform : rotate( ( 360deg - 1deg ) * $base )
                     scale( 1.0, 1.0 );
     }
 
