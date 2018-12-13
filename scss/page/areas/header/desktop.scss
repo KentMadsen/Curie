@@ -86,8 +86,6 @@
 .sub_header_container ul li a:active
 {
     @extend %sub-header-active;
-    opacity: 1.0;
-
 };
 
 @import './desktop_floating.scss';
