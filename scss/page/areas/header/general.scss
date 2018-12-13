@@ -4,7 +4,7 @@ header
     
 };
 
-//
+// generic 
 header ul
 {
     @extend %generic_unordered_menu;
@@ -12,12 +12,16 @@ header ul
 
 };
 
-header ul li 
+//
+header ul li
 {
     @extend %generic_horizontal_ul_element;
-    
+    margin-left: 56px;
+    margin-right: 56px;
+
 };
 
+// Generic header link
 header ul li a
 {
     @extend %generic_link;
@@ -25,11 +29,6 @@ header ul li a
 };
 
 header ul li a:hover
-{
-    
-};
-
-header ul li a
 {
     
 };
