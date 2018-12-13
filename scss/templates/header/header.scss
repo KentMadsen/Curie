@@ -30,6 +30,7 @@
 %main-header-resting
 {
     @extend %main_header_tab_link;
+    color:$document_header_not_active_color;
     font-weight: bold;
 
 };
@@ -38,6 +39,7 @@
 {
     @extend %main_header_tab_link;
     font-weight: bold;
+    color:$document_header_active_color;
 
 };
 
@@ -45,25 +47,26 @@
 {
     @extend %main_header_tab_link;
     font-weight: bold;
+    color: $document_header_highlight_color;
 };
 
 // Main header Alternatives
 %main-alt-header-resting
 {
     @extend %main_subheader_tab_link;
-
+    color:$document_header_not_active_color;
 };
 
 %main-alt-header-active
 {
     @extend %main_subheader_tab_link;
-
+    color:$document_header_active_color;
 };
 
 %main-alt-header-hightlighted
 {
     @extend %main_subheader_tab_link;
-
+    color: $document_header_highlight_color;
 };
 
 
@@ -83,6 +86,5 @@
 %sub-header-hightlighted
 {
     @extend %main_subheader_tab_link;
-
     color: $document_header_highlight_color;
 };
