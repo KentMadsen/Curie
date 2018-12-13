@@ -37,9 +37,9 @@ header
 header ul
 {
     //
+    /*
     @extend %no-margin-or-padding;
 
-    /*
     display   : flex;
     flex-wrap : wrap;
     
@@ -49,10 +49,10 @@ header ul
 // Apply Font and Color
 header ul a
 {
+    /*
     @extend %menu-element-header;
     
     // header overlay settings
-    /*
     margin-top    : 8px;
     margin-bottom : 8px;
 
@@ -69,9 +69,9 @@ header ul a:hover
 // Apply flex
 header ul a li
 {
+    /*
     display : block;
 
-    /*
     padding-left  : 8px;
     padding-right : 8px; */
 };
