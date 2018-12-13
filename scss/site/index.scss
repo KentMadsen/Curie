@@ -8,17 +8,18 @@
     background-repeat: no-repeat;
     
     background-size     : cover;
-    background-position: center;
+    background-position : center;
 
     background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
 
     
-    animation: animated_space 120s linear infinite;
+    animation: animated_space 190s ease-in-out infinite;
 
-    animation-play-state: initial paused;
+    animation-play-state: initial
+                          paused;
 
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-iteration-count : infinite;
+    animation-timing-function : linear;
     position : absolute;
 
     z-index: -1;
@@ -27,7 +28,7 @@
 
 .cover-container:hover #cover-container-homepage
 {
-    animation-play-state:running;
+    animation-play-state : running;
 }
 
 @keyframes animated_space
