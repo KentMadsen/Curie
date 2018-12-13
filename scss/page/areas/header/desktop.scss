@@ -13,8 +13,8 @@
     overflow: hidden;
     position: fixed;
     
-    backdrop-filter: blur(13px);
-  background-color: none;
+    backdrop-filter: blur(13px) !important;
+  background-color: none !important;
 
     width: 100%;
     
