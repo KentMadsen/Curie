@@ -15,13 +15,6 @@
                              $alpha: $site_header_opacity );
 }
 
-// Apply Color
-.selected_page
-{
-    color : #D63031 !important;
-    border-bottom : 2px solid #D63031 !important;
-}
-
 .page_header_area
 {
     @extend %extend-width;
