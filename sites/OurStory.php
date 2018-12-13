@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    
+        
         <?php 
             include './generic_head.php';
         ?>
+
         <title>
-            Space Education: Our Story
+            <?php
+                include './functions/statements.php';
+                printTitle('Our Story'); 
+            ?>
         </title>
+        
     </head>
     <body>
         <?php
@@ -18,7 +25,6 @@
         <?php
             include './generics/Footer.html';
         ?>
-
         <script src="./script/scripts.js"
                 onload="select_page('header_our_story_link');">
         </script>
