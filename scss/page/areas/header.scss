@@ -4,7 +4,9 @@
     @extend %extend-width;
     @extend %no-overflow;
 
-    
+    transition-duration: $action-nav-transition;
+    transform: translateY(-200px);
+
      z-index: 4;
 
      position : fixed;
