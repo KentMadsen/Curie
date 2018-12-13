@@ -1,17 +1,20 @@
 header
 {
     @extend %no-margin-and-padding;
+    
 };
 
 //
 header ul
 {
     @extend %generic_unordered_menu;
+
 };
 
 header ul a
 {
     @extend %generic_link;
+
 };
 
 header ul a:hover
