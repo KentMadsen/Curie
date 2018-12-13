@@ -1,3 +1,5 @@
+@import './base.scss';
+
 @media only screen and ( max-width: 768px )
 {
     .hide_on_mobile
@@ -5,6 +7,7 @@
         
     };
 };
+
 @media only screen and ( min-width: 769px )
 {
     .hide_on_desktop
