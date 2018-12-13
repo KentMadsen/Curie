@@ -32,12 +32,5 @@ header ul li
 header ul li a
 {
     @extend %generic_link;
-    @extend %main_header_tab_link;
-
-    
-};
-
-header ul li a:hover
-{
     
 };
