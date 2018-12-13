@@ -42,7 +42,7 @@
 
     //
     0% {
-        filter: blur(30px);
+        filter: blur(2px);
         /* IE 9 */
         -ms-transform :
             rotate( $start_rotation )
@@ -62,7 +62,7 @@
 
     // Middle
     50% {
-        filter: blur(30px);
+        filter: blur(0px);
         /* IE 9 */
         -ms-transform :
             rotate( $middle_rotation ) 
@@ -81,7 +81,7 @@
 
     
     100% {
-        filter: blur(30px);
+        filter: blur(2px);
         /* IE 9 */
         -ms-transform :
             rotate( $end_rotation ) 
