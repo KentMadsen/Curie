@@ -30,8 +30,12 @@
     
     }
     
+    50% {
+        transform: scale(150%,150%);
+    }
+
     100% {
-        transform: scale(125%,125%);
+        transform: scale(100%,100%);
     }
 
 }
