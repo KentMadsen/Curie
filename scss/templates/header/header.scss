@@ -1,12 +1,12 @@
 %link_base_tab
 {
-    text-transform : uppercase;
+    text-transform: uppercase;
 }
 
 %link_generic_menu_tab
 {
     @extend %link_base_tab;
-    font-family  : $menu-text-font;
+    font-family: $menu-text-font;
 }
 
 // Link Object UL 
@@ -24,7 +24,7 @@
 {
     @extend %link_generic_menu_tab;
 
-    font-size : $site_header_subheader_text_size;
+    font-size: $site_header_subheader_text_size;
 };
 
 
