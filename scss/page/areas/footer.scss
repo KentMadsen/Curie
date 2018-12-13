@@ -5,7 +5,8 @@ footer
     //
     @extend %base-fill-area-width;
 
-    background-color: $document_footer_color;
+    background-color: rgba( $color: $document_footer_color,
+                            $alpha: $site_footer_opacity);
 }
 
 // Apply Color, ?
