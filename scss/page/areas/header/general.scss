@@ -18,7 +18,8 @@ header ul li
     @extend %generic_horizontal_ul_element;
     margin-left: 56px;
     margin-right: 56px;
-
+    margin-top: 8px;
+    margin-bottom: 8px;
 };
 
 // Generic header link
