@@ -1,10 +1,9 @@
-// Areas
-    // Header & Footer area
+// Menu Area
+@import './menu/_head.scss';
+
+// Header & Footer area
 @import './header/_head.scss';
 @import './footer/_head.scss';
 
-        // Menu Area
-@import './menu/_head.scss';
-    
-        // Body Content Area
+// Body Content Area
 @import './body/_head.scss';
