@@ -9,8 +9,9 @@
      z-index: 4;
 
      position : fixed;
-    
-     background-color : black;
+
+     background-color: rgba( $color: $document_header_overlay_background_color,
+                             $alpha: $site_header_opacity );
 }
 
 // Apply Color
@@ -56,7 +57,8 @@
 .overlay
 {
     background-color: rgba( $color: $document_header_overlay_background_color, 
-                            $alpha: $site_header_opacity);
+                            $alpha: $site_header_opacity );
+
     border-bottom: 1px solid black;
 }
 
