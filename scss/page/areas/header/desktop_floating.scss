@@ -1,12 +1,21 @@
 // Change name, Animate
     // Show / Hide nav bar
     // Header
-    .show
-    {
-        transform: translateX(0px);
-    }
-    
-    .hide 
-    {
-        transform: translateX(100%);
-    }
+.show
+{
+    transform: translateX(0px);
+}
+
+.hide 
+{
+    transform: translateX(100%);
+}
+
+    // Standardnised
+.overlay
+{
+    background-color: rgba( $color: $document_header_overlay_background_color,
+                            $alpha: $site_header_opacity );
+
+    border-bottom: 1px solid black;
+}
