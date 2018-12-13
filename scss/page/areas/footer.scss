@@ -1,39 +1,44 @@
 //
+// Aplly default color ?
 footer
 {
-    @extend %extend-width;
-    @extend %no-margin-or-padding;
+    //
+    @extend %base-fill-area-width;
 
-    background-color: $document_footer_color;
+    background-color: rgba( $color: $document_footer_color,
+                            $alpha: $site_footer_opacity );
 }
 
+// Apply Color, ?
+// Aplly default color ?
 .footer-misc
 {
     @extend %not-selecteble;
-    @extend %no-margin-or-padding;
-    @extend %extend-width;
-
-    font-family: $footer-font;
+    
+    //
+    @extend %base-fill-area-width;
 
     background-color : white;
     color            : black;
 }
 
+// Apply default padding, Justify, Text Transform, Font size, alignment
 .footer-misc p
 {
-    @extend %no-margin-or-padding;
-    @extend %extend-width;
+    //
+    @extend %base-fill-area-width;
 
-    
     padding-top: 0px;
     padding-bottom: 6px;
     
     font-size : 12px;
 
-    text-align      : center;
-    text-transform  : uppercase;
+    //
+    @extend %text-center;
+    @extend %text-to-uppercase;
 }
 
+// Apply default padding, Justify, Texttransform, Position, Font size 
 .footer-misc ul
 {
     @extend %no-margin-or-padding;
@@ -47,11 +52,14 @@ footer
     list-style : none;
 
     justify-content: center;
-    text-transform: uppercase;
+    
+    @extend %text-to-uppercase;
 
     font-size: 0.875rem;
 }
 
+// Apply color, default ui list type
+// Apply margin, Weight
 .footer-misc ul a
 {
      color: black;
@@ -63,6 +71,7 @@ footer
      font-weight: bold;
 }
 
+// Apply Color
 .footer-misc ul a:hover
 {
      color : #D63031;
@@ -73,21 +82,25 @@ footer
     display: block;
 }
 
+// Normal content
+    // Apply Color, Font
 .footer-contact
 {
     margin-top: 16px;
     margin-bottom: 16px;
 
     color: white;
-    font-family:$footer-font; 
+    font-family: $menu-text-font;
 }
 
+// Apply color, interface link
 .mail
 {
     text-decoration: none;
     color:white;
 }
 
+// Apply Color
 .mail:hover
 {
     
@@ -98,18 +111,21 @@ footer
 {
     @extend %no-margin-or-padding;
     @extend %extend-width;
-
-    text-align: center;
+    
+    @extend %text-center;
     
     font-size: 0.875rem;
 }
 
+// Apply default margin
 .footer-social
 {
     margin-top: 16px;
     margin-bottom: 16px;
 }
 
+
+// Apply default flex ui
 .footer-social ul
 {
     @extend %no-margin-or-padding;
@@ -119,14 +135,13 @@ footer
     justify-content: space-around;
 }
 
+// Apply default margin center, text align center, color? width ? Default list.
 .footer-social ul div li a
 {
     @extend %no-margin-or-padding;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    text-align: center;
+    @extend %margin-center;
+    
+    @extend %text-center;
 
     color: white;
 
@@ -138,25 +153,26 @@ footer
     list-style-type: none;
 }
 
+// apply default size
 .footer-social ul div li a i
 {
+    @extend %text-center;
     font-size: 32px;
-    text-align: center;
 }
 
+// Default size ?
 .footer-social-container
 {
     width: 50%;
 }
 
-.footer-social-container li 
+// Default Container
+.footer-social-container li
 {
-    margin-right: auto;
-    margin-left: auto;
-    
-    
+    @extend %margin-center;
 }
 
+// Buttons, Social Media
 .facebook a:hover
 {
     color:#3b5998;
@@ -178,6 +194,7 @@ footer
 }
 
 
+// Rules
 @media only screen and (max-width: 768px) 
 {
     .footer-misc ul a
@@ -191,3 +208,6 @@ footer
         border-bottom : 1px solid black;
     }
 }
+
+// Footer
+@import './footer/_head.scss';

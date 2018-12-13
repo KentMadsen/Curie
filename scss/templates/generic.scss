@@ -1,18 +1,4 @@
-%not-selecteble
-{
-  /* Chrome all / Safari all */
-  -webkit-user-select: none;  
-  
-  /* Firefox all */
-  -moz-user-select: none;
-  
-  /* IE 10+ */
-  -ms-user-select: none;
-
-  /* Likely future */
-  user-select: none;          
-};
-
+//
 %no-margin
 {
   margin  : 0px;
@@ -24,6 +10,7 @@
   padding : 0px;
 }
 
+// page area sizes
 %extend-width
 {
   width: 100%;
@@ -35,3 +22,44 @@
   
   height: 100%;
 }
+
+%base-fill-area-width
+{
+  @extend %no-margin-or-padding;
+  @extend %extend-width;
+}
+
+//
+%no-overflow
+{
+  overflow : hidden;
+}
+
+//
+%text-center
+{
+  text-align: center;
+}
+
+%text-to-uppercase
+{
+  text-transform: uppercase;
+
+}
+//
+%margin-center
+{
+  margin-left  : auto;
+  margin-right : auto;
+}
+
+// Generic Forms
+  // dic form
+%make-circle
+{
+  border-radius : 100%;
+}
+
+//
+@import './header/_head.scss';
+@import './footer/_head.scss';

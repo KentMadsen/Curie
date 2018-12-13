@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
-        <?php
+    
+        
+        <?php 
             include './generic_head.php';
         ?>
+
         <title>
             <?php
                 include './functions/statements.php';
-                printTitle('Home');
+                printTitle('Contact');
             ?>
         </title>
+        
     </head>
-    
     <body>
         <?php
             include './Header.php';
         ?>
         <main>
-            <?php 
-            include './content/index.html';
-            ?>
+
         </main>
         <?php
             include './generics/Footer.html';
         ?>
-        <!-- -->
         <script src="./script/scripts.js"
-                onload="select_page('header_home_link')">
+                onload="select_page('header_contact_link');">
         </script>
-        <script src="./script/scroll.js">
+        
+        <script src="./script/scripts.js"
+                onload="use_overlay();">
         </script>
         <script src="./script/scripts.js"
                 onload="init();">
-        </script>
-        <script src="./script/resize.js" 
-                 onload="resize_cover_index();">
         </script>
     </body>
 </html>

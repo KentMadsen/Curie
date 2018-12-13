@@ -1,5 +1,7 @@
 # Development Files
 #    CSS Files
+*.css
+*.map
 
 #    Images
 *.jpg
@@ -17,3 +19,4 @@
 
 #   Script
 *.bat
+*.iml

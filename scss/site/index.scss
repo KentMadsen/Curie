@@ -1,0 +1,116 @@
+//
+
+#cover-container-homepage
+{
+    @extend %no-margin-or-padding;
+
+    background-repeat: no-repeat;
+    
+    background-size     : cover;
+    background-position: center;
+
+    background-image    : url('https://curie.designermadsen.com/sites/images/4.jpg');
+
+    height : 100%;
+    width  : 100%;
+
+    
+    animation: animated_space 120s linear infinite;
+
+    animation-play-state: initial paused;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position : absolute;
+
+    z-index: -1;
+}
+
+
+.cover-container:hover #cover-container-homepage
+{
+    animation-play-state:running;
+}
+
+@keyframes animated_space
+{
+    $start_rotation : 170deg;
+    $middle_rotation : 180deg;
+    $end_rotation : 190deg;
+
+    $scale_start : 2.0;
+    $scale_to : 1.25;
+
+    $start_blur:2px;
+    $none_blur: 0.5px;
+
+    //
+    0% {
+        filter: blur($start_blur);
+
+        /* IE 9 */
+        -ms-transform :
+            rotate( $start_rotation )
+            scale($scale_start, $scale_start);
+
+        /* Safari */
+        -webkit-transform :
+            rotate( $start_rotation ) 
+            scale($scale_start, $scale_start);
+        
+        /* Normal Browser */
+        transform :
+            rotate( $start_rotation ) 
+            scale($scale_start, $scale_start);
+         
+    }
+
+    5% {
+        filter: blur($none_blur);
+    }
+
+    // Middle
+    50% {
+        
+        /* IE 9 */
+        -ms-transform :
+            rotate( $middle_rotation ) 
+            scale($scale_to, $scale_to);
+
+        /* Safari */
+        -webkit-transform :
+            rotate( $middle_rotation ) 
+            scale($scale_to, $scale_to);
+        
+        /* Normal Browser */
+        transform :
+            rotate( $middle_rotation ) 
+            scale($scale_to, $scale_to);
+    }
+
+    95% {
+        filter: blur($none_blur);
+    }
+    
+    100% {
+        filter: blur($start_blur);
+
+        /* IE 9 */
+        -ms-transform :
+            rotate( $end_rotation ) 
+            scale($scale_start, $scale_start);
+
+        /* Safari */
+        -webkit-transform :
+            rotate( $end_rotation ) 
+            scale($scale_start, $scale_start);
+
+        /* Normal Browser */
+        transform :
+            rotate( $end_rotation ) 
+            scale($scale_start, $scale_start);
+ 
+        
+    }
+
+}

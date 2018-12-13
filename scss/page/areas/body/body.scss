@@ -1,3 +1,4 @@
+//
 body
 {
     @extend %extend-fully;
@@ -11,9 +12,12 @@ body
     grid-gap: 0px;
 }
 
-//
-main
+.page
 {
-    grid-area: auto;
-    min-height: 600px;
+    @extend %extend-fully;
+    @extend %no-margin-or-padding;
+
+    background-color: white;
+
+    z-index: 1;
 }
