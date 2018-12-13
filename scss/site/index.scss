@@ -21,13 +21,17 @@
     z-index: -1;
 
     transform: scale(1.45,1.45);
+    
+    animation: animated_space linear infinite;
+    animation-play-state: paused;
+
 }
 
 .cover-container:hover #cover-container-homepage
 {
     animation-duration: 180s;
+    animation-play-state:running;
     
-    animation: animated_space linear infinite;
 }
 
 @keyframes animated_space
