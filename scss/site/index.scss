@@ -43,16 +43,19 @@
 
 @keyframes animated_space
 {
+    $first: 1.0;
+    $second:1.35;
+
     0% {
-        -ms-transform: scale(1.0,1.0); /* IE 9 */
-        -webkit-transform: scale(1.0,1.0); /* Safari */
-        transform: scale(1.0,1.0);
+        -ms-transform: scale($first,$first); /* IE 9 */
+        -webkit-transform: scale($first,$first); /* Safari */
+        transform: scale($first,$first);
     }
 
     2% {
-        -ms-transform: scale(1.35,1.35); /* IE 9 */
-        -webkit-transform: scale(1.25,1.25); /* Safari */
-        transform: scale(1.25,1.25);
+        -ms-transform: scale($second,$second); /* IE 9 */
+        -webkit-transform: scale($second,$second); /* Safari */
+        transform: scale($second,$second);
     }
     
     50% {
@@ -62,16 +65,16 @@
     }
 
     98% {
-        -ms-transform: scale(1.25,1.25); /* IE 9 */
-        -webkit-transform: scale(1.25,1.25); /* Safari */
-        transform: scale(1.25,1.25);
+        -ms-transform: scale($second,$second); /* IE 9 */
+        -webkit-transform: scale($second,$second); /* Safari */
+        transform: scale($second,$second);
     }
 
     
     100% {
-        -ms-transform: scale(1.0,1.0); /* IE 9 */
-        -webkit-transform: scale(1.0,1.0); /* Safari */
-        transform: scale(1.0,1.0);
+        -ms-transform: scale($first,$first); /* IE 9 */
+        -webkit-transform: scale($first,$first); /* Safari */
+        transform: scale($first,$first);
     }
 
 }
