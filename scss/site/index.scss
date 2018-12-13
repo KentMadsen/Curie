@@ -140,18 +140,18 @@
     // Rotation Point ONLY
     100% {
         -ms-transform :
-            rotate( $fifth_rotation )
+            rotate( $first_rotation )
 
             scale( $scale_down,
                    $scale_down );
         -webkit-transform :
-            rotate( $fifth_rotation )
+            rotate( $first_rotation )
 
             scale( $scale_down,
                    $scale_down );
         transform :
             scale( $scale_down,
                    $scale_down )
-            rotate( $fifth_rotation );
+            rotate( $first_rotation );
     }
 }
