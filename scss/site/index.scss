@@ -1,9 +1,4 @@
 //
-#cover-container-homepage::before
-{
-    
-}
-
 #cover-container-homepage
 {
     @extend %no-margin-or-padding;
@@ -45,7 +40,6 @@
         -ms-transform: scale(1.0,1.0); /* IE 9 */
         -webkit-transform: scale(1.0,1.0); /* Safari */
         transform: scale(1.0,1.0);
-    
     }
     
     50% {
@@ -67,6 +61,7 @@
 {
     #cover-container-homepage
     {
+        animation: animated_space linear infinite;
         animation-play-state:running !important;
 
     }
