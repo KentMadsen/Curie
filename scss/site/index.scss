@@ -25,6 +25,16 @@
 
 @keyframes animated_space_size
 {
+    // Start -> Mid -> End
+    $rotation_tier_1: 0deg;
+    $rotation_tier_2: 50deg;
+    $rotation_tier_3: 100deg;
+    
+    // Ranges for tier 1-2 and 2-3
+    $range_12:25deg;
+    $range_23:75deg;
+
+
     $base : 3.6;
 
     $base_size : 1.0;
@@ -34,43 +44,32 @@
 
     // _ Horizontal
     0% {
-        transform : rotate( 0deg * $base )
+        transform : rotate( $rotation_tier_1 * $base )
                     scale( $base_size, $base_size );
     }
 
-    // Range Area 5% - 20%
-    5% {
-        transform : rotate( 5deg * $base )
-                    scale( $base_size, $base_size );
-    }
-
-    20% {
-        transform : rotate( 20deg * $base )
-                    scale( $base_size * $expand_propertional_too, $base_size * $expand_propertional_too );
-    }
-    // End of Range Area
-
-    // | Vertical
+    // middle of rotation tier 1 and 2
     25% {
-        transform : rotate( 25deg * $base )
+        transform : rotate( $range_12 * $base )
                     scale( $base_size, $base_size );
     }
 
     // _ Horizontal
     50% {
-        transform : rotate( 50deg * $base )
+        transform : rotate( $rotation_tier_2 * $base )
                     scale( $base_size, $base_size );
     }
 
-
+    // middle of rotation tier 2 and 3
     75% {
-        transform : rotate( 75deg * $base )
+        transform : rotate( $range_23 * $base )
                     scale( $base_size, $base_size );
     }
     
     // _ Horizontal
     100% {
-        transform : rotate( ( 360deg - 1deg ) * $base )
+        // - 1deg, makes sure that it won't become 0
+        transform : rotate( ( $rotation_tier_3 - 1deg ) * $base )
                     scale( $base_size, $base_size );
     }
 
