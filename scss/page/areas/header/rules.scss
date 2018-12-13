@@ -8,6 +8,10 @@
 
     .mobile_page_navigation_area
     {
+        
+        transition-duration: 2s;
+        transform: translateX(0px);
+
         z-index: 4;
 
         background-color: black;
