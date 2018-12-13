@@ -7,6 +7,11 @@
 {
 };
 
+.subheadermenu ul 
+{
+    @extend %generic_unordered_menu;
+}
+
 .subheader_container
 {
 
