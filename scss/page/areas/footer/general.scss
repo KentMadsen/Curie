@@ -22,6 +22,7 @@ footer
 
 .footer-misc ul a
 {
+    @extend %generic_link;
 
 };
 
@@ -60,6 +61,7 @@ footer
 //
 .footer-social ul div li a
 {
+    @extend %generic_link;
 };
 
 // logos
@@ -123,6 +125,7 @@ footer
 // Tag: Mail
 .mail
 {
+    @extend %generic_link;
 
 };
 
