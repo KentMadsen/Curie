@@ -34,7 +34,6 @@
 
 .sub_header_container ul
 {
-    // @extend %sub_header;
     @extend %generic_horizontal_ul_centered_menu;
     
 };
@@ -42,12 +41,19 @@
 .sub_header_container ul li a
 {
     @extend %main_subheader_tab_link;
-
+    @extend %sub-header-resting;
 };
 
-.sub_header_container ul li a:hover 
+.sub_header_container ul li a:hover
 {
+    @extend %sub-header-hightlighted;
+};
+
+.sub_header_container ul li a:active
+{
+    @extend %sub-header-active;
 
 };
+
 
 @import './desktop_floating.scss';
