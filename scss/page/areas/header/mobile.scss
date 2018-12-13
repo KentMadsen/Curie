@@ -1,85 +1,36 @@
-// Coloor, Background, Circle, Size, Position, Feature
-// Shadow, layer position
 .menu_button
 {
-    // Feature
-    @extend %selectable;
-    @extend %make-circle;
 
-    // Layer
-    z-index : 4;
-    
-    //
-    position : fixed;
-    
-    transition-duration: $action-nav-transition;
-
-    top   : 20px;
-    right : 20px;
-
-    //
-    width  : 50px;
-    height : 50px;
-
-    //
-    border : 2px solid #D63031;
-    background-color : white;
-}
-
-// Apply Color
+};
 .menu_button:hover div i
 {
-    color: white;
-}
-
-/* Apply extend size */
+    
+};
 .menu_button_icon
 {
-    @extend %extend-fully;
-    position: relative;
-
-}
-
-// Apply color, font size, margin.
-// Change position, Center
+    
+};
 .menu_button_icon i
 {
-    @extend %no-margin-or-padding;
-
-    color: #D63031;
-
-    font-size: 30px;
-
-    position : absolute;
-
-    top  : 50%;
-    left : 50%;
     
-    transform: translate(-50%, -50%);
-}
-
+};
 .open
 {
-    transition-duration: $action-nav-transition;
-    transform: translateY( 200px );
-}
-
+    
+};
 .open
 {
 
-}
-
+};
 .open .open-icon
 {
-    display: none;
-}
-
+    
+};
 .open .close-icon
 {
-    display: block;
-}
-
+    
+};
 .close-icon
 {
-    display: none;
-}
+    
+};
