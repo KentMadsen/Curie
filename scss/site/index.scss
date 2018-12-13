@@ -61,20 +61,20 @@
     };
 
     // Range between 0 + 8.3
-    percentage( $frame_interpolation_from_0_to_25_1 ) {
+    ( $frame_interpolation_from_0_to_25_1 +% ) {
         transform : rotate( 2deg * $base )
                     scale( $expanded_size_1, $expanded_size_1 );
     };
 
     // Range between 8.3 * 2 = 16.6
-    percentage( $frame_interpolation_from_0_to_25_2 ) {
+    ( $frame_interpolation_from_0_to_25_2 +% ) {
         transform : rotate( 4deg * $base )
                     scale( $expanded_size_2, $expanded_size_2 );
 
     }
 
     // Range between 8.3 * 3 = 16.6
-    percentage( $frame_interpolation_from_0_to_25_3 ) {
+    ( $frame_interpolation_from_0_to_25_3 +% ) {
         transform : rotate( 4deg * $base )
                     scale( $expanded_size_3, $expanded_size_2 );
 
