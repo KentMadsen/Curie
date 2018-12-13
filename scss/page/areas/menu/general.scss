@@ -1,7 +1,7 @@
 //
 .selected_page
 {
-    opacity: 1.0;
+    opacity: 1.0 !important;
     color: $document_header_active_color !important;
     border-bottom: 2px solid $document_header_active_color;
 };
