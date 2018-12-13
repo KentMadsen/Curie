@@ -40,12 +40,12 @@
 
     // Range Area 5% - 20%
     5% {
-        transform : rotate( 0deg * $base )
+        transform : rotate( 5deg * $base )
                     scale( $base_size, $base_size );
     }
 
     20% {
-        transform : rotate( 0deg * $base )
+        transform : rotate( 20deg * $base )
                     scale( $base_size * $expand_propertional_too, $base_size * $expand_propertional_too );
     }
     // End of Range Area
