@@ -24,11 +24,12 @@
 
 .page_header_area
 {
+    @extend %extend-width;
+
     position: absolute;
 
     z-index: 4;
     top: 0px;
-    
     
 }
 
@@ -63,7 +64,7 @@
 // Standardnised
 .overlay
 {
-    background-color: rgba( $color: $document_header_overlay_background_color, 
+    background-color: rgba( $color: $document_header_overlay_background_color,
                             $alpha: $site_header_opacity );
 
     border-bottom: 1px solid black;
@@ -94,15 +95,14 @@ header ul
 // Apply Font and Color
 header ul a
 {
-    color:white;
-    font-family : $menu-text-font;
+    @extend %menu-element-clickable;
 
     font-size : 0.875rem;
     
     text-decoration : none;
     
     
-    border-bottom : 2px solid rgba( 255, 255, 
+    border-bottom : 2px solid rgba( 255, 255,
                                       255, 
                                       0.0 );
     
@@ -126,20 +126,6 @@ header ul a li
 
     padding-left  : 8px;
     padding-right : 8px;
-}
-
-// Change name, Animate
-    // Show / Hide nav bar
-    // Header
-.show
-{
-    
-    transform: translateX(0px);
-}
-
-.hide 
-{
-    transform: translateX(100%);
 }
 
 // Coloor, Background, Circle, Size, Position, Feature

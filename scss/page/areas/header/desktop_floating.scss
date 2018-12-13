@@ -1,0 +1,12 @@
+// Change name, Animate
+    // Show / Hide nav bar
+    // Header
+    .show
+    {
+        transform: translateX(0px);
+    }
+    
+    .hide 
+    {
+        transform: translateX(100%);
+    }
