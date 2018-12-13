@@ -64,7 +64,7 @@
         $current_frame: ( ( $current_level ) * $range_frame );
         $current_degrees: ( $current_level * $base_increment_of_degrees ) + deg;
 
-        @if $frame_position == 0
+        @if ($frame_position == 0)
         {
             // make size bigger
             $current_scale : $base_max_size;
