@@ -12,13 +12,14 @@
 
 .header-container:first-child
 {
-    margin-top: 4px;
+    margin-top: 8px;
     border-top: 1px solid black;
 }
 
 .header-container:last-child
 {
     
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
