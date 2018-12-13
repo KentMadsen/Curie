@@ -57,11 +57,13 @@ header ul a
 {
     @extend %menu-element-header;
     
+    // header overlay settings
+    /*
     margin-top    : 8px;
     margin-bottom : 8px;
 
     margin-right : 56px;
-    margin-left  : 56px;
+    margin-left  : 56px; */
 };
 
 // Default setup
@@ -70,7 +72,7 @@ header ul a:hover
     
 };
 
-// Apply Padding
+// Apply flex
 header ul a li
 {
     display : block;
