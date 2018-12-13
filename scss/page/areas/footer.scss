@@ -2,6 +2,7 @@
 // Aplly default color ?
 footer
 {
+    //
     @extend %base-fill-area-width;
 
     background-color: $document_footer_color;
@@ -12,6 +13,8 @@ footer
 .footer-misc
 {
     @extend %not-selecteble;
+    
+    //
     @extend %base-fill-area-width;
 
     background-color : white;
@@ -21,6 +24,7 @@ footer
 // Apply default padding, Justify, Text Transform, Font size, alignment
 .footer-misc p
 {
+    //
     @extend %base-fill-area-width;
 
     padding-top: 0px;
