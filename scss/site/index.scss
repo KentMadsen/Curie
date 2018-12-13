@@ -38,7 +38,7 @@
     $base : 3.6;
 
     $base_size : 1.0;
-    $expanded_size:2.0;
+    $expanded_size_1 : 2.0;
 
     $expand_propertional_too: 1.5;
 
@@ -47,6 +47,19 @@
         transform : rotate( $rotation_tier_1 * $base )
                     scale( $base_size, $base_size );
     }
+
+    // Range between 2% <-> 23%
+    2% {
+        transform : rotate( 2deg * $base )
+                    scale( $expanded_size_1, $expanded_size_1 );
+    }
+
+    23% {
+        transform : rotate( 23deg * $base )
+                    scale( $expanded_size_1, $expanded_size_1 );
+    }
+    // End of Ranges between 2% <-> 23%
+
 
     // middle of rotation tier 1 and 2
     25% {
