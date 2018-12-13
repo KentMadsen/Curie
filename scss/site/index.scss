@@ -25,13 +25,13 @@
 
 @keyframes animated_space_size
 {
-    // 
-    $base_increment_of_degrees : 3.6;
-    $base_size : 1.0;
-    
-    //
     $t : 10;
 
+    //
+    $base_full_degrees : 360;
+    $base_increment_of_degrees : $base_full_degrees / $t;
+    $base_size : 1.0;
+    
     $range : 100%;
     $range_frame : $range / $t;
 
@@ -42,8 +42,8 @@
 
         // Generates Frame
         #{ $current_frame } {
-            transform : rotate( ((($current_frame - 1) * $base_increment_of_degrees)*1deg) )
-                                scale( $base_size, $base_size );
+            transform : rotate( i , i)
+                        scale( $base_size, $base_size );
         }
     }
 }
