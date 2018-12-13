@@ -1,6 +1,8 @@
 //
 #cover-container-homepage
 {
+    @extend %no-margin-or-padding;
+    
     width  : 100%;
     height : 100%;
 
