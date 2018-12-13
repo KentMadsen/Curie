@@ -51,6 +51,7 @@
     display: none;
 }
 
+// Standardnised
 .overlay
 {
     background-color: black;
@@ -65,10 +66,11 @@ header
 
 }
 
+// Margin and padding
 header ul
 {
-    padding : 0px;
-    margin  : 0px;
+    //
+    @extend %no-margin-or-padding;
 
     text-transform : uppercase;
 
@@ -130,18 +132,24 @@ header ul a li
 // Shadow, layer position
 .menu_button
 {
-    Cursor : pointer;
+    // Feature
+    @extend %selectable;
+    @extend %make-circle;
 
+    // Layer
     z-index : 4;
     
+    //
     position : fixed;
 
     top   : 20px;
     right : 20px;
 
+    //
     width  : 50px;
     height : 50px;
 
+    //
     border : 2px solid #D63031;
     background-color : white;
 
@@ -150,9 +158,6 @@ header ul a li
                  rgba( 0, 0, 
                          0, 
                          0.4);
-    
-
-    border-radius : 100%;
 }
 
 // Apply Color
