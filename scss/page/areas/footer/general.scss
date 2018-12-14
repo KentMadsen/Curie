@@ -18,7 +18,7 @@ footer
 .footer-misc p
 {
     padding: 0px;
-    margin-bottom: 6px;
+    padding-bottom: 6px;
 
     text-align: center;
     font-size: 10px;
@@ -47,7 +47,7 @@ footer
 {
     @extend %generic_horizontal_ul_element;
     margin: 0px;
-    
+
     margin-left  : 16px;
     margin-right : 16px;
 
