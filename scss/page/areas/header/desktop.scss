@@ -21,7 +21,7 @@
 };
 
 //
-.page_header_area ul li 
+.page_header_area div ul li 
 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -47,11 +47,14 @@
 
 .sub_header_menu_area
 {
+    //
     display : grid;
     
-    grid-template-rows    : auto;
+    //
+    grid-template-rows    : 1fr;
     grid-template-columns : 1fr 1fr;
     
+    //
     grid-gap : $site_header_subheader_gap;
 };
 
