@@ -16,20 +16,27 @@ body
     grid-gap: 36px;
 }
 
+%extend-width
+{
+    width:100%;
+}
+
 header
 {
-    grid-area: auto;
-
+    @extend %extend-width;
+    grid-area : auto;
 }
 
 main
 {
-    grid-area: auto;
+    @extend %extend-width;
+    grid-area : auto;
 
 }
 
 footer
 {
-    grid-area: auto;
+    @extend %extend-width;
+    grid-area : auto;
 
 }
