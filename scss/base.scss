@@ -16,6 +16,10 @@ body
     grid-gap: 36px;
 }
 
+a {
+    text-decoration: none;
+}
+
 %extend-width
 {
     width:100%;
