@@ -17,6 +17,12 @@ header
     transform: translateY( -98% );
 };
 
+.show-desktop-menu
+{
+    transition: 1s;
+    transform: translateY( 0 ) !important;
+};
+
 // generic 
 header div ul
 {
