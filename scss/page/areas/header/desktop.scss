@@ -12,12 +12,12 @@
 */
 .page_header_area
 {
-    display: grid;
+    display : grid;
 
     grid-template-columns : auto;
     grid-template-rows    : auto auto;
     
-    grid-gap: $site_header_splitted_gap;
+    grid-gap : $site_header_splitted_gap;
 };
 
 .page_header_area div ul
