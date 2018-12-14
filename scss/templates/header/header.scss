@@ -50,6 +50,14 @@
     font-size: $site_header_subheader_text_size;
 };
 
+//
+%main_tiertary_header_tab_link
+{
+    @extend %link_generic_menu_tab;
+
+    font-size: $site_header_tiertary_text_size;
+};
+
 
 // Link Object for the header tab
     //
