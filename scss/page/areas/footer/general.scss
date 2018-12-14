@@ -35,10 +35,11 @@ footer
 .footer-misc ul li
 {
     @extend %generic_horizontal_ul_element;
-
     
     margin-left: 36px;
     margin-right: 36px;
+
+    text-transform: uppercase;
 };
 
 // Links in footer misc.
