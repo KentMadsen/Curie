@@ -50,6 +50,8 @@ header
     @extend %extend-width;
     grid-area : auto;
     width: 100%;
+
+    border:1px solid black;
 }
 
 main
