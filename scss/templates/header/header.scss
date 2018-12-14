@@ -11,14 +11,16 @@
 
 %resting-alternative-state
 {
-
+    color: document_header_not_active_color_alternative;
 };
 
+// Highlight
 %hightlight-state
 {
     color : $document_header_highlight_color;
 };
 
+//
 %active-state
 {
     color : $document_header_active_color;
@@ -28,10 +30,10 @@
 {
     @extend %link_base_tab;
 
-    font-family: $menu-text-font;
+    font-family : $menu-text-font;
 }
 
-// Link Object UL 
+// Link Object UL
 %main_header_tab_link
 {
     @extend %link_generic_menu_tab;
