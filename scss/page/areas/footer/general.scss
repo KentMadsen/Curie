@@ -21,6 +21,10 @@ footer
     @extend %generic_unordered_menu;
     @extend %generic_horizontal_ul_centered_menu;
 
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
 };
 
 // Element in a unordered list
