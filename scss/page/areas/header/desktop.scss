@@ -20,12 +20,19 @@
     grid-gap: 8px;
 };
 
+.page_header_area div ul
+{
+
+    height: none;
+
+}
+
 //
 .page_header_area div ul li 
 {
     margin-top    : 0px;
     margin-bottom : 0px;
-    
+
     height: 100%;
 
     position: relative;
