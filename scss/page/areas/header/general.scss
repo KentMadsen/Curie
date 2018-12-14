@@ -2,7 +2,8 @@ header
 {
     //
     @extend %no-margin-and-padding;
-    background-color: rgba( $color : $document_header_backgroubd,
+
+    background-color: rgba( $color : $document_header_background_color,
                                     $alpha : $site_header_opacity );
     
     grid-area: auto;
