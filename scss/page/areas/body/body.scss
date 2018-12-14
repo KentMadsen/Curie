@@ -8,6 +8,8 @@ body
     
     grid-template-rows: auto auto auto;
     grid-template-columns: auto;
+
+    overflow-x:hidden;
 };
 
 .page
