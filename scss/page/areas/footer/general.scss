@@ -37,25 +37,25 @@ footer
     @extend %generic_unordered_menu;
     @extend %generic_horizontal_ul_centered_menu;
 
-    width: 100%;
+    width : 100%;
     
-    padding: 0px;
+    padding : 0px;
 
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top    : 6px;
+    padding-bottom : 6px;
 
-    margin: 0px;
+    margin : 0px;
 };
 
 // Element in a unordered list
 .footer-misc ul li
 {
     @extend %generic_horizontal_ul_element;
+    
     margin: 0px;
 
     margin-left  : 16px;
     margin-right : 16px;
-
 };
 
 // Links in footer misc.
