@@ -8,20 +8,19 @@
 
 .header-container:first-child
 {
-    border-top: 1px solid black;
+    
 };
 
 .header-container:last-child
 {
-    border-top      : 1px solid black;
-    border-bottom   : 1px solid black;
+    
 };
 
 //
 .selected_page
 {
     opacity: 1.0 !important;
-    
+
     color: $document_header_active_color !important;
 
     border-bottom: 2px solid $document_header_active_color;
