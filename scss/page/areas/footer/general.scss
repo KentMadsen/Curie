@@ -22,9 +22,15 @@ footer
     @extend %generic_horizontal_ul_centered_menu;
 
     width: 100%;
-    padding: 0px;
-    margin: 0px;
     
+    padding: 0px;
+
+    padding-top:6px;
+    padding-bottom: 6px;
+
+    margin: 0px;
+    margin-left: 36px;
+    margin-right: 36px;
 };
 
 // Element in a unordered list
