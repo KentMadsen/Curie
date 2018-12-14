@@ -29,7 +29,8 @@
 //
 .page_header_area ul li 
 {
-    @extend %no-margin-and-padding;
+    margin-top: 0px;
+    margin-bottom: 0px; 
 };
 
 //
