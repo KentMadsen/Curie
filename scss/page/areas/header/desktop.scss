@@ -52,20 +52,22 @@
     grid-area : auto;
 
     //
-    width: 100%;
-    height: 100%;
+    width  : 100%;
+    height : 100%;
 
 };
 
+//
 .sub_header_container ul li 
 {
-    margin:0px;
+    margin : 0px;
 
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 36px;
-    margin-right: 36px;
-}
+    margin-top    : 4px;
+    margin-bottom : 4px;
+
+    margin-left  : 36px;
+    margin-right : 36px;
+};
 
 //
 .sub_header_container:first-child
@@ -76,9 +78,10 @@
 
 .sub_header_container:first-child ul
 {
-    justify-content: left;
+    justify-content : left;
 };
 
+//
 .sub_header_container:last-child
 {
     border-left: 1px solid black;
@@ -86,7 +89,7 @@
 
 .sub_header_container:last-child ul
 {
-    justify-content: right;
+    justify-content : right;
 };
 //
 
