@@ -23,7 +23,7 @@ body
     display : grid;
 
     grid-template-columns : 1fr;
-    grid-template-rows    : "header_area main_area footer_area";
+    grid-template-rows    : auto auto auto;
     
     grid-gap: 36px;
 }
@@ -36,19 +36,19 @@ body
 header
 {
     @extend %extend-width;
-    grid-area : header_area;
+    grid-area : auto;
 }
 
 main
 {
     @extend %extend-width;
-    grid-area : main_area;
+    grid-area : auto;
 
 }
 
 footer
 {
     @extend %extend-width;
-    grid-area : footer_area;
+    grid-area : auto;
 
 }
