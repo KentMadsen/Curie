@@ -8,7 +8,7 @@
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     
-    grid-gap: 16px;
+    grid-gap: 8px;
 };
 
 .page_header_area ul
@@ -58,7 +58,7 @@
 };
 
 //
-.sub_header_container ul li 
+.sub_header_container ul li
 {
     margin : 0px;
 
@@ -97,8 +97,8 @@
     height: 100%;
     padding: 0px;
     
-    margin-top    : 0px;
-    margin-bottom : 0px;
+    margin-top    : 4px;
+    margin-bottom : 4px;
 };
 
 
