@@ -58,11 +58,15 @@ header
 {
     display: grid;
 
+    grid-column: auto auto;
+    grid-row: auto;
+
     grid-gap: 36px;
 }
 
 .sub_header_container
 {
+    grid-area: auto;
 
 }
 
