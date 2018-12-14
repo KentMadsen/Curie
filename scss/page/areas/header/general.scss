@@ -39,17 +39,11 @@ header div ul li
     //
     @extend %generic_horizontal_ul_element;
     
+    height: 100%;
+
     //
     margin-left   : 56px;
     margin-right  : 56px;
-
-    //
-    margin-top    : 4px;
-    margin-bottom : 4px;
-
-    //
-    padding-top    : 6px;
-    padding-bottom : 6px;
 
     //
     padding-left  : 16px;
