@@ -1,8 +1,14 @@
+// Generics
 *
 {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+// Page
 body 
 {
     margin  : 0px;
@@ -14,10 +20,6 @@ body
     grid-template-rows    : auto auto auto;
     
     grid-gap: 36px;
-}
-
-a {
-    text-decoration: none;
 }
 
 %extend-width
