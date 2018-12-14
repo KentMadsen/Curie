@@ -99,7 +99,7 @@
 
 .sub_header_container:first-child ul
 {
-    justify-content : left;
+    justify-content : right;
 };
 
 //
@@ -110,7 +110,7 @@
 
 .sub_header_container:last-child ul
 {
-    justify-content : right;
+    justify-content : left;
 };
 
 .sub_header_container ul li
