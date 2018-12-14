@@ -29,8 +29,6 @@ footer
     padding-bottom: 6px;
 
     margin: 0px;
-    margin-left: 36px;
-    margin-right: 36px;
 };
 
 // Element in a unordered list
@@ -38,6 +36,9 @@ footer
 {
     @extend %generic_horizontal_ul_element;
 
+    
+    margin-left: 36px;
+    margin-right: 36px;
 };
 
 // Links in footer misc.
