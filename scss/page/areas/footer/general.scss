@@ -56,7 +56,6 @@ footer
     margin-left  : 16px;
     margin-right : 16px;
 
-    text-transform: uppercase;
 };
 
 // Links in footer misc.
@@ -64,7 +63,7 @@ footer
 {
     @extend %generic_link;
     @extend %main_tiertary_header_tab_link;
-    
+
     @extend %main-header-resting;
 };
 
