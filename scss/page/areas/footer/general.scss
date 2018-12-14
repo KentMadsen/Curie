@@ -19,7 +19,7 @@ footer
 {
     padding: 0px;
     margin-bottom: 6px;
-    
+
     text-align: center;
     font-size: 10px;
 
@@ -36,7 +36,7 @@ footer
     
     padding: 0px;
 
-    padding-top:6px;
+    padding-top: 6px;
     padding-bottom: 6px;
 
     margin: 0px;
@@ -46,9 +46,10 @@ footer
 .footer-misc ul li
 {
     @extend %generic_horizontal_ul_element;
+    margin: 0px;
     
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left  : 16px;
+    margin-right : 16px;
 
     text-transform: uppercase;
 };
