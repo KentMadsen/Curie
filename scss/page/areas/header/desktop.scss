@@ -135,13 +135,13 @@
 .sub_header_container ul li a
 {
     @extend %sub-header-resting;
-    opacity: $site_header_subheader_opacity_resting;
+    opacity : $site_header_subheader_opacity_resting;
 };
 
 .sub_header_container ul li a:hover
 {
     @extend %sub-header-hightlighted;
-    opacity: $site_header_subheader_opacity_highlighted;
+    opacity : $site_header_subheader_opacity_highlighted;
 };
 
 .sub_header_container ul li a:active
