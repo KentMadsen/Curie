@@ -58,8 +58,8 @@ header
 {
     display: grid;
 
-    grid-column: auto auto;
-    grid-row: auto;
+    grid-column: auto;
+    grid-row: auto auto;
 
     grid-gap: 36px;
 }
