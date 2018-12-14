@@ -40,17 +40,17 @@
 //
 .page_header_area ul li a
 {
-    @extend %main-header-resting;
+    font-size: $site_header_tiertary_text_size;
 };
 
 .page_header_area ul li a:hover
 {
-    @extend %main-header-hightlighted;
+    font-size: $site_header_tiertary_text_size;
 };
 
 .page_header_area ul li a:active
 {
-    @extend %main-header-active;
+    font-size: $site_header_tiertary_text_size;
 };
 
 .sub_header_menu_area
