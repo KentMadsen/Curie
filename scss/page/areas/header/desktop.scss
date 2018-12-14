@@ -1,4 +1,13 @@
 /* 
+    States
+*/
+.show-desktop-menu
+{
+    transition : 1s;
+    transform  : translateY( 0 ) !important;
+};
+
+/* 
  *
 */
 .page_header_area
@@ -95,12 +104,12 @@
 .sub_header_container ul li
 {
     height: 100%;
+    
     padding: 0px;
     
     margin-top    : 4px;
     margin-bottom : 4px;
 };
-
 
 //
 
