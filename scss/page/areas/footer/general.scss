@@ -69,7 +69,12 @@ footer
 
 .footer-misc ul li a:hover
 {
+    @extend %main-header-active;
+};
 
+.footer-misc ul li a:active
+{
+    @extend %main-header-active;
 };
 
 //
