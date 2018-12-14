@@ -2,8 +2,10 @@ footer
 {
     @extend %no-margin-and-padding;
     
-    grid-area : auto;
+    grid-area  : auto;
     overflow-x : hidden;
+
+    width: 100%;
 };
 
 .footer-misc
