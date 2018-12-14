@@ -49,6 +49,7 @@ header
 {
     @extend %extend-width;
     grid-area : auto;
+    width: 100%;
 }
 
 main
