@@ -65,18 +65,28 @@
     margin-bottom: 4px;
     margin-left: 36px;
     margin-right: 36px;
-    
 }
 
 //
 .sub_header_container:first-child
 {
     border-right: 1px solid black;
+
+};
+
+.sub_header_container:first-child ul
+{
+    justify-content: left;
 };
 
 .sub_header_container:last-child
 {
     border-left: 1px solid black;
+};
+
+.sub_header_container:last-child ul
+{
+    justify-content: right;
 };
 //
 
