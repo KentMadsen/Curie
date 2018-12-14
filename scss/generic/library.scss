@@ -2,6 +2,8 @@
 {
     display: flex;
 
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 };
 
@@ -13,7 +15,8 @@
 .container-wrapper ul li
 {
     display: inline;
-    margin: 0px;
+
+    margin : 0px;
     padding: 0px;
 
 };
