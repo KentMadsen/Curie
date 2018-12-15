@@ -93,10 +93,8 @@ footer
 
 .container-wrapper ul li
 {
+    @extend %no-margin-and-padding;
     display: block;
-
-    margin : 0px;
-    padding: 0px;
 };
 
 .sub_header_menu_area
