@@ -41,7 +41,7 @@ header
 {
     @extend %extend-width;
     @extend %test-boundary;
-    
+
     grid-area : auto;
 
 };
@@ -54,50 +54,29 @@ header
     grid-template-rows: auto;
 
     grid-gap: 36px;
-}
+};
 
 .sub_header_container
 {
     grid-area: auto;
 
-}
+};
 
 main
 {
     @extend %extend-width;
     grid-area : auto;
 
-}
+};
 
 footer
 {
     @extend %extend-width;
     grid-area : auto;
 
-}
-
-.container-wrapper
-{
-    @extend %extend-width;
 };
 
-.container-wrapper ul
-{
-    display: flex;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-    flex-direction: row;
-
-};
-
-.container-wrapper ul li
-{
-    @extend %no-margin-and-padding;
-    display: block;
-};
-
+//
 .sub_header_menu_area
 {
 
