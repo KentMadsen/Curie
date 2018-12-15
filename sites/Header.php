@@ -1,10 +1,12 @@
 <!-- -- Header.html -- -->
     <!-- Default dashboard -->
-<header class="page_header_area hide_on_mobile">
+<header class="hide_on_mobile">
+    <div class="page_header_area"> 
     <?php
         include './generics/Header_content.html';
         include './generics/subheader.html';
     ?>
+    </div>
 </header>
 
     <!-- Navigation, for desktop -->
