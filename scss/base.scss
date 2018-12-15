@@ -66,6 +66,8 @@ header
     @extend %no-overflow;
     
     grid-area : auto;
+
+    border-bottom: 1px solid black;
 };
 
 //
