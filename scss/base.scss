@@ -40,6 +40,8 @@ body
 header
 {
     @extend %extend-width;
+    @extend %no-overflow;
+    
 
     grid-area : auto;
 };
@@ -92,17 +94,22 @@ a:active
 main
 {
     @extend %extend-width;
+    
     grid-area : auto;
 };
 
 footer
 {
     @extend %extend-width;
+    @extend %no-overflow;
+
     grid-area : auto;
 };
 
 .footer-misc
 {
+    @extend %no-overflow;
+    
 
 };
 
