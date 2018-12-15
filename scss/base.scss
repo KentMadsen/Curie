@@ -32,6 +32,7 @@ body
     margin  : 0px;
     padding : 0px;
 
+
     display : grid;
 
     grid-template-columns : 1fr;
@@ -80,7 +81,7 @@ footer
 
 .container-wrapper
 {
-    width: 100%;
+    @extend %extend-width;
 };
 
 .container-wrapper ul
