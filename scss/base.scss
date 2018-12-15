@@ -40,7 +40,6 @@ body
 header
 {
     @extend %extend-width;
-    @extend %test-boundary;
 
     grid-area : auto;
 };

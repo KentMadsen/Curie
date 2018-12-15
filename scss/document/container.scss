@@ -9,8 +9,8 @@
     @extend %extend-width;
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns : 1fr;
+    grid-template-rows    : auto auto auto;
 
     grid-gap: 8px;
 };
