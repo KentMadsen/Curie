@@ -20,3 +20,8 @@
     @extend %no-margin;
     @extend %no-padding;
 }
+
+%test-boundary
+{
+    border:1px solid greenyellow;
+}
