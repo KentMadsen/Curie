@@ -1,14 +1,13 @@
 .wrapped-menu
 {
-
-};
-
-.wrapped-menu ul
-{
+    display: flex;
     
+    justify-content: center;
+    flex-wrap: wrap;
 };
 
-.wrapped-menu ul li
+.wrapped-menu li
 {
+
     
 };
