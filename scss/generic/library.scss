@@ -1,34 +1,6 @@
 //
-.container-wrapper
+
+%extend-width
 {
-    width: 100%;
-};
-
-.container-wrapper ul
-{
-    display: flex;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-    flex-direction: row;
-
-};
-
-.container-wrapper ul li
-{
-    display: block;
-
-    margin : 0px;
-    padding: 0px;
-};
-
-.sub_header_menu_area
-{
-
-};
-
-.sub_header_container
-{
-
-};
+    width : 100%;
+}
