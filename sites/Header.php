@@ -14,6 +14,7 @@
     <div class="page_navigation_area">
         <?php
             include './generics/Header_content.html';
+            include './generics/subheader.html';
         ?>
     </div>
 </header>
@@ -23,6 +24,7 @@
     <div class="mobile_page_navigation_area">
         <?php
             include './generics/Header_content.html';
+            include './generics/subheader.html';
         ?>
     </div>
 </header>
