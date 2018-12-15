@@ -43,6 +43,16 @@ header
     @extend %test-boundary;
 
     grid-area : auto;
+};
+
+//
+.page_header_area
+{
+    border:1px solid white;
+};
+
+.overlay
+{
 
 };
 
@@ -66,14 +76,12 @@ main
 {
     @extend %extend-width;
     grid-area : auto;
-
 };
 
 footer
 {
     @extend %extend-width;
     grid-area : auto;
-
 };
 
 //
