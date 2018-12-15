@@ -4,7 +4,7 @@
 
 }
 
-a 
+a
 {
     text-decoration: none;
 }
@@ -24,7 +24,7 @@ div
     @extend %no-margin-and-padding;
 };
 
-// Document Page
+// Start of Document
 body 
 {
     @extend %no-margin-and-padding;
@@ -44,6 +44,22 @@ header
 
     grid-area : auto;
 };
+
+//
+a 
+{
+    color: black;
+}
+
+a:hover 
+{
+    color: red;
+}
+
+a:active 
+{
+    color: orange;
+}
 
 //
 .page_header_area
