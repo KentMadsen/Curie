@@ -13,7 +13,7 @@
 <header class="hide_on_mobile">
     <div class="page_navigation_area">
         <?php
-        include './generics/Header_content.html';
+            include './generics/Header_content.html';
         ?>
     </div>
 </header>
@@ -22,7 +22,7 @@
 <header class="hide_on_desktop hide">
     <div class="mobile_page_navigation_area">
         <?php
-        include './generics/Header_content.html';
+            include './generics/Header_content.html';
         ?>
     </div>
 </header>
