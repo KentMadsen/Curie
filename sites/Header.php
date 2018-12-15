@@ -1,6 +1,6 @@
 <!-- -- Header.html -- -->
     <!-- Default dashboard -->
-<header class="hide_on_mobile">
+<header>
     <div class="page_header_area">
     <?php
         include './generics/Header_content.html';
