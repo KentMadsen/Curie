@@ -40,13 +40,14 @@ body
 header
 {
     @extend %extend-width;
+    @extend %test-boundary;
+    
     grid-area : auto;
 
 };
 
 .sub_header_menu_area
 {
-    @extend %test-boundary;
     display : grid;
 
     grid-template-columns: auto auto;
