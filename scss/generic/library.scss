@@ -1,29 +1,35 @@
 //
+$full:100%;
 
 %extend-width
 {
-    width : 100%;
-}
+    width : $full;
+};
+
+%extend-height
+{
+    height: $full;
+};
 
 //
 %no-margin
 {
     margin:0px;
-}
+};
 
 %no-padding
 {
     padding: 0px;
-}
+};
 
 %no-margin-and-padding
 {
     @extend %no-margin;
     @extend %no-padding;
-}
+};
 //
 
 %test-boundary
 {
     border:1px solid greenyellow;
-}
+};
