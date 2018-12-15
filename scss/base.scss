@@ -11,8 +11,7 @@ a
 
 ul 
 {
-    padding: 0px;
-    margin:0px;
+    @extend %no-margin-and-padding;
 }
 
 li 
@@ -22,16 +21,13 @@ li
 
 div 
 {
-    margin: 0px;
-    padding: 0px;
+    @extend %no-margin-and-padding;
 }
 
 // Document Page
 body 
 {
-    margin  : 0px;
-    padding : 0px;
-
+    @extend %no-margin-and-padding;
 
     display : grid;
 
@@ -53,8 +49,8 @@ header
 {
     display: grid;
 
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
 
     grid-gap: 36px;
 }
