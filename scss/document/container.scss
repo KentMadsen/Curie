@@ -1,21 +1,25 @@
 .container-wrapper
 {
+    grid-area: auto;
     @extend %extend-width;
 };
 
 .container-wrapper ul
 {
+    /*
     display: flex;
 
     justify-content: center;
 
     flex-wrap: wrap;
     flex-direction: row;
-
+*/
 };
 
 .container-wrapper ul li
 {
-    @extend %no-margin-and-padding;
-    display: block;
+    /*
+        @extend %no-margin-and-padding;
+        display: block;
+    */
 };
