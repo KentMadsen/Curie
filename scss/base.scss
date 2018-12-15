@@ -1,54 +1,14 @@
 // Generics
+//
 *
 {
 
-}
-
-a
-{
-    text-decoration: none;
-}
-
-ul 
-{
-    @extend %no-margin-and-padding;
-}
-
-li 
-{
-    list-style-type: none;
-}
-
-div 
-{
-    @extend %no-margin-and-padding;
-};
-
-// Start of Document
-body 
-{
-    @extend %no-margin-and-padding;
-
-    display : grid;
-
-    grid-template-columns : 1fr;
-    grid-template-rows    : auto auto auto;
-    
-    grid-gap: 36px;
-};
-
-header
-{
-    @extend %extend-width;
-    @extend %no-overflow;
-    
-
-    grid-area : auto;
 };
 
 //
-a 
+a
 {
+    text-decoration: none;
     color: black;
 };
 
@@ -62,6 +22,50 @@ a:active
 {
     
     color: orange;
+};
+
+//
+ul
+{
+    @extend %no-margin-and-padding;
+};
+
+li
+{
+  
+    list-style-type: none;
+};
+
+//
+div
+{
+    @extend %no-margin-and-padding;
+};
+
+// Start of Document
+    //
+body
+{
+    @extend %no-margin-and-padding;
+
+    display : grid;
+
+    // rows ->
+    grid-template-rows    : auto auto auto;
+
+    // ^ columns
+    grid-template-columns : 1fr;
+    
+    grid-gap: 36px;
+};
+
+    //
+header
+{
+    @extend %extend-width;
+    @extend %no-overflow;
+    
+    grid-area : auto;
 };
 
 //
@@ -91,6 +95,7 @@ a:active
 
 };
 
+    //
 main
 {
     @extend %extend-width;
@@ -98,6 +103,7 @@ main
     grid-area : auto;
 };
 
+    //
 footer
 {
     @extend %extend-width;
