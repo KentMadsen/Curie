@@ -4,11 +4,6 @@
     grid-area: auto;
 };
 
-.container-area
-{
-    grid-area: auto;
-}
-
 .container-area-3
 {
     @extend %extend-width;
@@ -18,4 +13,9 @@
     grid-template-rows: auto;
 
     grid-gap: 8px;
+};
+
+.container-area
+{
+    grid-area: auto;
 };
