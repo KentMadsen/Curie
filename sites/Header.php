@@ -1,7 +1,7 @@
 <!-- -- Header.html -- -->
     <!-- Default dashboard -->
 <header class="hide_on_mobile">
-    <div class="page_header_area"> 
+    <div class="page_header_area">
     <?php
         include './generics/Header_content.html';
         include './generics/subheader.html';
@@ -10,17 +10,21 @@
 </header>
 
     <!-- Navigation, for desktop -->
-<header class="page_navigation_area hide_on_mobile">
-    <?php
+<header class="hide_on_mobile">
+    <div class="page_navigation_area">
+        <?php
         include './generics/Header_content.html';
-    ?>
+        ?>
+    </div>
 </header>
 
     <!--  -->
-<header class="mobile_page_navigation_area hide_on_desktop hide">
-    <?php
+<header class="hide_on_desktop hide">
+    <div class="mobile_page_navigation_area">
+        <?php
         include './generics/Header_content.html';
-    ?>
+        ?>
+    </div>
 </header>
 
 <!-- Nav  -->
