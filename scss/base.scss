@@ -5,45 +5,7 @@
 };
 
 // default
-a
-{
-    color: blue;
-};
-
-a:hover
-{
-    
-    color: blue;
-};
-
-a:active
-{
-    
-    color: blue;
-};
-
-//
-.menu a
-{
-    color:green;
-}
-
-.menu a:hover
-{
-    
-    color: green;
-};
-
-.menu a:active
-{
-    
-    color: green;
-};
-
-
-
-
-//
+// --------------------------------------------------------------------------------------->
 ul
 {
     @extend %no-margin-and-padding;
@@ -61,37 +23,53 @@ div
     @extend %no-margin-and-padding;
 };
 
+
+/* 
+   ===========================================================================================
+   Header Templates
+   ===========================================================================================
+*/
+%menu-state-normal-area
+{
+    font-family:  $primary-menu-font;
+
+    color           : $primary-standard-menu-text-color;
+    background-color: $primary-standard-menu-overlay-color;
+};
+
+%menu-state-active-link
+{
+    color: $primary-passive-color-alt;
+    
+};
+
+%menu-state-hightlight-link
+{
+    color: $primary-passive-color-alt;
+    
+};
+
 // Start of Document
     //
 body
 {
     @extend %no-margin-and-padding;
-
+    
     display : grid;
-
+    
     grid-template: "page_desktop_header"
                    "page_desktop_main"
                    "page_desktop_footer";
-                   
+                       
     grid-gap: 16px;
 };
+    
 
-// Header templates
-%menu-state-normal
-{
-    color: white;
-    background-color: $primary-standard-menu-color;
-};
-
-%normal-state-normal
-{
-    color: black;
-};
-
-
-//
-
-    //
+/* 
+   ===========================================================================================
+   Header Area
+   ===========================================================================================
+*/
 header
 {
     @extend %extend-width;
@@ -101,11 +79,11 @@ header
 //
 .page_header_area
 {
-    @extend %menu-state-normal;
-
+    @extend %menu-state-normal-area;
+    @extend %no-margin;
+    
     grid-area: page_desktop_header;
     
-    //
     display : grid;
 
     grid-template-columns : 1fr;
@@ -115,105 +93,68 @@ header
     padding-top     : 8px;
     padding-bottom  : 8px;
 
-    margin: 0px;
-
-
-    grid-gap: 8px;
+    grid-gap : 8px;
 };
 
-.header-container
-{
-    
-};
-
-.overlay
-{
-    @extend %menu-state-normal;
-};
-
-.sub_header_menu_area
-{
-    display : grid;
-
-    grid-template-columns : 1fr 1fr;
-    grid-template-rows    : auto;
-
-    grid-gap : 144px;
-};
-
-.cover-container
-{
-    width: 100%;
-
-    background-color: blue;
-    margin-bottom: 16px;
-};
-
-.sub_header_container
-{
-    grid-area : auto;
-
-};
-
-    //
+/* 
+   ===========================================================================================
+   Main Area
+   ===========================================================================================
+*/
 main
 {
     @extend %extend-width;
-    @extend %menu-state-normal;
     
     grid-area : page_desktop_main;
 };
+
+/* 
+   ===========================================================================================
+   Footer Area
+   ===========================================================================================
+*/
 
     //
 footer
 {
     @extend %extend-width;
+
     @extend %no-overflow;
     @extend %no-padding;
-    
-    @extend %menu-state-normal;
     
     grid-area : page_desktop_footer;
 };
 
+.overlay-menu-page
+{
+    @extend %menu-state-normal-area;
+};
+
+
+/* 
+   ===========================================================================================
+   Footer Area
+   ===========================================================================================
+*/
 .footer-tag-wall
 {
-    font-family: 'montserrat';
+    font-family: $primary-menu-font;
     
     padding-top: 16px;
-};
-
-.footer-tag-wall a
-{
-    color: white;
-    text-transform: capitalize;
-};
-
-.footer-tag-wall a:hover
-{
-    
-    color: red;
-    
-};
-
-.footer-tag-wall a:active
-{
-    color: blue;
 };
 
 .footer-tag-wall p
 {
     @extend %no-margin-and-padding;
-    color:white;
     text-transform: uppercase;
 };
 
-.footer-tag-wall ul 
+.footer-tag-wall ul
 {
     width: 80%;
     
     margin-right: auto;
-    margin-left: auto;
+    margin-left : auto;
 };
 
 .footer-tag-wall ul li
@@ -222,16 +163,16 @@ footer
     margin-left: 24px;
 };
 
-
-
-
-
+/* 
+   ===========================================================================================
+   Footer Area
+   ===========================================================================================
+*/
 .footer-misc
 {
     @extend %no-overflow;
 
-    font-family: 'montserrat';
-    
+    //
     background-color: white;
     text-transform: uppercase;
 
@@ -250,33 +191,38 @@ footer
     margin-bottom: 6px;
 };
 
-//
-.sub_header_menu_area
-{
-
-};
-
-.sub_header_container
-{
-
-};
-
-//
+/* 
+   ===========================================================================================
+   Footer Area
+   ===========================================================================================
+*/
 .menu_element
 {
-    margin-left: 36px;
-    margin-right: 36px;
+    margin-left  : 36px;
+    margin-right : 36px;
+};
+
+.header-menu-overlay
+{
+    color: white;
+};
+
+.header-menu-overlay li a
+{
+    color: white;
 };
 
 .header_menu
 {
-    font-family: 'Quicksand';
 
-    color: black;
     text-transform: uppercase;
 };
 
-// Menus
+/* 
+   ===========================================================================================
+   Footer Area
+   ===========================================================================================
+*/
 .primary_header_menu
 {
     font-size: 0.975rem;
@@ -292,22 +238,26 @@ footer
     font-size: 0.725rem;
 };
 
-//
+/* 
+   ===========================================================================================
+   Footer Area
+   ===========================================================================================
+*/
+
 .primary_footer_menu
 {
-    font-size: 1.225rem;
-    font-weight: bold;
-}
+    font-size   : 1.225rem;
+    font-weight : bold;
+};
 
 .secondary_footer_menu
 {
-    font-size: 0.95rem;
+    font-size : 0.95rem;
 };
 
 .tiertary_footer_menu
 {
-
-    font-size: 0.625rem;
+    font-size : 0.625rem;
 };
 
 .align_to_left_tab
@@ -325,5 +275,11 @@ footer
 {
     justify-content: center;
 };
+
+/* 
+   ===========================================================================================
+   include Area
+   ===========================================================================================
+*/
 
 @import './base_rule.scss';

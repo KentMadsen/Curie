@@ -1,27 +1,13 @@
 <!-- -- Header.html -- -->
     <!-- Default dashboard -->
 <header>
-    <div class="page_header_area">
-    <?php
-        include './generics/Header_content.html';
-        include './generics/subheader.html';
-    ?>
-    </div>
-</header>
-
-    <!-- Navigation, for desktop -->
-<header class="hide_on_mobile page_navigation_area">
-    <div>
+    <div class="hide-on-mobile page_header_area overlay">
         <?php
             include './generics/Header_content.html';
             include './generics/subheader.html';
         ?>
     </div>
-</header>
-
-    <!--  -->
-<header class="hide_on_desktop mobile_page_navigation_area hide">
-    <div>
+    <div class="hide-on-desktop mobile_page_navigation_area overlay">
         <?php
             include './generics/Header_content.html';
             include './generics/subheader.html';

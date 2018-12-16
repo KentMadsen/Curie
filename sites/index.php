@@ -8,7 +8,7 @@
         <title>
             <?php
                 include './functions/statements.php';
-                printTitle('Home');
+                printTitle('HOME');
             ?>
         </title>
     </head>
@@ -17,15 +17,12 @@
         <?php
             include './Header.php';
         ?>
-        
         <?php 
             include './content/index.html';
         ?>
-
         <?php
             include './generics/Footer.html';
         ?>
-        <!-- -->
         <script src="./script/scripts.js"
                 onload="select_page('header_home_link')">
         </script>

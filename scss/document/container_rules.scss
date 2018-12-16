@@ -1,10 +1,11 @@
 /*
     Max width, on screens that are x wide or less, 
 */
-@media only screen and (max-width: $tier-4-screen)
+@media only screen and ( max-width: $tier-4-screen )
 {
     .container-area-3
     {
+        
         
     };
 
@@ -19,7 +20,7 @@
 {
     .container-area-3
     {
-
+      
         
     };
 
@@ -36,17 +37,26 @@
 */
 @media only screen and (max-width : $tier-1-screen)
 {
+    .sub_header_menu_area
+    {
+        grid-template-columns : auto;
+        grid-template-rows    : auto auto;
+
+        grid-gap : 16px;
+    };
+
+    
     .container-area-3
     {
-        
 
     };
+
 };
 
 @media only screen and ( max-width: $tier-0-screen )
 {
     .container-area-3
     {
-
+        
     };
 };

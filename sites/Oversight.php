@@ -2,35 +2,24 @@
 
 <html lang="en">
     <head>
-        
-        <?php 
-            include './generic_head.php';
-        ?>
-
+        <?php include './generic_head.php';?>
         <title>
             <?php
                 include './functions/statements.php';
                 printTitle('Our Mission');
-            ?>
+                ?>
         </title>
     </head>
     
     <body>
-        <?php
-            include './Header.php';
-        ?>
+        <?php include './Header.php'; ?>
         <main>
-            <?php
-                include './content/Insight.html';
-            ?>
+            <?php include './content/Insight.html';?>
         </main>
-        <?php
-            include './generics/Footer.html';
-        ?>
+        <?php include './generics/Footer.html'; ?>
         <script src="./script/scripts.js"
                 onload="select_page('header_oversight_link');">
         </script>
-        
         <script src="./script/scripts.js"
                 onload="use_overlay();">
         </script>

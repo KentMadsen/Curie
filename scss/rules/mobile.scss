@@ -1,45 +1,28 @@
-// Per default
-.page_navigation_area
-{
-    display: none;
-};
-
-.mobile_page_navigation_area
-{
-    display: none;
-};
-
 //
-.hide_on_desktop
-{
-    display: none;
-};
-
-//
-.hide_on_mobile
+.hide-on-mobile
 {
     
 };
 
-.mobile_page_navigation_area
-{ 
-    display: none !important;
+.hide-on-desktop
+{
+    
+};
+
+// Rules
+@media only screen and ( max-width : $tier-4-screen )
+{
+    .hide-on-desktop
+    {
+        display : none;
+    };
 };
 
 //
-@media only screen and ( max-width: 768px )
+@media only screen and ( max-width : $tier-1-screen )
 {
-    .hide_on_mobile
+    .hide-on-mobile
     {
-        display: none !important;
-    };
-
-};
-
-@media only screen and ( min-width: 769px )
-{
-    .hide_on_desktop
-    {
-        display: none !important;
+        display : none;
     };
 };
