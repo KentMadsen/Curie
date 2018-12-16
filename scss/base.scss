@@ -209,11 +209,14 @@ footer
 
 .header-menu-overlay li a
 {
+    font-family: $primary-menu-font;
     color: white;
 };
 
+// Menu
 .header-menu-no-overlay li a 
 {
+    font-family: $primary-menu-font;
     color:black;
 };
 

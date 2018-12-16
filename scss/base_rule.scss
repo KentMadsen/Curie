@@ -4,69 +4,22 @@
 
 };
 
-@media only screen and ( max-width: $tier-3-screen )
-{
-
-};
-
-@media only screen and ( max-width : $tier-2-screen )
-{
-    .menu_element
-    {
-        margin-right: 18px;
-        margin-left: 18px;
-    };
-
-    .sub_header_menu_area
-    {
-        grid-gap: 32px;
-    };
-
-    .secondary_header_menu
-    {
-
-    };
-
-};
 
 @media only screen and ( max-width : $tier-1-screen )
 {
-    .footer-tag-wall
-    {
-        
-    };
-
-    .footer-tag-wall ul
-    {
-        width: 100%;
-    };
-
-    .wrapped-menu
-    {
-
-    };
-
-    .wrapped-menu li
-    {
-
-    };
-
-    .page_header_area .container-wrapper:first-child
-    {
-        font-weight: bold;
-    };
-
     .menu_element
     {
         width : 100%;
      
         margin-left  : 0px;
         margin-right : 0px;
-
-        text-align : center;
-     
+        
         margin-top    : 3px;
         margin-bottom : 3px;
+
+        border-bottom: 1px solid white;
+
+        text-align : center;
     };
 };
 
