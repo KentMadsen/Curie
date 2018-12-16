@@ -4,17 +4,44 @@
     text-decoration: none;
 };
 
+// default
+a
+{
+    color: blue;
+};
+
 a:hover
 {
     
-    color: red;
+    color: blue;
 };
 
 a:active
 {
     
-    color: orange;
+    color: blue;
 };
+
+//
+header a
+{
+
+}
+
+header a:hover
+{
+    
+    color: green;
+};
+
+header a:active
+{
+    
+    color: green;
+};
+
+
+
 
 //
 ul
@@ -49,6 +76,7 @@ body
     grid-gap: 16px;
 };
 
+// Header templates
 %menu-state-normal
 {
     color: white;
@@ -59,6 +87,9 @@ body
 {
     color: black;
 };
+
+
+//
 
     //
 header
