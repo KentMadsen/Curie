@@ -1,7 +1,7 @@
 @import './text.scss';
 
 //
-$full:100%;
+$full : 100%;
 
 %extend-width
 {
@@ -29,8 +29,8 @@ $full:100%;
     @extend %no-margin;
     @extend %no-padding;
 };
-//
 
+//
 %test-boundary
 {
     border:1px solid greenyellow;

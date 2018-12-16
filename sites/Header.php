@@ -10,8 +10,8 @@
 </header>
 
     <!-- Navigation, for desktop -->
-<header class="hide_on_mobile">
-    <div class="page_navigation_area">
+<header class="hide_on_mobile page_navigation_area">
+    <div>
         <?php
             include './generics/Header_content.html';
             include './generics/subheader.html';
@@ -20,25 +20,11 @@
 </header>
 
     <!--  -->
-<header class="hide_on_desktop hide">
-    <div class="mobile_page_navigation_area">
+<header class="hide_on_desktop mobile_page_navigation_area hide">
+    <div>
         <?php
             include './generics/Header_content.html';
             include './generics/subheader.html';
         ?>
     </div>
 </header>
-
-<!-- Nav  -->
-<div class="hide_on_desktop">
-    <div class="menu_button" onclick="overlay_click()">
-        <div class="menu_button_icon open-icon">
-            <i class="fas fa-bars">
-            </i>
-        </div>
-        <div class="menu_button_icon close-icon">
-            <i class="fas fa-times">
-            </i>
-        </div>
-    </div>
-</div>

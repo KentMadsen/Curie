@@ -17,11 +17,11 @@
         <?php
             include './Header.php';
         ?>
-        <main>
-            <?php 
+        
+        <?php 
             include './content/index.html';
-            ?>
-        </main>
+        ?>
+
         <?php
             include './generics/Footer.html';
         ?>

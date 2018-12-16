@@ -1,26 +1,45 @@
-
+// Per default
 .page_navigation_area
 {
     display: none;
-}
+};
 
 .mobile_page_navigation_area
 {
     display: none;
-}
+};
 
+//
 .hide_on_desktop
 {
-    display: none !important;
-}
+    display: none;
+};
 
+//
 .hide_on_mobile
 {
-    display: none !important;
-}
+    
+};
 
 .mobile_page_navigation_area
 { 
     display: none !important;
-}
+};
 
+//
+@media only screen and ( max-width: 768px )
+{
+    .hide_on_mobile
+    {
+        display: none !important;
+    };
+
+};
+
+@media only screen and ( min-width: 769px )
+{
+    .hide_on_desktop
+    {
+        display: none !important;
+    };
+};

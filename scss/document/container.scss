@@ -1,29 +1,39 @@
+// per default
 .container-wrapper
 {
     @extend %extend-width;
-    grid-area: auto;
 };
 
 .container-area-3
 {
     @extend %extend-width;
-    display: grid;
+    @extend %no-padding;
 
-    grid-template-columns : 1fr 1fr 1fr;
-    grid-template-rows    : auto;
-
-    grid-gap: 8px;
+    display : grid;
+    
+    grid-gap: 36px;
 };
 
-.container-area
+//
+.area 
 {
-    grid-area: auto;
-    
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.document-area
+{
+    width: 100%;
 };
 
 .page
 {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    
+    padding-top    : 8px;
+    padding-bottom : 8px;
+
+    
+    margin-bottom: 32px;
+
 };
