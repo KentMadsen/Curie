@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
-        <?php
-            include './generic_head.php';
-        ?>
+        <?php include './generic_head.php'; ?>
         <title>
             <?php
                 include './functions/statements.php';
