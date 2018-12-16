@@ -5,8 +5,16 @@
 };
 
 
-@media only screen and ( max-width : $tier-1-screen )
+@media only screen and ( max-width:$tier-1-screen )
 {
+    .footer-tag-wall
+    {
+        width: 95%;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+
     .menu_element
     {
         width : 100%;
