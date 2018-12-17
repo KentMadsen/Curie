@@ -23,16 +23,5 @@
         <?php
             include './generics/Footer.html';
         ?>
-        <script src="./script/scripts.js"
-                onload="select_page('header_home_link')">
-        </script>
-        <script src="./script/scroll.js">
-        </script>
-        <script src="./script/scripts.js"
-                onload="init();">
-        </script>
-        <script src="./script/resize.js" 
-                 onload="resize_cover_index();">
-        </script>
     </body>
 </html>

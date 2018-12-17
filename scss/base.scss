@@ -54,14 +54,18 @@ div
 body
 {
     @extend %no-margin-and-padding;
-    
+    @extend %no-overflow;
+
     display : grid;
-    
+
     grid-template: "page_desktop_header"
                    "page_desktop_main"
                    "page_desktop_footer";
                        
     grid-gap: 16px;
+    
+
+    background-color: $primary-standard-background-color;
 };
     
 
@@ -108,7 +112,10 @@ header
 */
 main
 {
+    min-height: $main-min-height;
+
     @extend %extend-width;
+    
     
     grid-area : page_desktop_main;
 };
@@ -169,6 +176,11 @@ footer
     margin-left: 24px;
 };
 
+.selected_page
+{
+
+};
+
 /* 
    ===========================================================================================
    Footer Area
@@ -177,6 +189,8 @@ footer
 .footer-misc
 {
     @extend %no-overflow;
+
+    font-family: $primary-menu-font;
 
     //
     background-color: white;
@@ -228,7 +242,7 @@ footer
 
 .header_menu
 {
-    text-transform: uppercase;
+    text-transform: uppercase; 
 };
 
 /* 

@@ -32,8 +32,8 @@
 
     .menu_element
     {
-        margin-left: 16px;
-        margin-right:16px;
+        margin-left: $tier-3-header-menu-space;
+        margin-right:$tier-3-header-menu-space;
     }
 
     .animated-removable
@@ -74,8 +74,8 @@
 
     .menu_element
     {
-        margin-left: 0px;
-        margin-right:0px;
+        margin-left: $tier-2-header-menu-space;
+        margin-right:$tier-2-header-menu-space;
     }
 
     .animated-removable
@@ -113,8 +113,8 @@
     {
         width : 100%;
      
-        margin-left  : 0px;
-        margin-right : 0px;
+        margin-left  : $tier-1-header-menu-space;
+        margin-right : $tier-1-header-menu-space;
         
         margin-top    : 3px;
         margin-bottom : 3px;

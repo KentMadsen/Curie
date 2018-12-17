@@ -21,14 +21,5 @@
         <?php
             include './generics/Footer.html';
         ?>
-        <script src="./script/scripts.js"
-                onload="select_page('header_discover_link');">
-        </script>
-        <script src="./script/scripts.js"
-                onload="use_overlay();">
-        </script>
-        <script src="./script/scripts.js"
-                onload="init();">
-        </script>
     </body>
 </html>
