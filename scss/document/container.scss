@@ -14,6 +14,12 @@
     grid-gap: 36px;
 };
 
+.container-area-3 .container-area
+{
+    grid-column: span 1;
+    text-align: center;
+};
+
 .sub_header_menu_area
 {
     display : grid;
@@ -34,7 +40,6 @@
 {
     
 };
-
 
 //
 .area 
@@ -57,11 +62,6 @@
 
     
     margin-bottom: 8px;
-};
-
-.sub_header_menu_area
-{
-
 };
 
 .sub_header_container

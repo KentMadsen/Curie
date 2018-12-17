@@ -1,18 +1,112 @@
 // Rules
 @media only screen and ( max-width: $tier-4-screen )
 {
+    .footer-tag-wall ul
+    {
+        justify-content: space-around;
+        
+    }
+
+    .footer-tag-wall ul li
+    {
+        
+    }
+
+    .menu_element
+    {
+        
+    }
 
 };
 
-
-@media only screen and ( max-width:$tier-1-screen )
+@media only screen and ( max-width: $tier-3-screen )
 {
-    .footer-tag-wall
+    .footer-tag-wall ul
+    {
+        width: 85%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .menu_element
+    {
+        margin-left: 16px;
+        margin-right:16px;
+    }
+
+    .animated-removable
+    {
+
+    }
+
+    .footer-tag-wall ul li
+    {
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+
+    .sub_header_menu_area
+    {
+        grid-gap: 64px;
+
+    }
+
+};
+
+@media only screen and ( max-width: $tier-2-screen )
+{
+    .footer-tag-wall ul
     {
         width: 95%;
-        margin-right: 0px;
+
+        margin-left: auto;
+        margin-right: auto;
+           
+    }
+
+    .sub_header_menu_area
+    {
+        grid-gap: 32px;
+
+    }
+
+    .menu_element
+    {
         margin-left: 0px;
+        margin-right:0px;
+    }
+
+    .animated-removable
+    {
+        opacity: 0.0;
+    }
+
+    .footer-tag-wall ul li
+    {
         
+    }
+
+    .footer-misc ul li
+    {
+        margin-left: 16px;
+        margin-right: 16px;
+    };
+};
+
+@media only screen and ( max-width : $tier-1-screen )
+{
+    .footer-tag-wall ul
+    {
+        width: 100% !important;
+        justify-content: space-between;
+    }
+
+    .footer-tag-wall ul li
+    {
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .menu_element
@@ -24,8 +118,6 @@
         
         margin-top    : 3px;
         margin-bottom : 3px;
-
-        border-bottom: 1px solid white;
 
         text-align : center;
     };

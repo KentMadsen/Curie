@@ -5,60 +5,53 @@
 {
     .container-area-3
     {
-        background-color: blue;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto;
-        grid-gap: 56px;
+        grid-gap: 64px;
     };
-
-    .container-area-3 .container-area
-    {
-        
-    };
-
 };
 
 @media only screen and (max-width: $tier-3-screen)
 {
     .container-area-3
     {
-        background-color: brown;
-        
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
 
+        grid-gap: 36px;
     };
 
-    .container-area-3 .container-area
+    .sub_header_menu_area
     {
-        
-    };
+        grid-gap: 72px;
 
+    };
 };
 
-@media only screen and (max-width: $tier-2-screen)
+@media only screen and ( max-width: $tier-2-screen )
 {
     .container-area-3
     {
-        
-        background-color: orange;
-      
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
     };
 
     .container-area-3 .container-area:last-child
     {
-        
-        
-        
+        grid-column: span 2;
+    };
+
+    .sub_header_menu_area
+    {
+        grid-gap: 36px;
+
     };
 };
 
 /* 
     Mobiles
 */
-@media only screen and (max-width:$tier-1-screen)
+@media only screen and ( max-width: $tier-1-screen )
 {
     .sub_header_menu_area
     {
@@ -67,19 +60,18 @@
 
         grid-gap : 16px;
     };
-
     
     .container-area-3
     {
-        background-color: green;
-        
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto auto !important;
+
+        grid-gap: 36px !important;
     };
 
     .container-area-3 .container-area
     {
-        text-align: center;
+        grid-column: span 1 !important;
     };
 
 };

@@ -96,6 +96,11 @@ header
     grid-gap : 8px;
 };
 
+.header-menu-overlay
+{
+
+};
+
 /* 
    ===========================================================================================
    Main Area
@@ -151,8 +156,9 @@ footer
 
 .footer-tag-wall ul
 {
-    width: 80%;
-    
+    width: 75%;
+    margin-top: 16px;
+
     margin-right: auto;
     margin-left : auto;
 };
@@ -222,7 +228,6 @@ footer
 
 .header_menu
 {
-
     text-transform: uppercase;
 };
 
@@ -251,11 +256,11 @@ footer
    Footer Area
    ===========================================================================================
 */
-
 .primary_footer_menu
 {
     font-size   : 1.225rem;
     font-weight : bold;
+    
 };
 
 .secondary_footer_menu
@@ -280,6 +285,41 @@ footer
 };
 
 .align_to_tab_center
+{
+    justify-content: center;
+};
+
+
+.primary_header_menu_alignment
+{
+
+};
+
+//
+.sub_header_menu_alignment
+{
+
+};
+
+.sub_header_menu_alignment .sub_header_container:first-child ul
+{
+    justify-content: right;
+
+};
+
+.sub_header_menu_alignment .sub_header_container:last-child ul
+{
+    justify-content: left;
+
+};
+
+//
+.footer_menu_alignment
+{
+    
+};
+
+.footer-menu-misc-alignment
 {
     justify-content: center;
 };
