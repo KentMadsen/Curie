@@ -33,11 +33,11 @@
 {
     .container-area-3
     {
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     };
 
-    .container-area-3 .container-area:last-child
+    .container-area-3 .container-area:first-child
     {
         grid-column: span 2;
     };

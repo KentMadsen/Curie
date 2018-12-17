@@ -194,7 +194,7 @@ footer
 
     //
     text-transform   : uppercase;
-
+    color:white;
 };
 
 .footer-misc ul
@@ -206,7 +206,6 @@ footer
 
 .footer-misc ul li 
 {
-    color: white;
 };
 
 .footer-misc ul .menu_element
@@ -220,7 +219,6 @@ footer
     font-family: $primary-menu-font;
     margin-top: 0px;
     margin-bottom: 6px;
-    color:white;
 };
 
 /* 
@@ -236,7 +234,7 @@ footer
 
 .menu_element a
 {
-
+    color: white;
 };
 
 .menu_element a:hover
@@ -357,56 +355,85 @@ footer
 .sidebar
 {
     z-index: 1;
-    width: 450px;
+    width: 250px;
     height: 100%;
     right: 0px;
 
     position: fixed;
 
+    transform: translateX(175px);
     
     display: grid;
 
     grid-template-rows: auto;
-    grid-template-columns: 100px 0px auto;
+    grid-template-columns: 75px 0px auto;
+
+    transition: 450ms;
 };
 
+.slide
+{
+    flex-wrap: wrap;
+    
+    position: relative;
+    height: 100%;
 
+    display: flex;
+    flex-direction: row;
+};
+
+//
+.is_at_top
+{
+    transform: translateY(45px);
+};
+
+.sidebar-top-bar
+{
+    align-self: flex-start;
+    width:100%;
+}
+
+.sidebar-bottom-bar
+{
+    align-self: flex-end;
+    width:100%;
+}
+
+.show-sidebar
+{
+    transition: 450ms;
+    transform: translateX(0);
+};
 
 #sidebar-navigation-bar
 {
-    
-
     background-color: white;
 
 };
 
 #sidebar-navigation-button-state
 {
-    grid-area: auto;
     width: 100%;
 };
 
 #sidebar-navigation-button-state .button-icon
 {
+    
     margin-left: auto;
     margin-right: auto;
 };
-
-.slide
-{
-    margin-top: 45px;
-    margin-bottom: 45px;
-}
-
 
 
 #sidebar-navigation-content
 {
     grid-area: auto;
+    
 };
 
 .button-icon
 {
+    cursor: pointer;
     position: relative;
 
     width: 50px;
@@ -427,8 +454,18 @@ footer
 .button-icon div i
 {
     color:white;
-    font-size: 45px;
+    font-size: 35px;
 };
+
+#button-state
+{
+
+};
+
+#button-move
+{
+
+}
 
 //
 .button-active
