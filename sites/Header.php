@@ -14,3 +14,6 @@
         ?>
     </div>
 </header>
+<?php 
+    include './generics/sidebar.html';
+?>

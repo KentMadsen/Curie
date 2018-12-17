@@ -20,6 +20,22 @@
     text-align: center;
 };
 
+.container-area-content
+{
+    width: 80%;
+    height: 95%;
+    margin-left: auto;
+    margin-right: auto;
+};
+
+.container-area-title
+{
+    font-size: 0.975rem;
+    text-align: left;
+    font-family: 'quicksand';
+
+};
+
 .sub_header_menu_area
 {
     display : grid;
@@ -28,6 +44,11 @@
     grid-template-rows    : auto;
 
     grid-gap : 144px;
+};
+
+.header-menu-overlay
+{
+    
 };
 
 .sub_header_container
@@ -46,7 +67,7 @@
 {
     margin-bottom: 8px;
     margin-top: 8px;
-}
+};
 
 .document-area
 {

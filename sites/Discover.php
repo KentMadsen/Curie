@@ -15,7 +15,7 @@
         ?>
         <main>
             <?php
-                include './content/Insight.html';
+                include './content/Discover.html';
             ?>
         </main>
         <?php

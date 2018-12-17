@@ -11,3 +11,137 @@
  
     
 };
+
+.front-list-container
+{
+    flex-direction: column;
+
+};
+
+.front-list-container li
+{
+    border-bottom: 1px solid $primary-standard-menu-font-color;
+};
+
+.front-list-container span li
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+};
+
+.front-list-container span li a
+{
+    color:$primary-standard-menu-font-color;
+
+    font-size: 12px;
+    text-transform: uppercase;
+};
+
+.front-list-container span li a:hover
+{
+    color:$primary-highlight-menu-text-color;
+    
+};
+
+.front-list-container span li a:active
+{
+    color:$primary-active-menu-text-color;
+}
+
+.front-list-container span li:first-child
+{
+    margin-top: 0px;
+};
+.front-list-container span li:last-child
+{
+    margin-bottom: 0px;
+};
+
+.front-list-container p 
+{
+    margin: 0px;
+    
+    font-weight: bold;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    @extend %no-selection;
+
+};
+
+.about-us
+{
+
+};
+
+.about-us ul
+{
+    display: flex;
+    
+    justify-content: left;
+    padding-left: 56px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+};
+
+
+.footer-social-container:first-child
+{
+    margin-left: 0px;
+};
+
+.footer-social-container:last-child
+{
+    margin-right: 0px;
+};
+
+.footer-social-container
+{
+    margin-left: 16px;
+    margin-right: 16px;
+};
+
+.footer-social-container li a
+{
+    color:$primary-standard-menu-font-color;
+    font-size: 30px;
+};
+
+.footer-social-container li a:active
+{
+    color:$primary-active-menu-text-color;
+    
+};
+
+.footer-social-container li a:hover
+{
+    color:$primary-highlight-menu-text-color;
+    
+};
+
+.footer-social-container li a i
+{
+    font-size: 32px;
+};
+
+
+//
+.company-name
+{
+    color:white;
+    font-weight: bold;
+    text-align: left;
+
+    margin-top: 6px;
+    margin-bottom: 6px;
+};
+
+.company-description
+{
+    color: gray;
+    font-size: 0.775rem;
+    text-align: left;
+    margin-top: 6px;
+};
