@@ -6,7 +6,7 @@
         <title>
             <?php
                 include './functions/statements.php';
-                printTitle('Our Mission');
+                printTitle('OverSight');
                 ?>
         </title>
     </head>

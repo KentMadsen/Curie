@@ -53,7 +53,6 @@ div
 body
 {
     @extend %no-margin-and-padding;
-    //@extend %no-overflow;
 
     display : grid;
 
@@ -75,7 +74,6 @@ body
 header
 {
     @extend %extend-width;
-    @extend %no-overflow;
 };
 
 //
@@ -361,12 +359,12 @@ footer
 
     position: fixed;
 
-    transform: translateX(175px);
+    transform: translateX(120px);
     
     display: grid;
 
     grid-template-rows: auto;
-    grid-template-columns: 75px 0px auto;
+    grid-template-columns: 75px 50px auto;
 
     transition: 450ms;
 };
@@ -408,7 +406,7 @@ footer
 
 #sidebar-navigation-bar
 {
-    background-color: white;
+    margin-bottom: 50px;
 
 };
 
@@ -419,7 +417,6 @@ footer
 
 #sidebar-navigation-button-state .button-icon
 {
-    
     margin-left: auto;
     margin-right: auto;
 };
@@ -428,7 +425,71 @@ footer
 #sidebar-navigation-content
 {
     grid-area: auto;
+
+};
+
+.dynamic-scroll-loader-horizontal-container
+{
+    width: 100%;
+    height: calc(100%);
+};
+
+
+.scroll-loader-bar
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
     
+    margin-top: 50px;
+
+    width : 10px;
+    height: calc(100% - 30px);
+
+    border-radius:5px;
+    background-color: gray;
+    background-image: linear-gradient(to top, #606c88, #3f4c6b);
+
+    cursor: pointer;
+};
+
+.scroll-loader-button
+{
+    position: absolute;
+    cursor: pointer;
+
+    width: 15px;
+    height: 15px;
+
+    margin: 0;
+    left: 50%;
+
+    top:100%;
+    bottom: 100%;
+
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+
+    background-color: rgba( $color: white, $alpha: 1);
+};
+
+.scroll-loader-progress
+{
+    position: relative;
+    margin: 0;
+
+    width: 100%;
+    height: 0%;
+
+    border-radius: 10px;
+
+    background-image:linear-gradient(to top, #0ba360, #3cba92);
+
+};
+
+.scroll-loader-button:hover
+{
 };
 
 .button-icon

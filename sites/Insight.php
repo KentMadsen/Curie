@@ -17,13 +17,7 @@
     <body>
         <?php
             include './Header.php';
-        ?>
-        <main>
-            <?php
-                include './content/Insight.html';
-            ?>
-        </main>
-        <?php
+            include './content/Insight.html';
             include './generics/Footer.html';
         ?>
     </body>
