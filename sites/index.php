@@ -18,6 +18,12 @@
     </head>
 
     <body>
+        <?php
+        include './content/header.html';
+        include './content/navigation.html';
+
         
+        include './content/footer.html';
+        ?>
     </body>
 </html>
