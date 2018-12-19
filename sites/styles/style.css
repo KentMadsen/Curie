@@ -11,9 +11,13 @@ main, header, body, ol, ul, .wrapper-element, .wrapper-flexible-horizontal-menu 
 
 .wrapper-flexible-horizontal-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.wrapper-element {
+  display: block;
 }
 
 /* Base.scss */

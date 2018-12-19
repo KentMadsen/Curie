@@ -21,7 +21,7 @@
 {
     @extend %no-margin-and-padding;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 };
@@ -29,6 +29,6 @@
 .wrapper-element
 {
     @extend %no-margin-and-padding;
-
+    display: block;
 };
 
