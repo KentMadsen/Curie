@@ -1,4 +1,10 @@
 /* Base.scss */
+ul
+{
+  @extend %no-margin-and-padding;
+  
+}
+
 body
 {
     @extend %no-margin-and-padding;
