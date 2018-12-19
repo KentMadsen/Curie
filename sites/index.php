@@ -10,7 +10,7 @@
               content="ie=edge">
 
         <link rel="stylesheet"
-              href="./style/style.css">
+              href="./styles/style.css">
 
         <title>
             CURIE
