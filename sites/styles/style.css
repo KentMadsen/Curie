@@ -11,7 +11,7 @@ main, header, body, ol, ul, .wrapper-element, .wrapper-flexible-horizontal-menu 
 
 .wrapper-flexible-horizontal-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
