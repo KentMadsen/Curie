@@ -14,19 +14,22 @@ body
 
 header
 {
+  @extend %no-margin-and-padding;
+
   grid-area : page_desktop_header;
-  height: 200px;
+
 };
 
 main
 {
+  @extend %no-margin-and-padding;
+
   grid-area : page_desktop_main;
-  height: 800px;
 
 };
 
 footer
 {
   grid-area : page_desktop_footer;
-  height: 200px;
+  
 };

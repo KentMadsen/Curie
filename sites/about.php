@@ -10,9 +10,9 @@
               content="ie=edge">
 
         <title>
-            CURIE : Home
+            CURIE : About
         </title>
-
+        
         <link rel="stylesheet"
               href="./styles/style.css">
     </head>
@@ -20,11 +20,8 @@
     <body>
         <?php
             include './content/header.html';
-            
             include './content/navigation.html';
-            
             include './pages/index.html';
-
             include './content/footer.html';
         ?>
     </body>
