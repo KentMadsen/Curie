@@ -1,11 +1,11 @@
 /* Style.scss */
 /* Variables.scss */
 /* Generics.scss */
-main, header, body {
+main, header, body, .wrapper-element, .wrapper-flexible-horizontal-menu {
   margin: 0px;
 }
 
-main, header, body {
+main, header, body, .wrapper-element, .wrapper-flexible-horizontal-menu {
   padding: 0px;
 }
 
@@ -27,7 +27,6 @@ main {
 footer {
   grid-area: page_desktop_footer;
   height: 800px;
-  background-color: gray;
 }
 
 /* Content.scss */
