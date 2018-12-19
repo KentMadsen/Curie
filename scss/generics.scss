@@ -20,7 +20,10 @@
 .wrapper-flexible-horizontal-menu
 {
     @extend %no-margin-and-padding;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 };
 
 .wrapper-element

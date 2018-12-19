@@ -9,6 +9,13 @@ main, header, body, ol, ul, .wrapper-element, .wrapper-flexible-horizontal-menu 
   padding: 0px;
 }
 
+.wrapper-flexible-horizontal-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* Base.scss */
 ul {
   list-style-type: none;
