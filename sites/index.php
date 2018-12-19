@@ -19,11 +19,10 @@
 
     <body>
         <?php
-        include './content/header.html';
-        include './content/navigation.html';
-
-        
-        include './content/footer.html';
+            include './content/header.html';
+            include './content/navigation.html';
+            include './pages/index.html';
+            include './content/footer.html';
         ?>
     </body>
 </html>
