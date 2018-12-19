@@ -15,10 +15,9 @@
 
         <link rel="stylesheet"
               href="./styles/style.css">
-              
-        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+              <?php 
+            include './content/include.html';
+        ?>
     </head>
     <body>
         <?php
