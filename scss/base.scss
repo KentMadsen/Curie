@@ -1,6 +1,8 @@
 /* Base.scss */
 body
 {
+    @extend %no-margin-and-padding;
+
     display : grid;
 
     grid-template: "page_desktop_header"
@@ -10,21 +12,21 @@ body
     grid-gap: 24px;
 };
 
-
 header
 {
   grid-area : page_desktop_header;
-
+  height: 200px;
 };
 
 main
 {
   grid-area : page_desktop_main;
+  height: 800px;
 
 };
 
 footer
 {
   grid-area : page_desktop_footer;
-
+  height: 200px;
 };

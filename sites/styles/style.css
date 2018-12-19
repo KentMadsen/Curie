@@ -1,6 +1,14 @@
 /* Style.scss */
 /* Variables.scss */
 /* Generics.scss */
+body {
+  margin: 0px;
+}
+
+body {
+  padding: 0px;
+}
+
 /* Base.scss */
 body {
   display: grid;
@@ -10,14 +18,17 @@ body {
 
 header {
   grid-area: page_desktop_header;
+  height: 200px;
 }
 
 main {
   grid-area: page_desktop_main;
+  height: 800px;
 }
 
 footer {
   grid-area: page_desktop_footer;
+  height: 200px;
 }
 
 /* Content.scss */

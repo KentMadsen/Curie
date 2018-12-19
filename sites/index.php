@@ -8,13 +8,13 @@
 
         <meta http-equiv="X-UA-Compatible"
               content="ie=edge">
-
-        <link rel="stylesheet"
-              href="./styles/style.css">
-
+              
         <title>
             CURIE
         </title>
+                
+        <link rel="stylesheet"
+              href="./styles/style.css">
     </head>
 
     <body>

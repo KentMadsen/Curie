@@ -1,1 +1,16 @@
 /* Generics.scss */
+%no-margin
+{
+    margin: 0px;
+}
+
+%no-padding
+{
+    padding:0px;
+}
+
+%no-margin-and-padding
+{
+    @extend %no-margin;
+    @extend %no-padding;
+}
