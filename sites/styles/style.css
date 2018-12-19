@@ -26,6 +26,8 @@ main {
 
 footer {
   grid-area: page_desktop_footer;
+  height: 800px;
+  background-color: gray;
 }
 
 /* Content.scss */
