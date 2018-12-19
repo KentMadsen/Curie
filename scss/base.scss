@@ -11,6 +11,11 @@ ol
   list-style-type: none;
 }
 
+a 
+{
+  text-decoration: none;
+}
+
 body
 {
     @extend %no-margin-and-padding;

@@ -18,6 +18,10 @@ ol {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   display: grid;
   grid-template: "page_desktop_header" "page_desktop_main" "page_desktop_footer";
