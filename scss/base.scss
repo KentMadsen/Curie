@@ -2,7 +2,13 @@
 ul
 {
   @extend %no-margin-and-padding;
-  
+  list-style-type: none;
+}
+
+ol
+{
+  @extend %no-margin-and-padding;
+  list-style-type: none;
 }
 
 body

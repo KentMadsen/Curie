@@ -1,15 +1,23 @@
 /* Style.scss */
 /* Variables.scss */
 /* Generics.scss */
-main, header, body, .wrapper-element, .wrapper-flexible-horizontal-menu {
+main, header, body, ol, ul, .wrapper-element, .wrapper-flexible-horizontal-menu {
   margin: 0px;
 }
 
-main, header, body, .wrapper-element, .wrapper-flexible-horizontal-menu {
+main, header, body, ol, ul, .wrapper-element, .wrapper-flexible-horizontal-menu {
   padding: 0px;
 }
 
 /* Base.scss */
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
 body {
   display: grid;
   grid-template: "page_desktop_header" "page_desktop_main" "page_desktop_footer";
