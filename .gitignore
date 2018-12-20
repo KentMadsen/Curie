@@ -1,7 +1,9 @@
 *.ps1
 *.bat
 
-*.png
+*.map
+*.css
 
+*.png
 *.jpg
 *.jpeg
