@@ -34,7 +34,7 @@ header
   @extend %no-margin-and-padding;
 
   grid-area : page_desktop_header;
-
+  min-height: $document-setting-minimum-height-header;
 };
 
 main
@@ -42,13 +42,13 @@ main
   @extend %no-margin-and-padding;
 
   grid-area : page_desktop_main;
+  min-height: $document-setting-minimum-height-main;
 
 };
 
 footer
 {
   grid-area : page_desktop_footer;
-  height: 800px;
-  
+  min-height: $document-setting-minimum-height-footer;
 
 };
