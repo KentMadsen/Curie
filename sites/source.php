@@ -15,7 +15,8 @@
 
         <link rel="stylesheet"
               href="./styles/style.css">
-              <?php 
+              
+        <?php
             include './content/include.html';
         ?>
     </head>

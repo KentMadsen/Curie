@@ -16,9 +16,7 @@
         <link rel="stylesheet"
               href="./styles/style.css">
 
-        <?php 
-            include './content/include.html';
-        ?>
+        <?php include './content/include.html'; ?>
     </head>
 
     <body>
