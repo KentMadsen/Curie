@@ -34,10 +34,24 @@
 
 .menu-element
 {
-
+    font-family: $menu-font;
 };
 
 .menu-element a 
 {
 
 };
+
+.header-element
+{
+    margin-left: 36px;
+    margin-right: 36px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+};
+
+.header-element a 
+{
+    color: white;
+}
