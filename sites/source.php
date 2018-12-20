@@ -15,19 +15,14 @@
 
         <link rel="stylesheet"
               href="./styles/style.css">
-              
-        <?php
-            include './content/include.html';
-        ?>
+
+        <?php include './content/include.html'; ?>
     </head>
     <body>
         <?php
             include './content/header.html';
-            
             include './content/navigation.html';
-            
             include './pages/index.html';
-
             include './content/footer.html';
         ?>
     </body>
