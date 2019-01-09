@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    
+        <meta charset="UTF-8">
+
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
         
-        <?php 
-            include './generic_head.php';
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge">
+        
+        <?php
+            include './generics/Fonts.html';
+            include './generics/Libraries.html';
+            include './generics/Content.html';
+            include './generics/Style.html';
         ?>
 
         <title>
-            <?php
-                include './functions/statements.php';
-                printTitle('Our Story');
-            ?>
+            Space Education: Our Story
         </title>
-        
     </head>
     <body>
         <?php
@@ -25,15 +30,5 @@
         <?php
             include './generics/Footer.html';
         ?>
-        <script src="./script/scripts.js"
-                onload="select_page('header_our_story_link');">
-        </script>
-        
-        <script src="./script/scripts.js"
-                onload="use_overlay();">
-        </script>
-        <script src="./script/scripts.js"
-                onload="init();">
-        </script>
     </body>
 </html>
